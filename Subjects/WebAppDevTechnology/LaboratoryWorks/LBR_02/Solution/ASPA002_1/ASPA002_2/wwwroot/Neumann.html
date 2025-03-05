@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neumann</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/Calc.js"></script>
+</head>
+<body>
+    <h1>Calc</h1>
+    <p class="result">Sum(7, 3) = <span id="sum" class="red"></span></p>
+    <p class="result">Sub(7, 3) = <span id="sub" class="green"></span></p>
+    <p class="result">Mul(7, 3) = <span id="mul" class="magenta"></span></p>
+    <p class="result">Div(7, 3) = <span id="div" class="blue"></span></p>
+    
+    <img src="D:/User/Documents/GitHub/Semester_6/Subjects/WebAppDevTechnology/LaboratoryWorks/LBR_02/Solution/ASPA002_1/ASPA002_2/Picture/Neumann.jpg" alt="Neumann"/>
+    
+    <script>
+        function Sum(a, b) { return a + b; }
+        function Sub(a, b) { return a - b; }
+        function Mul(a, b) { return a * b; }
+        function Div(a, b) { return a / b; }
+
+        sum.innerHTML = Sum(7, 3);
+        sub.innerHTML = Sub(7, 3);
+        mul.innerHTML = Mul(7, 3);
+        div.innerHTML = Div(7, 3).toFixed(2);
+    </script>
+</body>
+</html>

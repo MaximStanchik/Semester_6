@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_02\\Solution\\ASPA002_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E744F8E-CA5E-4C31-9F82-6623FDF49DCF}|ASPA002_3\\ASPA002_3.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_02\\solution\\aspa002_1\\aspa002_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E744F8E-CA5E-4C31-9F82-6623FDF49DCF}|ASPA002_3\\ASPA002_3.csproj|solutionrelative:aspa002_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953764A6-CFD6-41A7-AA3E-F90A818B8C33}|ASPA002_2\\ASPA002_2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_02\\solution\\aspa002_1\\aspa002_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953764A6-CFD6-41A7-AA3E-F90A818B8C33}|ASPA002_2\\ASPA002_2.csproj|solutionrelative:aspa002_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CDAFEEF-5D17-4A0C-A633-BFD5B74A9AD4}|ASPA002_1\\ASPA002_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_02\\solution\\aspa002_1\\aspa002_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CDAFEEF-5D17-4A0C-A633-BFD5B74A9AD4}|ASPA002_1\\ASPA002_1.csproj|solutionrelative:aspa002_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_02\\Solution\\ASPA002_1\\ASPA002_2\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA002_2\\Program.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_02\\Solution\\ASPA002_1\\ASPA002_2\\Program.cs",
+              "RelativeToolTip": "ASPA002_2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:20:27.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_02\\Solution\\ASPA002_1\\ASPA002_1\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA002_1\\Program.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_02\\Solution\\ASPA002_1\\ASPA002_1\\Program.cs",
+              "RelativeToolTip": "ASPA002_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:18:20.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_02\\Solution\\ASPA002_1\\ASPA002_3\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA002_3\\Program.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_02\\Solution\\ASPA002_1\\ASPA002_3\\Program.cs",
+              "RelativeToolTip": "ASPA002_3\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:05:10.21Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

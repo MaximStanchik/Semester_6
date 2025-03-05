@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL004", "DAL004\DAL004.csproj", "{EF062333-0B31-4C48-B893-9B1E29A021C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_DAL004", "Test_DAL004\Test_DAL004.csproj", "{EB15934D-F46B-4C36-87C4-04EA7F64B93D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF062333-0B31-4C48-B893-9B1E29A021C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF062333-0B31-4C48-B893-9B1E29A021C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF062333-0B31-4C48-B893-9B1E29A021C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF062333-0B31-4C48-B893-9B1E29A021C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB15934D-F46B-4C36-87C4-04EA7F64B93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB15934D-F46B-4C36-87C4-04EA7F64B93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB15934D-F46B-4C36-87C4-04EA7F64B93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB15934D-F46B-4C36-87C4-04EA7F64B93D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

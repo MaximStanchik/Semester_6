@@ -1,0 +1,12 @@
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\bin\Debug\net9.0\DAL003.deps.json
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\bin\Debug\net9.0\DAL003.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\bin\Debug\net9.0\DAL003.pdb
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\obj\Debug\net9.0\DAL003.csproj.AssemblyReference.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\obj\Debug\net9.0\DAL003.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\obj\Debug\net9.0\DAL003.AssemblyInfoInputs.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\obj\Debug\net9.0\DAL003.AssemblyInfo.cs
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\obj\Debug\net9.0\DAL003.csproj.CoreCompileInputs.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\obj\Debug\net9.0\DAL003.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\obj\Debug\net9.0\refint\DAL003.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\obj\Debug\net9.0\DAL003.pdb
+D:\User\Documents\GitHub\Semester_6\Subjects\InternetServerProgramming\LaboratoryWorks\LBR_03\Solution\Library\DAL003\obj\Debug\net9.0\ref\DAL003.dll

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    color: #333;
+    text-align: left;
+}
+
+.result {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.red { color: red; }
+.green { color: green; }
+.magenta { color: magenta; }
+.blue { color: blue; }
+
+img {
+    width: 500px; 
+    float: left; 
+    margin-top: 20px;
+}
