@@ -20,6 +20,37 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"mssql_jtds_legacy-195ba883b13-7f489555b2bf783c": {
+			"provider": "mssql",
+			"driver": "mssql_jtds_legacy",
+			"name": "master",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1433",
+				"database": "master",
+				"url": "jdbc:jtds:sqlserver://localhost/master",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-schemas@": "false",
+					"sslTrustServerCertificate": "false"
+				},
+				"auth-model": "native",
+				"handlers": {
+					"socks_proxy": {
+						"type": "PROXY",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"socks-host": "",
+							"socks-port": 1080
+						}
+					}
+				}
+			}
 		}
 	},
 	"connection-types": {

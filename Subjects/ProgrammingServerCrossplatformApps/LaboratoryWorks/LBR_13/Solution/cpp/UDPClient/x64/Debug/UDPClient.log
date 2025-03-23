@@ -1,0 +1,5 @@
+﻿  UDPClient.cpp
+D:\User\Documents\GitHub\Semester_6\Subjects\ProgrammingServerCrossplatformApps\LaboratoryWorks\LBR_13\Solution\cpp\UDPClient\UDPClient.cpp(202,61): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\User\Documents\GitHub\Semester_6\Subjects\ProgrammingServerCrossplatformApps\LaboratoryWorks\LBR_13\Solution\cpp\UDPClient\UDPClient.cpp(194,24): warning C4101: end: неиспользованная локальная переменная
+D:\User\Documents\GitHub\Semester_6\Subjects\ProgrammingServerCrossplatformApps\LaboratoryWorks\LBR_13\Solution\cpp\UDPClient\UDPClient.cpp(194,17): warning C4101: start: неиспользованная локальная переменная
+  UDPClient.vcxproj -> D:\User\Documents\GitHub\Semester_6\Subjects\ProgrammingServerCrossplatformApps\LaboratoryWorks\LBR_13\Solution\cpp\x64\Debug\UDPClient.exe

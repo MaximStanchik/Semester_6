@@ -1,0 +1,3 @@
+﻿  UDPServer.cpp
+D:\User\Documents\GitHub\Semester_6\Subjects\ProgrammingServerCrossplatformApps\LaboratoryWorks\LBR_13\Solution\cpp\UDPServer\UDPServer.cpp(116,63): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  UDPServer.vcxproj -> D:\User\Documents\GitHub\Semester_6\Subjects\ProgrammingServerCrossplatformApps\LaboratoryWorks\LBR_13\Solution\cpp\x64\Debug\UDPServer.exe

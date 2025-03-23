@@ -1,0 +1,71 @@
+-- Процедура для получения списка заказов, которые были доставлены в определенный город:
+CREATE OR REPLACE PROCEDURE GET_ORDERS_BY_CITY(
+    p_CityName IN NVARCHAR2  -- Название города (конечная точка маршрута)
+)
+IS
+    CURSOR orders_cursor IS
+        SELECT O.ID AS ORDER_ID, 
+               O.CLIENT_ID, 
+               O.DRIVER_ID, 
+               O.SERVICE_ID, 
+               O.STATUS, 
+               O.CREATED_AT, 
+               O.DELIVERED_AT, 
+               O.TOTAL_WEIGHT, 
+               O.TOTAL_VOLUME,
+               R.END_LOCATION AS DELIVERY_CITY
+        FROM ORDERS O
+        JOIN ROUTES R ON O.ROUTE = R.ID
+        WHERE UPPER(R.END_LOCATION) = UPPER(p_CityName)  -- Сравнение без учёта регистра
+          AND O.STATUS = 'Delivered';  -- Только доставленные заказы
+
+    v_row_count NUMBER := 0;  -- Счётчик строк
+BEGIN
+    -- Проверка, что название города не пустое
+    IF p_CityName IS NULL OR TRIM(p_CityName) = '' THEN
+        RAISE_APPLICATION_ERROR(-20001, 'City name cannot be empty.');
+    END IF;
+
+    -- Вывод данных
+    DBMS_OUTPUT.PUT_LINE('Orders delivered to city: ' || p_CityName);
+    DBMS_OUTPUT.PUT_LINE('--------------------------------------------------');
+
+    FOR order_rec IN orders_cursor LOOP
+        -- Увеличиваем счётчик строк
+        v_row_count := v_row_count + 1;
+
+        -- Вывод данных
+        DBMS_OUTPUT.PUT_LINE(
+            'Order ID: ' || order_rec.ORDER_ID ||
+            ', Client ID: ' || order_rec.CLIENT_ID ||
+            ', Driver ID: ' || order_rec.DRIVER_ID ||
+            ', Service ID: ' || order_rec.SERVICE_ID ||
+            ', Status: ' || order_rec.STATUS ||
+            ', Created At: ' || TO_CHAR(order_rec.CREATED_AT, 'YYYY-MM-DD HH24:MI:SS') ||
+            ', Delivered At: ' || TO_CHAR(order_rec.DELIVERED_AT, 'YYYY-MM-DD HH24:MI:SS') ||
+            ', Total Weight: ' || order_rec.TOTAL_WEIGHT || ' kg' ||
+            ', Total Volume: ' || order_rec.TOTAL_VOLUME || ' m^3'
+        );
+    END LOOP;
+
+    -- Если данные не найдены
+    IF v_row_count = 0 THEN
+        DBMS_OUTPUT.PUT_LINE('No orders found for the specified city.');
+    END IF;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        RAISE_APPLICATION_ERROR(-20002, 'An error occurred: ' || SQLERRM);
+END;
+
+
+SELECT * FROM USER_OBJECTS
+WHERE OBJECT_TYPE = 'PROCEDURE' AND OBJECT_NAME = 'GET_ORDERS_BY_CITY';
+
+SELECT * 
+FROM user_errors 
+WHERE name = 'GET_ORDERS_BY_CITY' AND type = 'PROCEDURE';
+
+BEGIN
+    GET_ORDERS_BY_CITY('Happiness Valley');
+END;

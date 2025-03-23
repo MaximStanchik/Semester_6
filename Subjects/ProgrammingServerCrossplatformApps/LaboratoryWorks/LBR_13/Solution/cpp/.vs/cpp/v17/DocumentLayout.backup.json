@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\ProgrammingServerCrossplatformApps\\LaboratoryWorks\\LBR_13\\Solution\\cpp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD48D3A4-3CBF-4279-AEB6-027A36C2EBE7}|TCPServer\\TCPServer.vcxproj|D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\ProgrammingServerCrossplatformApps\\LaboratoryWorks\\LBR_13\\Solution\\cpp\\TCPServer\\TCPServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AD48D3A4-3CBF-4279-AEB6-027A36C2EBE7}|TCPServer\\TCPServer.vcxproj|solutionrelative:TCPServer\\TCPServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TCPServer.cpp",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\ProgrammingServerCrossplatformApps\\LaboratoryWorks\\LBR_13\\Solution\\cpp\\TCPServer\\TCPServer.cpp",
+              "RelativeDocumentMoniker": "TCPServer\\TCPServer.cpp",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\ProgrammingServerCrossplatformApps\\LaboratoryWorks\\LBR_13\\Solution\\cpp\\TCPServer\\TCPServer.cpp",
+              "RelativeToolTip": "TCPServer\\TCPServer.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwEgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-21T05:58:33.885Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

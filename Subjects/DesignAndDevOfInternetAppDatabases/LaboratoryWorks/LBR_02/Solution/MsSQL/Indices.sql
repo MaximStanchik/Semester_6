@@ -1,0 +1,5 @@
+CREATE INDEX IX_Orders_ClientID ON ORDERS (CLIENT_ID);
+CREATE INDEX IX_Vehicle_DriverID ON VEHICLE (DRIVER_ID);
+
+EXEC sp_helpindex 'ORDERS';
+EXEC sp_helpindex 'VEHICLE';

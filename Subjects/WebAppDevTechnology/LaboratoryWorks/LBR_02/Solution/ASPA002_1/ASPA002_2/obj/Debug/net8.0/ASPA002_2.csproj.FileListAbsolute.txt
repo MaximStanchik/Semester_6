@@ -27,3 +27,5 @@ D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks
 D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_02\Solution\ASPA002_1\ASPA002_2\obj\Debug\net8.0\ASPA002_2.pdb
 D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_02\Solution\ASPA002_1\ASPA002_2\obj\Debug\net8.0\ASPA002_2.genruntimeconfig.cache
 D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_02\Solution\ASPA002_1\ASPA002_2\obj\Debug\net8.0\ref\ASPA002_2.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_02\Solution\ASPA002_1\ASPA002_2\bin\Debug\net8.0\ASPA002_2.staticwebassets.runtime.json
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_02\Solution\ASPA002_1\ASPA002_2\obj\Debug\net8.0\ASPA002_2.sourcelink.json

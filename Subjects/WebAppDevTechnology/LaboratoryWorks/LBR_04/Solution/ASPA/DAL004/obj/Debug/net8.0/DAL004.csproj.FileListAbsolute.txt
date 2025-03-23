@@ -10,3 +10,4 @@ D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks
 D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_04\Solution\ASPA\DAL004\obj\Debug\net8.0\refint\DAL004.dll
 D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_04\Solution\ASPA\DAL004\obj\Debug\net8.0\DAL004.pdb
 D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_04\Solution\ASPA\DAL004\obj\Debug\net8.0\ref\DAL004.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_04\Solution\ASPA\DAL004\obj\Debug\net8.0\DAL004.sourcelink.json
