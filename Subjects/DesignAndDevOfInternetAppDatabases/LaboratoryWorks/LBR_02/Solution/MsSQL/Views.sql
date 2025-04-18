@@ -1,4 +1,4 @@
--- Получить инфомрацию о клиентах и их заказах
+-- Получить информацию о клиентах и их заказах
 create view ClientOrdersSummary as
 select c.ID as ClientID, ci.FIRST_NAME, ci.LAST_NAME, count(o.ID) as TotalOrders, sum(o.TOTAL_WEIGHT) as TotalWeight
 from client c join client_info ci on c.ID = ci.client_id left join orders o ON c.ID = o.CLIENT_ID group by c.ID, ci.FIRST_NAME, ci.LAST_NAME;

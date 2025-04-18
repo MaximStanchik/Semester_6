@@ -156,9 +156,15 @@
     "PhotoPath": "/Photo/ForDelete.jpg"
   },
   {
-    "Id": 27,
-    "FirstName": "ForDelete",
-    "Surname": "ForDelete",
-    "PhotoPath": "/Photo/ForDelete.jpg"
+    "Id": 28,
+    "FirstName": "Updated",
+    "Surname": "Updated",
+    "PhotoPath": "/Photo/Updated.jpg"
+  },
+  {
+    "Id": 29,
+    "FirstName": "ForUpdate",
+    "Surname": "ForUpdate",
+    "PhotoPath": "/Photo/ForUpdate.jpg"
   }
 ]

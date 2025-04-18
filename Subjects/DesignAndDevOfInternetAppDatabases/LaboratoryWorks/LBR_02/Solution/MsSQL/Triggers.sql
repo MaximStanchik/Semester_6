@@ -13,3 +13,4 @@ BEGIN
         WHERE ID IN (SELECT ID FROM inserted WHERE STATUS = 'Delivered');
     END
 END;
+

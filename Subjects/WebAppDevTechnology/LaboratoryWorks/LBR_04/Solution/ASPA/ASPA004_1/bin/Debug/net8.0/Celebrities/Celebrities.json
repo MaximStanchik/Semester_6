@@ -148,5 +148,23 @@
     "FirstName": "ForDelete",
     "Surname": "ForDelete",
     "PhotoPath": "/Photo/ForDelete.jpg"
+  },
+  {
+    "Id": 26,
+    "FirstName": "Ada",
+    "Surname": "Lovelace",
+    "PhotoPath": "/Photo/Lovelace.jpg"
+  },
+  {
+    "Id": 27,
+    "FirstName": "Ada",
+    "Surname": "Lovelace",
+    "PhotoPath": "/Photo/Lovelace.jpg"
+  },
+  {
+    "Id": 28,
+    "FirstName": "Charlse",
+    "Surname": "Babbage",
+    "PhotoPath": "/Photo/Lovelace.jpg"
   }
 ]

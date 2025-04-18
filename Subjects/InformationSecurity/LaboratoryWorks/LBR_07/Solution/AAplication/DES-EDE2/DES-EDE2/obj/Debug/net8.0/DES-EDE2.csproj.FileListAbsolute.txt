@@ -1,0 +1,15 @@
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\bin\Debug\net8.0\DES-EDE2.exe
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\bin\Debug\net8.0\DES-EDE2.deps.json
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\bin\Debug\net8.0\DES-EDE2.runtimeconfig.json
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\bin\Debug\net8.0\DES-EDE2.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\bin\Debug\net8.0\DES-EDE2.pdb
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\DES-EDE2.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\DES-EDE2.AssemblyInfoInputs.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\DES-EDE2.AssemblyInfo.cs
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\DES-EDE2.csproj.CoreCompileInputs.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\DES-EDE2.sourcelink.json
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\DES-EDE2.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\refint\DES-EDE2.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\DES-EDE2.pdb
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\DES-EDE2.genruntimeconfig.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\InformationSecurity\LaboratoryWorks\LBR_07\Solution\AAplication\DES-EDE2\DES-EDE2\obj\Debug\net8.0\ref\DES-EDE2.dll

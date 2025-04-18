@@ -160,5 +160,11 @@
     "FirstName": "ForDelete",
     "Surname": "ForDelete",
     "PhotoPath": "/Photo/ForDelete.jpg"
+  },
+  {
+    "Id": 28,
+    "FirstName": "ForUpdate",
+    "Surname": "ForUpdate",
+    "PhotoPath": "/Photo/ForUpdate.jpg"
   }
 ]

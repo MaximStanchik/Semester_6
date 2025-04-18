@@ -46,10 +46,52 @@
 						"save-password": true,
 						"properties": {
 							"socks-host": "",
-							"socks-port": 1080
+							"socks-port": 1080.0
 						}
 					}
 				}
+			}
+		},
+		"postgres-jdbc-196380e8539-508ffbf2e6f9131a": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "aaaa",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5433",
+				"database": "aaaa",
+				"url": "jdbc:postgresql://localhost:5433/aaaa",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-1963a631a1b-40cff189378ae34a": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "aaaa 2",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "aaaa",
+				"url": "jdbc:postgresql://localhost:5432/aaaa",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
 			}
 		}
 	},

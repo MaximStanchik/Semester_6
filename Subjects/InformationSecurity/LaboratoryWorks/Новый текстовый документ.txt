@@ -1,0 +1,131 @@
+ private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private static final int ALPHABET_LENGTH = ALPHABET.length();
+
+    public static final String ALPHABET_RIGHT_ROTOR = "LEYJVCNIXWPBQMDRTAKZGFUHOS";
+    public static final String ALPHABET_MIDDLE_ROTOR = "BDFHJLCPRTXVZNYEIWGAKMUSQO";
+    public static final String ALPHABET_LEFT_ROTOR = "FSOKANUERHMBTIYCWLQPZXVGJD";
+
+    private Map<Character, Character> alphabetReflector = fillTheReflector();
+
+    private int rotorRightCurrentPosition = 0;
+    private int rotorMiddleCurrentPosition = 0;
+    private int rotorLeftCurrentPosition = 0;
+
+    private static Map<Character, Character> fillTheReflector() {
+        Map<Character, Character> alphabetReflector = new HashMap<>();
+        alphabetReflector.put('A', 'F');
+        alphabetReflector.put('B', 'V');
+        alphabetReflector.put('C', 'P');
+        alphabetReflector.put('D', 'J');
+        alphabetReflector.put('E', 'I');
+        alphabetReflector.put('F', 'A');
+        alphabetReflector.put('G', 'O');
+        alphabetReflector.put('H', 'Y');
+        alphabetReflector.put('I', 'E');
+        alphabetReflector.put('J', 'D');
+        alphabetReflector.put('K', 'R');
+        alphabetReflector.put('L', 'Z');
+        alphabetReflector.put('M', 'X');
+        alphabetReflector.put('N', 'W');
+        alphabetReflector.put('O', 'G');
+        alphabetReflector.put('P', 'C');
+        alphabetReflector.put('Q', 'T');
+        alphabetReflector.put('R', 'K');
+        alphabetReflector.put('S', 'U');
+        alphabetReflector.put('T', 'Q');
+        alphabetReflector.put('U', 'S');
+        alphabetReflector.put('V', 'B');
+        alphabetReflector.put('W', 'N');
+        alphabetReflector.put('X', 'M');
+        alphabetReflector.put('Y', 'H');
+        alphabetReflector.put('Z', 'L');
+        return alphabetReflector;
+    }
+
+    public Enigma(int rotorLeftCurrentPosition, int rotorMiddleCurrentPosition, int rotorRightCurrentPosition) {
+        this.rotorLeftCurrentPosition = rotorLeftCurrentPosition;
+        this.rotorMiddleCurrentPosition = rotorMiddleCurrentPosition;
+        this.rotorRightCurrentPosition = rotorRightCurrentPosition;
+    }
+
+    public String encrypt(String text) {
+        StringBuilder result = new StringBuilder();
+        for (char s : text.toCharArray()) {
+            if (ALPHABET.indexOf(s) >= 0) {
+                char afterDirect = directPath(s, Operation.ENCRYPT);
+                char afterReflector = passThroughReflector(afterDirect);
+                result.append(reversePath(afterReflector, Operation.ENCRYPT));
+                shiftRotors();
+            }
+        }
+        return result.toString();
+    }
+
+    public String decrypt(String encryptedText) {
+        StringBuilder result = new StringBuilder();
+        for (char s : encryptedText.toCharArray()) {
+            if (ALPHABET.indexOf(s) >= 0) {
+                char afterDirect = directPath(s, Operation.DECRYPT);
+                char afterReflector = passThroughReflector(afterDirect);
+                result.append(reversePath(afterReflector, Operation.DECRYPT));
+                shiftRotors();
+            }
+        }
+        return result.toString();
+    }
+
+    private char directPath(char letter, Operation operation) {
+        char afterRight;
+        switch (operation) {
+            case ENCRYPT:
+                afterRight = rotorEncrypt(letter, ALPHABET, ALPHABET_RIGHT_ROTOR, rotorRightCurrentPosition);
+                afterRight = rotorEncrypt(afterRight, ALPHABET, ALPHABET_MIDDLE_ROTOR, rotorMiddleCurrentPosition);
+                return rotorEncrypt(afterRight, ALPHABET, ALPHABET_LEFT_ROTOR, rotorLeftCurrentPosition);
+            case DECRYPT:
+                afterRight = rotorDecrypt(letter, ALPHABET, ALPHABET_LEFT_ROTOR, rotorLeftCurrentPosition);
+                afterRight = rotorDecrypt(afterRight, ALPHABET, ALPHABET_MIDDLE_ROTOR, rotorMiddleCurrentPosition);
+                return rotorDecrypt(afterRight, ALPHABET, ALPHABET_RIGHT_ROTOR, rotorRightCurrentPosition);
+            default:
+                throw new IllegalArgumentException("Invalid operation");
+        }
+    }
+
+    private char reversePath(char letter, Operation operation) {
+        char afterLeft;
+        switch (operation) {
+            case ENCRYPT:
+                afterLeft = rotorEncrypt(letter, ALPHABET_LEFT_ROTOR, ALPHABET, rotorLeftCurrentPosition);
+                afterLeft = rotorEncrypt(afterLeft, ALPHABET_MIDDLE_ROTOR, ALPHABET, rotorMiddleCurrentPosition);
+                return rotorEncrypt(afterLeft, ALPHABET_RIGHT_ROTOR, ALPHABET, rotorRightCurrentPosition);
+            case DECRYPT:
+                afterLeft = rotorDecrypt(letter, ALPHABET_RIGHT_ROTOR, ALPHABET, rotorRightCurrentPosition);
+                afterLeft = rotorDecrypt(afterLeft, ALPHABET_MIDDLE_ROTOR, ALPHABET, rotorMiddleCurrentPosition);
+                return rotorDecrypt(afterLeft, ALPHABET_LEFT_ROTOR, ALPHABET, rotorLeftCurrentPosition);
+            default:
+                throw new IllegalArgumentException("Invalid operation");
+        }
+    }
+
+    private void shiftRotors() {
+        rotorRightCurrentPosition = (rotorRightCurrentPosition + 1) % ALPHABET_LENGTH;
+        if (rotorRightCurrentPosition == 0) {
+            rotorMiddleCurrentPosition = (rotorMiddleCurrentPosition + 1) % ALPHABET_LENGTH;
+            if (rotorMiddleCurrentPosition == 0) {
+                rotorLeftCurrentPosition = (rotorLeftCurrentPosition + 1) % ALPHABET_LENGTH;
+            }
+        }
+    }
+
+    private char rotorEncrypt(char letter, String originalAlphabet, String encryptionAlphabet, int currentOffset) {
+        int originalIndex = originalAlphabet.indexOf(letter);
+        return encryptionAlphabet.charAt((originalIndex + currentOffset) % encryptionAlphabet.length());
+    }
+
+    private char rotorDecrypt(char letter, String originalAlphabet, String encryptionAlphabet, int currentOffset) {
+        int originalIndex = encryptionAlphabet.indexOf(letter);
+        return originalAlphabet.charAt((originalIndex - currentOffset + originalAlphabet.length()) % originalAlphabet.length());
+    }
+
+    private char passThroughReflector(char letter) {
+        return alphabetReflector.get(letter);
+    }

@@ -1,16 +1,24 @@
 {
 	"folders": {},
 	"connections": {
-		"sqlite_jdbc-195b7ac420c-1bc847cf42ab2c75": {
-			"provider": "sqlite",
-			"driver": "sqlite_jdbc",
-			"name": "SQLite",
+		"mssql_jtds_legacy-195d8fd1b64-a24a3c9066d9cd4": {
+			"provider": "mssql",
+			"driver": "mssql_jtds_legacy",
+			"name": "master",
 			"save-password": true,
+			"read-only": true,
 			"configuration": {
-				"url": "jdbc:sqlite:D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\ProgrammingServerCrossplatformApps\\LaboratoryWorks\\LBR_14\\Solution\\DB_file.sql",
-				"configurationType": "URL",
+				"host": "localhost",
+				"port": "1433",
+				"database": "master",
+				"url": "jdbc:jtds:sqlserver://localhost/master",
+				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-schemas@": "false",
+					"sslTrustServerCertificate": "false"
+				},
 				"auth-model": "native"
 			}
 		}

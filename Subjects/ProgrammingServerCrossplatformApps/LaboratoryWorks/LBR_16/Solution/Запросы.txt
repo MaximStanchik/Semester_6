@@ -1,0 +1,162 @@
+query {
+  getFaculties {
+    faculty
+    name
+  }
+}
+
+query {
+  getFaculties(faculty: "FAC001") {
+    faculty
+    name
+  }
+}
+
+query {
+  getTeachers {
+    teacher
+    name
+    pulpit
+  }
+}
+
+
+query {
+  getTeachers(teacher: "T001") {
+    teacher
+    name
+    pulpit
+  }
+}
+
+
+query {
+  getPulpits {
+    pulpit
+    name
+    faculty
+    subjects {
+      subject
+      name
+      pulpit
+    }
+  }
+}
+
+
+query {
+  getPulpits(pulpit: "PUL001") {
+    pulpit
+    name
+    faculty
+    subjects {
+      subject
+      name
+      pulpit
+    }
+  }
+}
+
+
+query {
+  getSubjects {
+    subject
+    name
+    pulpit
+  }
+}
+
+
+query {
+  getSubjects(subject: "MATH101") {
+    subject
+    name
+    pulpit
+  }
+}
+
+
+query {
+  getSubjects(pulpit: "PUL001") {
+    subject
+    name
+    pulpit
+  }
+}
+
+
+query {
+  getTeachersByFaculty(faculty: "FAC001") {
+    teacher
+    name
+    pulpit
+  }
+}
+
+
+query {
+  getSubjectsByFaculties(faculty: "FAC001") {
+    pulpit
+    name
+    faculty
+    subjects {
+      subject
+      name
+      pulpit
+    }
+  }
+}
+
+
+mutation {
+  setFaculty(faculty: "FAC001", name: "Faculty of Physics") {
+    faculty
+    name
+  }
+}
+
+
+mutation {
+  setTeacher(teacher: "T001", name: "John Doe", pulpit: "PUL001") {
+    teacher
+    name
+    pulpit
+  }
+}
+
+
+mutation {
+  setPulpit(pulpit: "PUL001", name: "Department of Mathematics", faculty: "FAC001") {
+    pulpit
+    name
+    faculty
+  }
+}
+
+
+mutation {
+  setSubject(subject: "MATH101", name: "Advanced Mathematics", pulpit: "PUL001") {
+    subject
+    name
+    pulpit
+  }
+}
+
+mutation {
+  delFaculty(faculty: "FAC001")
+}
+
+
+mutation {
+  delTeacher(teacher: "T001")
+}
+
+
+mutation {
+  delPulpit(pulpit: "PUL001")
+}
+
+
+mutation {
+  delSubject(subject: "MATH101")
+}

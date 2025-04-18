@@ -1,0 +1,11 @@
+{
+  "name": "app15-01",
+  "version": "1.0.0",
+  "main": "app14-01.js",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "mongodb": "3.7",
+    "mongoose": "^8.13.2"
+  }
+}
