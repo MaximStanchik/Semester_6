@@ -48,17 +48,13 @@ BEGIN
     DECLARE @ParentPath HIERARCHYID;
     DECLARE @NewPath HIERARCHYID;
 
-    -- Получаем путь родителя
     SELECT @ParentPath = HierarchyNode FROM CARGO_TYPE WHERE ID = @ParentID;
 
-    -- Определяем новый путь
     SET @NewPath = @ParentPath.GetDescendant(NULL, NULL);
 
-    -- Вставляем новую запись
     INSERT INTO CARGO_TYPE (NAME, DESCRIPTION, HierarchyNode)
     VALUES (@CategoryName, @Description, @NewPath);
     
-    -- Возвращаем ID новой записи
     SELECT SCOPE_IDENTITY() AS NewCategoryID;
 END;
 
@@ -74,11 +70,9 @@ BEGIN
         DECLARE @OldPath HIERARCHYID;
         DECLARE @NewPath HIERARCHYID;
         
-        -- Получаем пути
         SELECT @OldPath = HierarchyNode FROM CARGO_TYPE WHERE ID = @OldParentID;
         SELECT @NewPath = HierarchyNode FROM CARGO_TYPE WHERE ID = @NewParentID;
         
-        -- Проверяем, что новый родитель не является потомком старого
         IF @NewPath.IsDescendantOf(@OldPath) = 1
         BEGIN
             THROW 50000, 'Новый родитель не может быть потомком старого', 1;
