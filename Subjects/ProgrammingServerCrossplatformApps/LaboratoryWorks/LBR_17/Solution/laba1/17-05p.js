@@ -1,11 +1,14 @@
 const redis = require('redis');
 
-const publisher = redis.createClient({url:'redis://localhost:6379/'});
-const subscriber = redis.createClient({url:'redis://localhost:6379/'});
-
+const publisher = redis.createClient({
+    url: 'redis://:secret@localhost:6379'
+});
 publisher.on('ready', () => { console.log('Publisher ready'); });
 publisher.on('error', (err) => console.log('Publisher error: ', err));
 
+const subscriber = redis.createClient({
+    url: 'redis://:secret@localhost:6379'
+});
 subscriber.on('ready', () => { console.log('Subscriber ready'); });
 subscriber.on('error', (err) => console.log('Subscriber error: ', err));
 

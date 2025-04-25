@@ -1,6 +1,8 @@
 const redis = require('redis');
 
-const client = redis.createClient({url:'redis://localhost:6379/'});
+const client = redis.createClient({
+    url: 'redis://:secret@localhost:6379'
+});
 
 client.on('ready',() => {console.log('Ready');});
 client.on('error',(err) => console.log('Error: ',err));
@@ -10,6 +12,7 @@ client.on('end',() => console.log('End'));
 (async () => {
     await client.connect();
 
+    console.log("Выполнение 10000 операций hSet:");
     let startTime = new Date().getTime();
     for (let i = 0; i < 10000; i++) {
         await client.hSet('key', `${i}`, JSON.stringify({'id': i, 'val': `val-${i}`}));
@@ -17,6 +20,7 @@ client.on('end',() => console.log('End'));
     let endTime = new Date().getTime();
     console.log(`Hset: ${endTime - startTime}ms`);
 
+    console.log("Выполнение 10000 операций hGet:");
     startTime = new Date().getTime();
     for (let i = 0; i < 10000; i++) {
         await client.hGet('key', `${i}`);

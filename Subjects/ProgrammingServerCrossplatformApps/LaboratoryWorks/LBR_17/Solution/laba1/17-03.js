@@ -1,6 +1,8 @@
 const redis = require('redis');
 
-const client = redis.createClient({url:'redis://localhost:6379/'});
+const client = redis.createClient({
+    url: 'redis://:secret@localhost:6379'
+});
 
 client.on('ready',() => {console.log('Ready');});
 client.on('error',(err) => console.log('Error: ',err));
@@ -11,7 +13,8 @@ client.on('end',() => console.log('End'));
     await client.connect();
 
     await client.set('incr', 0);
-    
+
+    console.log("Выполнение 10000 операций incr:");
     let startTime = new Date().getTime();
     for (i = 0; i < 10000; i++) {
         await client.incr('incr');
@@ -19,7 +22,7 @@ client.on('end',() => console.log('End'));
     let endTime = new Date().getTime();
     console.log(`Incr: ${endTime - startTime}ms`);
 
-    
+    console.log("Выполнение 10000 операций decr:");
     startTime = new Date().getTime();
     for (i = 0; i < 10000; i++) {
         await client.decr('decr');
