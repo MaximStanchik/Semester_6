@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\NewSolution\\laba_2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{232FEB3F-7826-40FB-84D8-B34765BC40C3}|task2_test\\task2_test.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\newsolution\\laba_2\\task2_test\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{232FEB3F-7826-40FB-84D8-B34765BC40C3}|task2_test\\task2_test.csproj|solutionrelative:task2_test\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74A1993F-8A60-4AB3-A435-4F18A521A2D6}|task3_asp\\task3_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\newsolution\\laba_2\\task3_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74A1993F-8A60-4AB3-A435-4F18A521A2D6}|task3_asp\\task3_asp.csproj|solutionrelative:task3_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Test.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\NewSolution\\laba_2\\task2_test\\Test.cs",
+              "RelativeDocumentMoniker": "task2_test\\Test.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\NewSolution\\laba_2\\task2_test\\Test.cs",
+              "RelativeToolTip": "task2_test\\Test.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:00:52.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\NewSolution\\laba_2\\task3_asp\\Program.cs",
               "RelativeDocumentMoniker": "task3_asp\\Program.cs",
               "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\NewSolution\\laba_2\\task3_asp\\Program.cs",
               "RelativeToolTip": "task3_asp\\Program.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAiwHoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T07:19:38.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Repository.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\NewSolution\\laba_2\\task1_lib\\Classes\\Repository.cs",
               "RelativeDocumentMoniker": "task1_lib\\Classes\\Repository.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "task1_lib\\Classes\\Repository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:14:46.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T07:14:46.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\NewSolution\\laba_2\\task1_lib\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "task1_lib\\Interfaces\\IRepository.cs",
@@ -64,12 +80,11 @@
               "RelativeToolTip": "task1_lib\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:14:42.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T07:14:42.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Celebrity.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\NewSolution\\laba_2\\task1_lib\\Models\\Celebrity.cs",
               "RelativeDocumentMoniker": "task1_lib\\Models\\Celebrity.cs",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "task1_lib\\Models\\Celebrity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:14:21.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T07:14:21.575Z"
             }
           ]
         }

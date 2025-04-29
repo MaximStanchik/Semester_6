@@ -6,19 +6,19 @@ namespace DAL004
     {
         private List<Celebrity> celebrities;
         public static string JSONFileName = "Celebrities.json";
-        public string BasePath
-        {
-            get;
-        }
+        public string BasePath { get; }
+
         public static IRepository Create(string basepath)
         {
             return new CelebrityRepository(basepath);
         }
+
         public CelebrityRepository(string basepath)
         {
             BasePath = Path.Combine(Directory.GetCurrentDirectory(), basepath);
             loadData();
         }
+
         private void loadData()
         {
             var filePath = Path.Combine(BasePath, JSONFileName);
@@ -26,39 +26,41 @@ namespace DAL004
             {
                 throw new FileNotFoundException("JSON file not found.", filePath);
             }
-
             var jsonData = File.ReadAllText(filePath);
             this.celebrities = JsonConvert.DeserializeObject<List<Celebrity>>(jsonData) ?? new List<Celebrity>();
         }
+
         public Celebrity[] getAllCelebrities()
         {
             return celebrities.ToArray();
         }
+
         public Celebrity? getCelebrityById(int id)
         {
-            var celebrity = celebrities.FirstOrDefault(c => c.Id == id);
-            return celebrity;
+            return celebrities.FirstOrDefault(c => c.Id == id);
         }
+
         public Celebrity[] getCelebritiesBySurname(string Surname)
         {
             return celebrities.Where(c => c.Surname.Equals(Surname, StringComparison.OrdinalIgnoreCase)).ToArray();
         }
+
         public string? getPhotoPathById(int id)
         {
-            string? photoPath = getCelebrityById(id)?.PhotoPath.ToString();
-            return photoPath;
+            return getCelebrityById(id)?.PhotoPath.ToString();
         }
+
         public int? addCelebrity(Celebrity celebrity)
         {
             if (!FileIsExist())
             {
                 Console.WriteLine("Error path");
-                return null; 
+                return null;
             }
-            else if (celebrities.Exists(c => c.Id == celebrity.Id) || celebrity.Id < 0)
+            else if (celebrity.Id < 0 || celebrity.Id != 0)
             {
                 Console.WriteLine("Incorrect id");
-                return null; 
+                return null;
             }
             else if (celebrity == null)
             {
@@ -69,64 +71,58 @@ namespace DAL004
             {
                 int newId = celebrities.Count > 0 ? celebrities.Max(c => c.Id) + 1 : 1;
                 Console.WriteLine($"Assigning new ID: {newId} for {celebrity.FirstName} {celebrity.Surname}");
-
                 celebrity = celebrity with { Id = newId };
                 celebrities.Add(celebrity);
                 SaveChanges();
                 return newId;
-            }    
+            }
         }
 
-        public bool delCelebrityById(int id) 
+        public bool delCelebrityById(int id)
         {
             var celebrity = getCelebrityById(id);
             if (celebrity == null)
             {
-                return false; 
+                return false;
             }
-
             celebrities.Remove(celebrity);
             SaveChanges();
-            return true; 
+            return true;
         }
+
         public int? updCelebrityById(int id, Celebrity celebrity)
         {
             var existingCelebrity = getCelebrityById(id);
             if (existingCelebrity == null)
             {
-                return null; 
+                return null;
             }
-
-            var updatedCelebrity = existingCelebrity with
-            {
-                FirstName = celebrity.FirstName, 
-                Surname = celebrity.Surname, 
-                PhotoPath = celebrity.PhotoPath 
-            };
-
+            var updatedCelebrity = existingCelebrity with { FirstName = celebrity.FirstName, Surname = celebrity.Surname, PhotoPath = celebrity.PhotoPath };
             var index = celebrities.FindIndex(c => c.Id == id);
             if (index != -1)
             {
-                celebrities[index] = updatedCelebrity; 
+                celebrities[index] = updatedCelebrity;
             }
-
             SaveChanges();
             return updatedCelebrity.Id;
         }
+
         public int SaveChanges()
         {
             var jsonData = JsonConvert.SerializeObject(celebrities, Formatting.Indented);
             File.WriteAllText(Path.Combine(BasePath, JSONFileName), jsonData);
             return celebrities.Count;
         }
+
         public void Dispose()
         {
             celebrities?.Clear();
             celebrities = null;
             GC.SuppressFinalize(this);
         }
-        public string getFilePath() => Path.Combine(BasePath, JSONFileName);
-        private bool FileIsExist() => File.Exists(getFilePath());
 
+        public string getFilePath() => Path.Combine(BasePath, JSONFileName);
+
+        private bool FileIsExist() => File.Exists(getFilePath());
     }
 }

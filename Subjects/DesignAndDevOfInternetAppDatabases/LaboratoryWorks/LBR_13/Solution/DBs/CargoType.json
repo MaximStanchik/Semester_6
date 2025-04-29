@@ -1,0 +1,12 @@
+[
+    { "_id": 1, "name": "Fun Stuff", "description": "General fun items" },
+    { "_id": 2, "name": "Bouncy Goods", "description": "Items that bounce" },
+    { "_id": 3, "name": "Yummy Treats", "description": "Food items" },
+    { "_id": 4, "name": "Magic Items", "description": "Mystical and magical" },
+    { "_id": 5, "name": "Heavy Fun", "description": "Heavy items for fun" },
+    { "_id": 6, "name": "Colorful Goods", "description": "Vibrant and colorful" },
+    { "_id": 7, "name": "Art Supplies", "description": "For creative fun" },
+    { "_id": 8, "name": "Party Goods", "description": "Items for celebrations" },
+    { "_id": 9, "name": "Novelty Items", "description": "Unique and quirky" },
+    { "_id": 10, "name": "Sweet Treats", "description": "Delicious goodies" }
+]

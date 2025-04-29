@@ -1,0 +1,12 @@
+[
+    { "_id": 1, "clientId": 1, "firstName": "UpdatedFirst", "lastName": "UpdatedLast", "middleName": "UpdatedM", "address": "Updated Address", "email": "updated@example.com", "phoneNumber": "1234567890" },
+    { "_id": 2, "clientId": 2, "firstName": "Daisy", "lastName": "Wag", "middleName": "F.", "address": "456 Silly Ave", "email": "daisywag@example.com", "phoneNumber": "2345678901" },
+    { "_id": 3, "clientId": 3, "firstName": "Penny", "lastName": "Slide", "middleName": "G.", "address": "789 Chill Blvd", "email": "pennyslide@example.com", "phoneNumber": "3456789012" },
+    { "_id": 4, "clientId": 4, "firstName": "Ollie", "lastName": "Run", "middleName": "H.", "address": "321 Speedy Ln", "email": "ollierun@example.com", "phoneNumber": "4567890123" },
+    { "_id": 5, "clientId": 5, "firstName": "Lenny", "lastName": "Spit", "middleName": "I.", "address": "654 Spit St", "email": "lennyspit@example.com", "phoneNumber": "5678901234" },
+    { "_id": 6, "clientId": 6, "firstName": "Nina", "lastName": "Nutty", "middleName": "J.", "address": "987 Nut St", "email": "ninanuts@example.com", "phoneNumber": "6789012345" },
+    { "_id": 7, "clientId": 7, "firstName": "Gary", "lastName": "Tall", "middleName": "K.", "address": "135 Tall Rd", "email": "garytall@example.com", "phoneNumber": "7890123456" },
+    { "_id": 8, "clientId": 8, "firstName": "Marty", "lastName": "Water", "middleName": "L.", "address": "246 Splash St", "email": "martywater@example.com", "phoneNumber": "8901234567" },
+    { "_id": 9, "clientId": 9, "firstName": "Otto", "lastName": "Swim", "middleName": "M.", "address": "357 Swim Ln", "email": "ottoswim@example.com", "phoneNumber": "9012345678" },
+    { "_id": 10, "clientId": 10, "firstName": "Zara", "lastName": "Stripe", "middleName": "N.", "address": "468 Stripe St", "email": "zarastripe@example.com", "phoneNumber": "0123456789" }
+]

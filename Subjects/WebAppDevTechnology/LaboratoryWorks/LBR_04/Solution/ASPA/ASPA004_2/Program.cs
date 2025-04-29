@@ -84,7 +84,6 @@ using (IRepository repository = CelebrityRepository.Create("Celebrities"))
 
     app.Run();
 
-
 }
 public class DeleteCelebrityException : Exception { public DeleteCelebrityException(string message) : base($"Delete by Id: {message}") { } };
 public class FoundByIdException : Exception { public FoundByIdException(string message) : base($"Found by Id: {message}") { } };

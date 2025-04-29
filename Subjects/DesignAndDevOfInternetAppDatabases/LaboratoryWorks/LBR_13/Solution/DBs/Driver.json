@@ -1,0 +1,12 @@
+[
+    { "_id": 1, "login": "speedyTurtle", "password": "slowAndSteady" },
+    { "_id": 2, "login": "ninjaFrog", "password": "jumpHigh!" },
+    { "_id": 3, "login": "crazyKoala", "password": "sleepyTime!" },
+    { "_id": 4, "login": "sneakyFox", "password": "cleverMoves!" },
+    { "_id": 5, "login": "jumpyKangaroo", "password": "bounceBounce!" },
+    { "_id": 6, "login": "charmingParrot", "password": "talkative!" },
+    { "_id": 7, "login": "joyfulPanda", "password": "bambooLove!" },
+    { "_id": 8, "login": "quirkyRaccoon", "password": "trashDancer!" },
+    { "_id": 9, "login": "spunkyFerret", "password": "playfulSpirit!" },
+    { "_id": 10, "login": "dapperPenguin", "password": "tuxedoTime!" }
+]

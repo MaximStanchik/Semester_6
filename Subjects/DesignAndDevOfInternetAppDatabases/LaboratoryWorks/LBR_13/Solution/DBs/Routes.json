@@ -1,0 +1,12 @@
+[
+    { "_id": 1, "startLocation": "Joyful Park", "endLocation": "Happy Avenue", "distance": 5 },
+    { "_id": 2, "startLocation": "Party Central", "endLocation": "Giggle Lane", "distance": 10 },
+    { "_id": 3, "startLocation": "Smiley Beach", "endLocation": "Fun Island", "distance": 15 },
+    { "_id": 4, "startLocation": "Laughter City", "endLocation": "Joy Road", "distance": 20 },
+    { "_id": 5, "startLocation": "Cheerful Valley", "endLocation": "Merry Hill", "distance": 8 },
+    { "_id": 6, "startLocation": "Happy Town", "endLocation": "Gigglesburg", "distance": 12 },
+    { "_id": 7, "startLocation": "Fun Village", "endLocation": "Jolly Farm", "distance": 9 },
+    { "_id": 8, "startLocation": "Wonderland", "endLocation": "Fantasy Land", "distance": 25 },
+    { "_id": 9, "startLocation": "Joyful Gardens", "endLocation": "Blissful Meadows", "distance": 14 },
+    { "_id": 10, "startLocation": "Cheerful Heights", "endLocation": "Happiness Valley", "distance": 18 }
+]

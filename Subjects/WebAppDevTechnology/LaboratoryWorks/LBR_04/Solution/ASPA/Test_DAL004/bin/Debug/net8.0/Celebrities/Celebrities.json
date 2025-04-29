@@ -42,37 +42,31 @@
     "PhotoPath": "/Photo/Dijkstra.jpg"
   },
   {
-    "Id": 0,
-    "FirstName": "Updated2",
-    "Surname": "Updated2",
-    "PhotoPath": "Photo/Updated2.jpg"
+    "Id": 8,
+    "FirstName": "Test",
+    "Surname": "Test",
+    "PhotoPath": "/Photo/Test.jpg"
   },
   {
-    "Id": 0,
-    "FirstName": "TestDel2",
-    "Surname": "TestDel2",
-    "PhotoPath": "Photo/TestDel2.jpg"
-  },
-  {
-    "Id": 0,
-    "FirstName": "TestUpd1",
-    "Surname": "TestUpd1",
-    "PhotoPath": "Photo/TestUpd1.jpg"
-  },
-  {
-    "Id": 0,
-    "FirstName": "TestUpd2",
-    "Surname": "TestUpd2",
-    "PhotoPath": "Photo/TestUpd2.jpg"
-  },
-  {
-    "Id": 10,
+    "Id": 11,
     "FirstName": "Updated1",
     "Surname": "Updated1",
     "PhotoPath": "Photo/Updated1.jpg"
   },
   {
-    "Id": 11,
+    "Id": 12,
+    "FirstName": "Updated2",
+    "Surname": "Updated2",
+    "PhotoPath": "Photo/Updated2.jpg"
+  },
+  {
+    "Id": 15,
+    "FirstName": "Updated1",
+    "Surname": "Updated1",
+    "PhotoPath": "Photo/Updated1.jpg"
+  },
+  {
+    "Id": 16,
     "FirstName": "Updated2",
     "Surname": "Updated2",
     "PhotoPath": "Photo/Updated2.jpg"

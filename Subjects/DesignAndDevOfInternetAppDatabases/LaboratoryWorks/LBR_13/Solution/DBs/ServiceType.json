@@ -1,0 +1,12 @@
+[
+    { "_id": 1, "name": "Fun Delivery", "description": "Delivery with a smile" },
+    { "_id": 2, "name": "Joy Ride", "description": "Exciting rides with fun" },
+    { "_id": 3, "name": "Party Planning", "description": "Planning your perfect party" },
+    { "_id": 4, "name": "Giggle Service", "description": "Service that brings laughter" },
+    { "_id": 5, "name": "Celebration Support", "description": "Supporting your celebrations" },
+    { "_id": 6, "name": "Happy Transport", "description": "Transport that makes you happy" },
+    { "_id": 7, "name": "Cheerful Assistance", "description": "Assistance with a cheerful touch" },
+    { "_id": 8, "name": "Jolly Events", "description": "Events that spread joy" },
+    { "_id": 9, "name": "Smiley Services", "description": "Services that put a smile on your face" },
+    { "_id": 10, "name": "Fun Experiences", "description": "Experiences that are fun-filled" }
+]

@@ -1,0 +1,12 @@
+[
+    { "_id": 5, "driverId": 1, "vehicleType": 3, "licensePlate": "FUN123", "model": "Party Bus", "capacity": 1000, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "Available" },
+    { "_id": 6, "driverId": 2, "vehicleType": 2, "licensePlate": "HAPPY456", "model": "Joy Ride", "capacity": 1500, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "In transit" },
+    { "_id": 7, "driverId": 3, "vehicleType": 1, "licensePlate": "SILLY789", "model": "Giggle Mobile", "capacity": 2000, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "Under maintenance" },
+    { "_id": 8, "driverId": 4, "vehicleType": 4, "licensePlate": "LAUGH012", "model": "Fun Wagon", "capacity": 1200, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "On route" },
+    { "_id": 9, "driverId": 5, "vehicleType": 5, "licensePlate": "GIGGLE345", "model": "Jolly Ride", "capacity": 1600, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "Available" },
+    { "_id": 10, "driverId": 6, "vehicleType": 6, "licensePlate": "CHEER678", "model": "Bouncy Car", "capacity": 1400, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "Delayed" },
+    { "_id": 11, "driverId": 7, "vehicleType": 7, "licensePlate": "SMILE901", "model": "Happy Van", "capacity": 1900, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "Available" },
+    { "_id": 12, "driverId": 8, "vehicleType": 8, "licensePlate": "FUNNY234", "model": "Jester Truck", "capacity": 1700, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "On platform" },
+    { "_id": 13, "driverId": 1, "vehicleType": 9, "licensePlate": "FESTIVE567", "model": "Party Machine", "capacity": 1800, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "Available" },
+    { "_id": 14, "driverId": null, "vehicleType": 10, "licensePlate": "PARTY890", "model": "Fun Cruiser", "capacity": 2000, "insuranceExpiry": "2025-12-31T00:00:00.000Z", "status": "Available" }
+]

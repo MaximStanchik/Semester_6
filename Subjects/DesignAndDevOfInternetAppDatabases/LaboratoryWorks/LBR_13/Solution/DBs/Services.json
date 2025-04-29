@@ -1,0 +1,22 @@
+[
+    { "_id": 1, "name": "Happy Delivery", "description": "Delivering happiness", "baseRate": 50, "serviceTypeId": 1, "createdAt": "2025-03-15T11:41:17.206Z", "fuelCostFactor": 1 },
+    { "_id": 2, "name": "Joyful Ride", "description": "An exciting ride for you", "baseRate": 70, "serviceTypeId": 2, "createdAt": "2025-03-15T11:41:17.211Z", "fuelCostFactor": 1 },
+    { "_id": 3, "name": "Party Planner", "description": "Planning your fun events", "baseRate": 100, "serviceTypeId": 3, "createdAt": "2025-03-15T11:41:17.215Z", "fuelCostFactor": 1 },
+    { "_id": 4, "name": "Giggle Service", "description": "Service that makes you laugh", "baseRate": 60, "serviceTypeId": 4, "createdAt": "2025-03-15T11:41:17.219Z", "fuelCostFactor": 1 },
+    { "_id": 5, "name": "Celebration Transport", "description": "Transport for your celebrations", "baseRate": 80, "serviceTypeId": 5, "createdAt": "2025-03-15T11:41:17.224Z", "fuelCostFactor": 1 },
+    { "_id": 6, "name": "Cheerful Delivery", "description": "Deliveries that spread cheer", "baseRate": 55, "serviceTypeId": 6, "createdAt": "2025-03-15T11:41:17.228Z", "fuelCostFactor": 1 },
+    { "_id": 7, "name": "Fun Events", "description": "Making your events fun", "baseRate": 90, "serviceTypeId": 7, "createdAt": "2025-03-15T11:41:17.233Z", "fuelCostFactor": 1 },
+    { "_id": 8, "name": "Smiley Service", "description": "Service that brings smiles", "baseRate": 75, "serviceTypeId": 8, "createdAt": "2025-03-15T11:41:17.237Z", "fuelCostFactor": 1 },
+    { "_id": 9, "name": "Jolly Transport", "description": "Joyful transport services", "baseRate": 85, "serviceTypeId": 9, "createdAt": "2025-03-15T11:41:17.243Z", "fuelCostFactor": 1 },
+    { "_id": 10, "name": "Fun Experience", "description": "Creating fun experiences for you", "baseRate": 95, "serviceTypeId": 10, "createdAt": "2025-03-15T11:41:17.248Z", "fuelCostFactor": 1 },
+    { "_id": 20, "name": "Festive Transport", "description": "Transport for festive occasions", "baseRate": 80, "serviceTypeId": 10, "createdAt": "2025-06-25T13:00:00.000Z", "fuelCostFactor": 1 },
+    { "_id": 19, "name": "Corporate Events", "description": "Services for corporate needs", "baseRate": 130, "serviceTypeId": 9, "createdAt": "2025-05-20T11:30:00.000Z", "fuelCostFactor": 1 },
+    { "_id": 18, "name": "Birthday Bash", "description": "Making your birthday special", "baseRate": 95, "serviceTypeId": 8, "createdAt": "2025-04-10T17:00:00.000Z", "fuelCostFactor": 1 },
+    { "_id": 17, "name": "Gala Service", "description": "Service for your gala events", "baseRate": 110, "serviceTypeId": 7, "createdAt": "2025-03-01T16:00:00.000Z", "fuelCostFactor": 1 },
+    { "_id": 16, "name": "Event Planner", "description": "Planning unforgettable events", "baseRate": 75, "serviceTypeId": 6, "createdAt": "2025-02-15T15:30:00.000Z", "fuelCostFactor": 1 },
+    { "_id": 15, "name": "Holiday Specials", "description": "Special deliveries for the holidays", "baseRate": 120, "serviceTypeId": 5, "createdAt": "2025-11-25T09:45:00.000Z", "fuelCostFactor": 1 },
+    { "_id": 14, "name": "Winter Wonderland", "description": "Delivering winter cheer", "baseRate": 100, "serviceTypeId": 4, "createdAt": "2025-12-01T14:00:00.000Z", "fuelCostFactor": 1 },
+    { "_id": 13, "name": "Autumn Fest", "description": "Celebrating autumn events", "baseRate": 90, "serviceTypeId": 3, "createdAt": "2025-09-05T12:15:00.000Z", "fuelCostFactor": 1 },
+    { "_id": 12, "name": "Summer Adventure", "description": "Adventures for summer fun", "baseRate": 85, "serviceTypeId": 2, "createdAt": "2025-02-20T11:00:00.000Z", "fuelCostFactor": 1 },
+    { "_id": 11, "name": "Spring Delivery", "description": "Delivering joy in spring", "baseRate": 65, "serviceTypeId": 1, "createdAt": "2025-01-10T10:30:00.000Z", "fuelCostFactor": 1 }
+]

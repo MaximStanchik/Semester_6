@@ -1,0 +1,12 @@
+[
+    { "_id": 1, "name": "Party Van", "description": "A van for all your party needs" },
+    { "_id": 2, "name": "Joy Ride", "description": "A fun vehicle for exciting trips" },
+    { "_id": 3, "name": "Giggle Bus", "description": "A bus that makes you laugh" },
+    { "_id": 4, "name": "Bouncy Car", "description": "A car that brings joy" },
+    { "_id": 5, "name": "Happy Truck", "description": "A truck filled with happiness" },
+    { "_id": 6, "name": "Jolly Ride", "description": "A ride that makes you smile" },
+    { "_id": 7, "name": "Fun Express", "description": "The express for fun deliveries" },
+    { "_id": 8, "name": "Smiley Van", "description": "A van that spreads smiles" },
+    { "_id": 9, "name": "Cheerful Cruiser", "description": "A cruiser that lifts your spirits" },
+    { "_id": 10, "name": "Festival Truck", "description": "A truck perfect for festivals" }
+]

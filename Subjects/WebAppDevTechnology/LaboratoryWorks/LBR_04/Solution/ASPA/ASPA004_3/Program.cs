@@ -44,7 +44,7 @@ using (IRepository repository = CelebrityRepository.Create("Celebrities"))
 
         if (!deleted)
         {
-            throw new DeleteCelebrityException($"{id}");
+            return Results.NotFound(new { message = "Объекта не существует." });
         }
         else
         {
@@ -121,5 +121,3 @@ public class DeleteCelebrityException : Exception { public DeleteCelebrityExcept
 public class FoundByIdException : Exception { public FoundByIdException(string message) : base($"Found by Id: {message}") { } };
 public class SaveException : Exception { public SaveException(string message) : base($"SaveChanges error: {message}") { } };
 public class AddCelebrityException : Exception { public AddCelebrityException(string message) : base($"AddCelebrityException error: {message}") { } };
-
-//21, 21, исправить консольное приложение, рассказать про using и delete, рукопожатие

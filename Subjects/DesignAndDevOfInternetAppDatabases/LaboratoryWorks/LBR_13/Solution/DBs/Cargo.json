@@ -1,0 +1,12 @@
+[
+    { "_id": 2, "name": "Updated Cargo", "description": "Updated Description", "weight": 150, "volume": 2, "cargoType": 1, "hazardous": "No" },
+    { "_id": 3, "name": "Silly String", "description": "Endless fun string", "weight": 200, "volume": 3, "cargoType": 2, "hazardous": "No" },
+    { "_id": 4, "name": "Cheesy Chews", "description": "Delicious cheese snacks", "weight": 50, "volume": 0.5, "cargoType": 1, "hazardous": "No" },
+    { "_id": 5, "name": "Bouncy Balls", "description": "Fun bouncing balls", "weight": 150, "volume": 2.5, "cargoType": 3, "hazardous": "Class 1" },
+    { "_id": 6, "name": "Magic Potions", "description": "Mystical potions", "weight": 300, "volume": 4, "cargoType": 4, "hazardous": "Class 2" },
+    { "_id": 7, "name": "Giggle Juice", "description": "Fun drink", "weight": 500, "volume": 5, "cargoType": 5, "hazardous": "No" },
+    { "_id": 8, "name": "Rainbow Sprinkles", "description": "Colorful sprinkles", "weight": 120, "volume": 2, "cargoType": 2, "hazardous": "Class 3" },
+    { "_id": 9, "name": "Magic Markers", "description": "Colorful markers", "weight": 30, "volume": 0.2, "cargoType": 1, "hazardous": "No" },
+    { "_id": 10, "name": "Jelly Beans", "description": "Sweet jelly beans", "weight": 20, "volume": 0.1, "cargoType": 1, "hazardous": "No" },
+    { "_id": 11, "name": "Whimsical Whistles", "description": "Fun whistles", "weight": 250, "volume": 2.5, "cargoType": 3, "hazardous": "No" }
+]

@@ -1,0 +1,12 @@
+[
+    { "_id": 1, "month": 1, "year": 2023, "price_per_liter": 1.5 },
+    { "_id": 2, "month": 2, "year": 2023, "price_per_liter": 1.55 },
+    { "_id": 3, "month": 3, "year": 2023, "price_per_liter": 1.6 },
+    { "_id": 4, "month": 4, "year": 2023, "price_per_liter": 1.65 },
+    { "_id": 5, "month": 5, "year": 2023, "price_per_liter": 1.7 },
+    { "_id": 6, "month": 6, "year": 2023, "price_per_liter": 1.75 },
+    { "_id": 7, "month": 7, "year": 2023, "price_per_liter": 1.8 },
+    { "_id": 8, "month": 8, "year": 2023, "price_per_liter": 1.85 },
+    { "_id": 9, "month": 9, "year": 2023, "price_per_liter": 1.9 },
+    { "_id": 10, "month": 10, "year": 2023, "price_per_liter": 1.95 }
+]

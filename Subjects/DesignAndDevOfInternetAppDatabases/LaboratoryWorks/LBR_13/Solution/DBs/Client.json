@@ -1,0 +1,79 @@
+[
+    {
+        "_id": 1,
+        "login": "funnyCat",
+        "password": "meow123"
+    },
+    {
+        "_id": 2,
+        "login": "sillyDog",
+        "password": "bark456",
+        "parentId": 1
+    },
+    {
+        "_id": 3,
+        "login": "happyPenguin",
+        "password": "slide789",
+        "parentId": 2
+    },
+    {
+        "_id": 4,
+        "login": "quirkyOstrich",
+        "password": "runFast!",
+        "parentId": 3
+    },
+    {
+        "_id": 5,
+        "login": "cheerfulLlama",
+        "password": "spitItOut!",
+        "parentId": 4
+    },
+    {
+        "_id": 6,
+        "login": "wittySquirrel",
+        "password": "nutsAndBolts",
+        "parentId": 5
+    },
+    {
+        "_id": 7,
+        "login": "jollyGiraffe",
+        "password": "tallTales!",
+        "parentId": 6
+    },
+    {
+        "_id": 8,
+        "login": "merryHippo",
+        "password": "waterDance!",
+        "parentId": 7
+    },
+    {
+        "_id": 9,
+        "login": "playfulOtter",
+        "password": "swimTime!",
+        "parentId": 8
+    },
+    {
+        "_id": 10,
+        "login": "zanyZebra",
+        "password": "stripeIt!",
+        "parentId": 9
+    },
+    {
+        "_id": 21,
+        "login": "parent_user",
+        "password": "parent_password",
+        "parentId": 10
+    },
+    {
+        "_id": 22,
+        "login": "child_user",
+        "password": "child_password",
+        "parentId": 21
+    },
+    {
+        "_id": 23,
+        "login": "child_client",
+        "password": "secure_password",
+        "parentId": 1
+    }
+]
