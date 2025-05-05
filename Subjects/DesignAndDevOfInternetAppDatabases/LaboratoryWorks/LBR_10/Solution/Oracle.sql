@@ -5,7 +5,7 @@ datafile 'log_tb2_dbf' size 100m autoextend on maxsize unlimited;
 DROP TABLESPACE lobTb;
 
 -- 2.	Создайте отдельную папку для хранения внешних WORD (или PDF) документов.
-create OR REPLACE directory bfile_dir as 'C:/BFILE';    
+create OR REPLACE directory bfile_dir as '/BFILE';
    
 -- 3.	Создайте пользователя lob_user с необходимыми привилегиями для вставки, обновления и удаления больших объектов.
 -- 4. 	Добавьте квоту на данное табличное пространство пользователю lob_user.
@@ -40,33 +40,40 @@ ALTER TABLE lob_table ADD (doc BFILE);
 
 drop table lob_table;
 
+SELECT * FROM lob_table;
+
 -- 6. Добавьте (INSERT) фотографии и документы в таблицу.
-create directory bfile_dir as 'D:/User/Documents/GitHub/Semester_6/Subjects/DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_10/Solution/word_documents';       
-INSERT INTO lob_table (id, foto, doc) VALUES (1, EMPTY_BLOB(), BFILENAME('bfile_dir', 'test.docx'));
+create directory BFILEDIR as '/BFILE';    
+DROP directory BFILEDIR;
+
+
+INSERT INTO lob_table VALUES (2, NULL, BFILENAME('BFILEDIR', 'test.jpg'));
+
+
+INSERT INTO lob_table (id, foto, doc) VALUES (1, EMPTY_BLOB(), BFILENAME('BFILEDIR', 'test.docx'));
 DELETE FROM lob_table;
+
 DECLARE
-    v_src_file BFILE;
-    v_dst_file BLOB;
-    v_lgh_file INTEGER;
+  SRC_FILE BFILE;
+  DST_FILE BLOB;
+  LGH_FILE BINARY_INTEGER;
 BEGIN
-    v_src_file := BFILENAME('BFILE_DIR', 'test.jpg');
+  SRC_FILE := BFILENAME('BFILEDIR', 'TEST.JPG');
 
-    SELECT foto INTO v_dst_file
-    FROM lob_table
-    WHERE id = 1
-    FOR UPDATE;
+  -- Вставка с возвратом дескриптора
+  INSERT INTO lob_table (id, foto, doc)
+  VALUES (3, EMPTY_BLOB(), NULL)
+  RETURNING foto INTO DST_FILE;
 
-    DBMS_LOB.FILEOPEN(v_src_file, DBMS_LOB.FILE_READONLY);
+  -- Открыть и загрузить содержимое
+  DBMS_LOB.FILEOPEN(SRC_FILE, DBMS_LOB.FILE_READONLY);
+  LGH_FILE := DBMS_LOB.GETLENGTH(SRC_FILE);
+  DBMS_LOB.LOADFROMFILE(DST_FILE, SRC_FILE, LGH_FILE);
+  DBMS_LOB.FILECLOSE(SRC_FILE);
 
-    v_lgh_file := DBMS_LOB.GETLENGTH(v_src_file);
-
-    DBMS_LOB.LOADFROMFILE(v_dst_file, v_src_file, v_lgh_file);
-
-    DBMS_LOB.FILECLOSE(v_src_file);
+  COMMIT;
 END;
 
-SELECT * FROM ALL_DIRECTORIES WHERE DIRECTORY_NAME = 'BFILE_DIR';
-SELECT * FROM ALL_DIRECTORIES WHERE DIRECTORY_NAME = 'BFILE_DIR';
-
+SELECT * FROM ALL_DIRECTORIES WHERE DIRECTORY_NAME = 'BFILEDIR';
 select * from lob_table;
 select * from all_directories;

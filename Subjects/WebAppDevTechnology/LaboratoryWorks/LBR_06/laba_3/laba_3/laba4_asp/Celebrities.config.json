@@ -1,0 +1,7 @@
+﻿{
+  // Celebrities.config.json
+  "Celebrities": {
+    "ConnectionString": "Server=localhost\\MSSQLSERVER02;Database=ASP;Integrated Security=True;TrustServerCertificate=True;",
+    "PhotosFolder": "../../Celebrities"
+  }
+}

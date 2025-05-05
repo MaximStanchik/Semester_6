@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\controllers\\celebretiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\controllers\\celebretiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\classes\\celebretiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\classes\\celebretiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38519E58-E194-4FF8-84A0-5A319BDDC329}|DAL_Celebrity_MSSQL_Test\\DAL_Celebrity_MSSQL_Test.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity_mssql_test\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38519E58-E194-4FF8-84A0-5A319BDDC329}|DAL_Celebrity_MSSQL_Test\\DAL_Celebrity_MSSQL_Test.csproj|solutionrelative:dal_celebrity_mssql_test\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\aspa006_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF5F11A0-8A0E-4CC7-A4FA-56F359FE4E12}|ASPA006_1\\ASPA006_1.csproj|solutionrelative:aspa006_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity_mssql\\classes\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\classes\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity_mssql\\classes\\lifeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\classes\\lifeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity_mssql\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity_mssql\\classes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\classes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|solutionrelative:dal_celebrity\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity\\interfaces\\imix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|solutionrelative:dal_celebrity\\interfaces\\imix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity\\interfaces\\ilifeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|solutionrelative:dal_celebrity\\interfaces\\ilifeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity\\interfaces\\icelebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|solutionrelative:dal_celebrity\\interfaces\\icelebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity_mssql\\classes\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\classes\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity_mssql\\classes\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8DE481-8770-4C17-9B82-BFC50E17980F}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\classes\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\solution\\lbr_06\\dal_celebrity\\dal_celebrity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0758D10B-B3F7-4E1D-B0D6-7EC8E7BC636A}|DAL_Celebrity\\DAL_Celebrity.csproj|solutionrelative:dal_celebrity\\dal_celebrity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ASPA006_1\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "ASPA006_1\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T09:37:53.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA006_1\\Program.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Program.cs",
+              "RelativeToolTip": "ASPA006_1\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:18:24.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CelebretiesController.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\controllers\\CelebretiesController.cs",
+              "RelativeDocumentMoniker": "ASPA006_1\\controllers\\CelebretiesController.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\controllers\\CelebretiesController.cs",
+              "RelativeToolTip": "ASPA006_1\\controllers\\CelebretiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:07:49.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CelebretiesConfig.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\classes\\CelebretiesConfig.cs",
+              "RelativeDocumentMoniker": "ASPA006_1\\classes\\CelebretiesConfig.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\classes\\CelebretiesConfig.cs",
+              "RelativeToolTip": "ASPA006_1\\classes\\CelebretiesConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:06:57.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Celebrities.config.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Celebrities.config.json",
+              "RelativeDocumentMoniker": "ASPA006_1\\Celebrities.config.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Celebrities.config.json",
+              "RelativeToolTip": "ASPA006_1\\Celebrities.config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T09:19:25.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ASPA006_1\\appsettings.Development.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\appsettings.Development.json",
+              "RelativeToolTip": "ASPA006_1\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T09:08:11.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ASPA006_1\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "ASPA006_1\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T09:37:52.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "ASPA006_1\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Pages\\Error.cshtml",
+              "RelativeToolTip": "ASPA006_1\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T09:37:50.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPA006_1\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Pages\\Index.cshtml",
+              "RelativeToolTip": "ASPA006_1\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T09:37:48.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ASPA006_1\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ASPA006_1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T09:26:35.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Init.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Init.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\Classes\\Init.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Init.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\Classes\\Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:22:02.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Test.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL_Test\\Test.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL_Test\\Test.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL_Test\\Test.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL_Test\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T08:49:29.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Lifeevent.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Lifeevent.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\Classes\\Lifeevent.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Lifeevent.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\Classes\\Lifeevent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:08:59.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\appsettings.json",
+              "RelativeDocumentMoniker": "ASPA006_1\\appsettings.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\appsettings.json",
+              "RelativeToolTip": "ASPA006_1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T09:26:21.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:11:28.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Context.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\Classes\\Context.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Context.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\Classes\\Context.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:22:14.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Repository.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\Classes\\Repository.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Repository.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\Classes\\Repository.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAqwKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:21:42.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IMix.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\Interfaces\\IMix.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity\\Interfaces\\IMix.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\Interfaces\\IMix.cs",
+              "RelativeToolTip": "DAL_Celebrity\\Interfaces\\IMix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:54:08.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "DAL_Celebrity\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:54:40.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ILifeevent.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\Interfaces\\ILifeevent.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity\\Interfaces\\ILifeevent.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\Interfaces\\ILifeevent.cs",
+              "RelativeToolTip": "DAL_Celebrity\\Interfaces\\ILifeevent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:55:53.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICelebrity.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\Interfaces\\ICelebrity.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity\\Interfaces\\ICelebrity.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\Interfaces\\ICelebrity.cs",
+              "RelativeToolTip": "DAL_Celebrity\\Interfaces\\ICelebrity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:55:20.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Celebrity.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Celebrity.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\Classes\\Celebrity.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity_MSSQL\\Classes\\Celebrity.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\Classes\\Celebrity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:10:29.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DAL_Celebrity.csproj",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\DAL_Celebrity.csproj",
+              "RelativeDocumentMoniker": "DAL_Celebrity\\DAL_Celebrity.csproj",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\DAL_Celebrity\\DAL_Celebrity.csproj",
+              "RelativeToolTip": "DAL_Celebrity\\DAL_Celebrity.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T10:13:51.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

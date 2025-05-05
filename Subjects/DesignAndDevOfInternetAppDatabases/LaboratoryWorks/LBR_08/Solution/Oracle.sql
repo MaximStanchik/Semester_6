@@ -79,13 +79,21 @@ CREATE OR REPLACE TYPE Cargo_typeObj AS OBJECT (
 ) NOT FINAL;
 
 CREATE OR REPLACE TYPE BODY Cargo_typeObj AS
-    MEMBER FUNCTION compare(other IN Cargo_typeObj) RETURN NUMBER IS
+    ORDER MEMBER FUNCTION compare_to(other IN Cargo_typeObj) RETURN INTEGER IS
     BEGIN
-        RETURN CASE 
-            WHEN self.name = other.name THEN 0
-            WHEN self.name < other.name THEN -1
-            ELSE 1
-        END;
+        IF name < other.name THEN
+            RETURN -1;
+        ELSIF name > other.name THEN
+            RETURN 1;
+        ELSE
+            IF weight < other.weight THEN
+                RETURN -1;
+            ELSIF weight > other.weight THEN
+                RETURN 1;
+            ELSE
+                RETURN 0;
+            END IF;
+        END IF;
     END;
 END;
 
@@ -270,7 +278,7 @@ EXCEPTION
     WHEN TOO_MANY_ROWS THEN
         DBMS_OUTPUT.PUT_LINE('Найдено несколько услуг с одинаковым ID');
 END;
-
+SELECT * FROM clientInfoObj;
 -- Использование методов экземпляра: 
 DECLARE
     clientInfoObj ClientInfo_typeObj := ClientInfo_typeObj(1, 1, 'Иван', 'Иванов', 'Иванович', 'Улица Ленина, дом 1', 'ivanov@example.com', '89001234567');

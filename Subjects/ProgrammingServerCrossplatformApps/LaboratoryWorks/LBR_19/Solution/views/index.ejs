@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная страница</title>
+    <style>
+      .section {
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+      .form-group {
+        margin: 10px 0;
+      }
+      input {
+        margin: 5px;
+        padding: 5px;
+      }
+      .error {
+        color: red;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="responseContainer" class="response-container"></div>
+    <div class="section">
+      <h2>Users API</h2>
+      <div class="form-group">
+        <button onclick="sendRequest('GET', '/api/users')">GET Users</button>
+      </div>
+
+      <div class="form-group">
+        <form id="postUserForm">
+          <input type="text" placeholder="Name" id="userName" />
+          <input type="email" placeholder="Email" id="userEmail" />
+          <span class="error" id="userEmailError"></span>
+          <button type="button" onclick="sendPostUser()">POST User</button>
+        </form>
+      </div>
+
+      <div class="form-group">
+        <form id="putUserForm">
+          <input type="text" placeholder="ID" id="userIdPut" />
+          <span class="error" id="userIdPutError"></span>
+          <input type="text" placeholder="Name" id="userNamePut" />
+          <input type="email" placeholder="Email" id="userEmailPut" />
+          <span class="error" id="userEmailPutError"></span>
+          <button type="button" onclick="sendPutUser()">PUT User</button>
+        </form>
+      </div>
+
+      <div class="form-group">
+        <input type="text" placeholder="ID" id="userIdDelete" />
+        <span class="error" id="userIdDeleteError"></span>
+        <button onclick="sendDeleteUser()">DELETE User</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Products API</h2>
+      <div class="form-group">
+        <button onclick="sendRequest('GET', '/api/products')">
+          GET Products
+        </button>
+      </div>
+
+      <div class="form-group">
+        <form id="postProductForm">
+          <input type="text" placeholder="Name" id="productName" />
+          <input type="number" placeholder="Price" id="productPrice" min="0.01" step="0.01" />
+          <span class="error" id="productPriceError"></span>
+          <button type="button" onclick="sendPostProduct()">POST Product</button>
+        </form>
+      </div>
+
+      <div class="form-group">
+        <form id="putProductForm">
+          <input type="text" placeholder="ID" id="productIdPut" />
+          <span class="error" id="productIdPutError"></span>
+          <input type="text" placeholder="Name" id="productNamePut" />
+          <input type="number" placeholder="Price" id="productPricePut" min="0.01" step="0.01" />
+          <span class="error" id="productPricePutError"></span>
+          <button type="button" onclick="sendPutProduct()">PUT Product</button>
+        </form>
+      </div>
+
+      <div class="form-group">
+        <input type="text" placeholder="ID" id="productIdDelete" />
+        <span class="error" id="productIdDeleteError"></span>
+        <button onclick="sendDeleteProduct()">DELETE Product</button>
+      </div>
+    </div>
+
+    <script>
+      function validateEmail(email) {
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailPattern.test(email);
+      }
+
+      function validatePositiveNumber(value) {
+        return !isNaN(value) && Number(value) > 0;
+      }
+
+      function validateId(id) {
+        return /^\d+$/.test(id);
+      }
+
+      function showError(elementId, message) {
+        document.getElementById(elementId).textContent = message;
+      }
+
+      async function sendRequest(method, url, body = null) {
+        const options = {
+          method: method,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        };
+
+        if (body) {
+          options.body = JSON.stringify(body);
+        }
+
+        const response = await fetch(url, options);
+        const html = await response.text();
+
+        const container = document.getElementById("responseContainer");
+        container.innerHTML = html;
+      }
+
+      function sendPostUser() {
+        const name = document.getElementById("userName").value;
+        const email = document.getElementById("userEmail").value;
+
+        if (!validateEmail(email)) {
+          showError("userEmailError", "Неверный формат email");
+          return;
+        } 
+        else {
+          showError("userEmailError", "");
+        }
+
+        sendRequest("POST", "/api/users", { name, email });
+      }
+
+      function sendPutUser() {
+        const id = document.getElementById("userIdPut").value;
+        const name = document.getElementById("userNamePut").value;
+        const email = document.getElementById("userEmailPut").value;
+
+        if (!validateId(id)) {
+          showError("userIdPutError", "ID должно содержать только цифры");
+          return;
+        } else {
+          showError("userIdPutError", "");
+        }
+
+        if (!validateEmail(email)) {
+          showError("userEmailPutError", "Неверный формат email");
+          return;
+        } else {
+          showError("userEmailPutError", "");
+        }
+
+        sendRequest("PUT", `/api/users/${id}`, { name, email });
+      }
+
+      function sendDeleteUser() {
+        const id = document.getElementById("userIdDelete").value;
+
+        if (!validateId(id)) {
+          showError("userIdDeleteError", "ID должно содержать только цифры");
+          return;
+        } else {
+          showError("userIdDeleteError", "");
+        }
+
+        sendRequest("DELETE", `/api/users/${id}`);
+      }
+
+      function sendPostProduct() {
+        const name = document.getElementById("productName").value;
+        const price = document.getElementById("productPrice").value;
+
+        if (!validatePositiveNumber(price)) {
+          showError("productPriceError", "Цена должна быть положительным числом");
+          return;
+        } else {
+          showError("productPriceError", "");
+        }
+
+        sendRequest("POST", "/api/products", { name, price });
+      }
+
+      function sendPutProduct() {
+        const id = document.getElementById("productIdPut").value;
+        const name = document.getElementById("productNamePut").value;
+        const price = document.getElementById("productPricePut").value;
+
+        if (!validateId(id)) {
+          showError("productIdPutError", "ID должно содержать только цифры");
+          return;
+        } else {
+          showError("productIdPutError", "");
+        }
+
+        if (!validatePositiveNumber(price)) {
+          showError("productPricePutError", "Цена должна быть положительным числом");
+          return;
+        } else {
+          showError("productPricePutError", "");
+        }
+
+        sendRequest("PUT", `/api/products/${id}`, { name, price });
+      }
+
+      function sendDeleteProduct() {
+        const id = document.getElementById("productIdDelete").value;
+
+        if (!validateId(id)) {
+          showError("productIdDeleteError", "ID должно содержать только цифры");
+          return;
+        } else {
+          showError("productIdDeleteError", "");
+        }
+
+        sendRequest("DELETE", `/api/products/${id}`);
+      }
+    </script>
+  </body>
+</html>

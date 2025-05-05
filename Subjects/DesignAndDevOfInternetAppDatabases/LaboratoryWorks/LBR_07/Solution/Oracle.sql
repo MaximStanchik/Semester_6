@@ -75,7 +75,7 @@ ORDER BY
    
 -- 2.	Найдите при помощи конструкции MATCH_RECOGNIZE() данные, которые соответствуют шаблону: 
 -- Рост, падение, рост предоставления для каждого вида услуг
-
+SELECT * FROM services; 
      -- вставка значений, которые соответствуют шаблону
   INSERT INTO ORDERS (
     ID, CLIENT_ID, DRIVER_ID, SERVICE_ID, STATUS, CREATED_AT, ROUTE, DELIVERY_TYPE, 
@@ -233,3 +233,6 @@ GROUP BY
     ld.service_id
 ORDER BY 
     ld.service_id;
+    
+   SELECT * FROM orders WHERE service_id = 20;
+    SELECT * FROM orders WHERE service_id = 23;

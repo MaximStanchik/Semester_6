@@ -3,6 +3,7 @@
 
 CREATE OR REPLACE TYPE ClientList AS TABLE OF Client_typeObj;
 CREATE OR REPLACE TYPE ClientInfoList AS TABLE OF ClientInfo_typeObj;
+CREATE OR REPLACE TYPE ClientInfoLisTt AS TABLE OF ClientInfo_typeObj;
 
 -- 3. Заполняем коллекцию К1 с вложенной коллекцией К2
 DECLARE
@@ -43,22 +44,40 @@ BEGIN
     END IF;
 END;
 
--- c.	Найти пустые коллекции К1;
+-- c.	Найти пустые коллекции К1; ---!
 
 DECLARE
     TYPE ClientList IS TABLE OF Client_typeObj;
-    K1 ClientList := ClientList(); 
+    TYPE ClientInfoList IS TABLE OF ClientInfo_typeObj;
+
+    K1 ClientList := ClientList();
+    K2 ClientInfoList;  
+    K3 ClientList := ClientList();  
+
     empty_collections INTEGER := 0;
 BEGIN
     K1.EXTEND; K1(1) := Client_typeObj(1, 'ivanov', 'pass123', NULL);
     K1.EXTEND; K1(2) := Client_typeObj(2, 'petrov', 'pass456', NULL);
 
-    IF K1.COUNT = 0 THEN
+    -- Проверка K1
+    IF K1 IS NULL OR K1.COUNT = 0 THEN
         empty_collections := empty_collections + 1;
         DBMS_OUTPUT.PUT_LINE('Коллекция K1 пуста.');
-    ELSE
-        DBMS_OUTPUT.PUT_LINE('Коллекция K1 не пуста.');
     END IF;
+
+    -- Проверка K2
+    IF K2 IS NULL OR K2.COUNT = 0 THEN
+        empty_collections := empty_collections + 1;
+        DBMS_OUTPUT.PUT_LINE('Коллекция K2 пуста.');
+    END IF;
+
+    -- Проверка K3
+    IF K3 IS NULL OR K3.COUNT = 0 THEN
+        empty_collections := empty_collections + 1;
+        DBMS_OUTPUT.PUT_LINE('Коллекция K3 пуста.');
+    END IF;
+
+    DBMS_OUTPUT.PUT_LINE('Всего пустых коллекций: ' || empty_collections);
 END;
 
 -- 3.	Преобразовать коллекцию к другому виду (к коллекции другого типа, к реляционным данным).
@@ -102,3 +121,4 @@ BEGIN
     COMMIT;
     DBMS_OUTPUT.PUT_LINE('Добавлено ' || K1.COUNT || ' клиентов в таблицу ClientObj.');
 END;
+-- ограниченные и неограниченные + 
