@@ -26,7 +26,7 @@ public class Schnorr {
         return new BigInteger[]{this.p, this.q, this.g, this.y};
     }
 
-    public BigInteger[] generateDigitalSignature(String message) {
+    public BigInteger[] createDigitalSignature(String message) {
         SecureRandom random = new SecureRandom();
         BigInteger k;
         do {
@@ -50,21 +50,23 @@ public class Schnorr {
 
     public boolean verifyDigitalSignature(String message, BigInteger[] digitalSignature) {
         try {
-            BigInteger x = g.modPow(digitalSignature[1], p)
-                    .multiply(y.modPow(digitalSignature[0], p)).mod(p);
-            message += x.toString();
+            BigInteger r = digitalSignature[0];
+            BigInteger s = digitalSignature[1];
+            BigInteger a = g.modPow(s, p).multiply(y.modPow(q.subtract(r), p)).mod(p);
+
+            String combined = message + a.toString();
 
             MessageDigest digest = MessageDigest.getInstance("SHA-256");
-            byte[] receivedHash = digest.digest(message.getBytes("UTF-8"));
-
+            byte[] receivedHash = digest.digest(combined.getBytes("UTF-8"));
             BigInteger receivedHashBigInt = new BigInteger(1, receivedHash);
 
-            return digitalSignature[0].equals(receivedHashBigInt);
+            return r.equals(receivedHashBigInt);
         }
         catch (NoSuchAlgorithmException | java.io.UnsupportedEncodingException e) {
             e.printStackTrace();
             return false;
         }
     }
+
 
 }

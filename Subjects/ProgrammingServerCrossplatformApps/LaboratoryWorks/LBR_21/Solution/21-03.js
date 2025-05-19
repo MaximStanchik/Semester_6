@@ -3,12 +3,11 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const users = require('./users.json'); // JSON-файл с учетными данными
+const users = require('./users.json'); 
 
 const app = express();
 const PORT = 3000;
 
-// Настройка стратегии аутентификации (LocalStrategy для формы)
 passport.use(new LocalStrategy(
   (username, password, done) => {
     const user = users.find(u => u.username === username && u.password === password);
@@ -19,7 +18,6 @@ passport.use(new LocalStrategy(
   }
 ));
 
-// Сериализация и десериализация пользователя для сессий
 passport.serializeUser((user, done) => {
   done(null, user.username);
 });
@@ -29,26 +27,20 @@ passport.deserializeUser((username, done) => {
   done(null, user);
 });
 
-// Middleware для парсинга данных формы
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// Настройка сессий
 app.use(session({
-  secret: 'yourSecretKey', // Секретный ключ для сессий
+  secret: 'yourSecretKey', 
   resave: false,
   saveUninitialized: true
 }));
 
-// Middleware для инициализации passport
 app.use(passport.initialize());
 app.use(passport.session());
 
-// Защищённый маршрут для аутентификации
 const authenticate = passport.authenticate('local', { successRedirect: '/resource', failureRedirect: '/login' });
 
-// GET /login (форма для логина)
 app.get('/login', (req, res) => {
-  // Проверка, если пользователь уже аутентифицирован
   if (req.isAuthenticated()) {
     return res.redirect('/resource');
   }
@@ -63,10 +55,8 @@ app.get('/login', (req, res) => {
   `);
 });
 
-// POST /login (обработка данных формы и аутентификация)
 app.post('/login', passport.authenticate('local', { successRedirect: '/resource', failureRedirect: '/login' }));
 
-// GET /logout (выход)
 app.get('/logout', (req, res) => {
   req.logout((err) => {
     if (err) {
@@ -76,15 +66,13 @@ app.get('/logout', (req, res) => {
   });
 });
 
-// GET /resource (защищённый ресурс)
 app.get('/resource', (req, res) => {
   if (!req.isAuthenticated()) {
-    return res.redirect('/login'); // Перенаправление на /login, если пользователь не аутентифицирован
+    return res.redirect('/login'); 
   }
   res.send('RESOURCE');
 });
 
-// Обработчик несуществующих маршрутов (404)
 app.use((req, res) => {
   res.status(404).send('Not Found');
 });

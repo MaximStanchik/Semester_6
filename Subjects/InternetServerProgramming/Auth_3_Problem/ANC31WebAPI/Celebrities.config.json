@@ -1,0 +1,14 @@
+ 
+  {
+    // Celebrities.config.json
+    "Celebrities": {
+      "PhotosRequestPath": "/Photos",
+      "PhotosFolder": "D:\\VS_Projects\\ANC\\ANC28\\Photos",
+      "ConnectionString": "Data source=172.16.193.88; Initial Catalog=LES28X;TrustServerCertificate=True;User Id=smw60;Password=21625",
+      "ISO3166alpha2Path":"D:\\VS_Projects\\ANC\\ANC28\\CountryCodes\\iso3166-1-alpha2-country-codes.json"
+    }
+  }
+
+
+
+

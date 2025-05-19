@@ -15,25 +15,31 @@ class UserController {
 
   getAllUsers = async (req, res) => {
     let users = await this.db.getAllUsers();
-    res.send(this.getHtml(users));
+    res.send(users);
   };
 
   createUser = async (req, res) => {
     const { name, email } = req.body;
     let user = await this.db.createUser(name, email);
-    res.send(this.getHtml(user));
+    res.send((user));
   };
 
   updateUser = async (req, res) => {
     const { id } = req.params;
-    let user = await this.db.updateUser(id);
-    res.send(this.getHtml(user));
+    const { name, email } = req.body;
+  
+    let user = await this.db.updateUser(id, name, email);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+    res.send(user);
   };
+  
 
   deleteUser = async (req, res) => {
     const { id } = req.params;
     let user = await this.db.deleteUser(id);
-    res.send(this.getHtml(user));
+    res.send((user));
   };
 }
 

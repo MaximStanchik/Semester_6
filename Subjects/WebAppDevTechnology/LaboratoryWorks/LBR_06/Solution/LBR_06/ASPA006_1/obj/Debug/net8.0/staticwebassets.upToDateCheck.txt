@@ -1,6 +1,13 @@
-wwwroot\css\site.css
+wwwroot\Celebrities\Berners-Lee.jpg
+wwwroot\Celebrities\Chomsky.jpg
+wwwroot\Celebrities\Codd.jpg
+wwwroot\Celebrities\Dijkstra.jpg
+wwwroot\Celebrities\Knuth.jpg
+wwwroot\Celebrities\Linus.jpg
+wwwroot\Celebrities\Neumann.jpg
 wwwroot\favicon.ico
-wwwroot\js\site.js
+wwwroot\Index.html
+wwwroot\js\Celebrities.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

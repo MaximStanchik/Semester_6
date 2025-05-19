@@ -1,20 +1,44 @@
 {
   "Files": [
     {
-      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASPA006_1.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ASPA006_1.jl6qwfmek3.bundle.scp.css"
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Berners-Lee.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Berners-Lee.jpg"
     },
     {
-      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Chomsky.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Chomsky.jpg"
+    },
+    {
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Codd.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Codd.jpg"
+    },
+    {
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Dijkstra.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Dijkstra.jpg"
+    },
+    {
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Knuth.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Knuth.jpg"
+    },
+    {
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Linus.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Linus.jpg"
+    },
+    {
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Neumann.jpg",
+      "PackagePath": "staticwebassets\\Celebrities\\Neumann.jpg"
+    },
+    {
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
     },
     {
       "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
+      "PackagePath": "staticwebassets\\js\\Celebrities.js"
     },
     {
       "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\lib\\bootstrap\\LICENSE",

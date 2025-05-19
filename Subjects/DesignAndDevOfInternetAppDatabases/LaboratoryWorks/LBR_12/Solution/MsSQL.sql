@@ -52,7 +52,7 @@ SET @xmlData = '<Orders><Order><OrderID>3</OrderID><ClientID>1</ClientID><Client
 EXEC InsertReportData @xmlData;
 
 -- 4.	Создайте индекс над XML-столбцом в таблице Report.
-CREATE PRIMARY XML INDEX primary_idx_xmlIndex
+CREATE PRIMARY XML INDEX primary_idx_xmlIndex ----! + посмотреть план запроса
 ON Report (ReportData);
 
 -- 5.	Создайте процедуру извлечения значений элементов и/или атрибутов из XML -столбца в таблице Report (параметр – значение атрибута или элемента)
@@ -71,3 +71,17 @@ END;
 drop procedure getInfoFromXml;
 
 EXEC getInfoFromXml 'ClientFirstName'; 
+
+SELECT 
+    OrderData.value('(OrderID)[1]', 'INT') AS OrderID,
+    OrderData.value('(OrderStatus)[1]', 'VARCHAR(50)') AS Status
+FROM 
+    Report WITH (FORCESEEK)
+CROSS APPLY 
+    ReportData.nodes('/Orders/Order') AS OrderData(OrderData);
+
+
+	SELECT * 
+FROM sys.xml_indexes 
+WHERE name = 'primary_idx_xmlIndex';
+

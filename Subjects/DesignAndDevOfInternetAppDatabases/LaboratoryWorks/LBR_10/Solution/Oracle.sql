@@ -5,7 +5,11 @@ datafile 'log_tb2_dbf' size 100m autoextend on maxsize unlimited;
 DROP TABLESPACE lobTb;
 
 -- 2.	Создайте отдельную папку для хранения внешних WORD (или PDF) документов.
-create OR REPLACE directory bfile_dir as '/BFILE';
+create directory BFILEDIR as '/BFILE';    
+DROP directory BFILEDIR;
+
+SELECT * FROM ALL_DIRECTORIES WHERE DIRECTORY_NAME = 'BFILEDIR';
+select * from all_directories;
    
 -- 3.	Создайте пользователя lob_user с необходимыми привилегиями для вставки, обновления и удаления больших объектов.
 -- 4. 	Добавьте квоту на данное табличное пространство пользователю lob_user.
@@ -43,37 +47,25 @@ drop table lob_table;
 SELECT * FROM lob_table;
 
 -- 6. Добавьте (INSERT) фотографии и документы в таблицу.
-create directory BFILEDIR as '/BFILE';    
-DROP directory BFILEDIR;
-
-
-INSERT INTO lob_table VALUES (2, NULL, BFILENAME('BFILEDIR', 'test.jpg'));
-
-
-INSERT INTO lob_table (id, foto, doc) VALUES (1, EMPTY_BLOB(), BFILENAME('BFILEDIR', 'test.docx'));
-DELETE FROM lob_table;
 
 DECLARE
-  SRC_FILE BFILE;
-  DST_FILE BLOB;
-  LGH_FILE BINARY_INTEGER;
+    v_blob BLOB;
+    v_bfile BFILE := BFILENAME('BFILEDIR', 'test.jpg');
+    v_file_opened BOOLEAN;
 BEGIN
-  SRC_FILE := BFILENAME('BFILEDIR', 'TEST.JPG');
+    INSERT INTO lob_table (id, foto, doc) 
+    VALUES (1, EMPTY_BLOB(), BFILENAME('BFILEDIR', 'test.docx'))
+    RETURNING foto INTO v_blob;
 
-  -- Вставка с возвратом дескриптора
-  INSERT INTO lob_table (id, foto, doc)
-  VALUES (3, EMPTY_BLOB(), NULL)
-  RETURNING foto INTO DST_FILE;
+    DBMS_LOB.Open(v_bfile, DBMS_LOB.LOB_READONLY);
+    v_file_opened := TRUE;
 
-  -- Открыть и загрузить содержимое
-  DBMS_LOB.FILEOPEN(SRC_FILE, DBMS_LOB.FILE_READONLY);
-  LGH_FILE := DBMS_LOB.GETLENGTH(SRC_FILE);
-  DBMS_LOB.LOADFROMFILE(DST_FILE, SRC_FILE, LGH_FILE);
-  DBMS_LOB.FILECLOSE(SRC_FILE);
-
-  COMMIT;
+    DBMS_LOB.LoadFromFile(v_blob, v_bfile, DBMS_LOB.getlength(v_bfile));
+    COMMIT;
+    
+    IF v_file_opened THEN
+        DBMS_LOB.Close(v_bfile);
+    END IF;
 END;
 
-SELECT * FROM ALL_DIRECTORIES WHERE DIRECTORY_NAME = 'BFILEDIR';
 select * from lob_table;
-select * from all_directories;

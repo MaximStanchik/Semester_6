@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CfneoauJJf4TFaTBoj1mXeN9wg65kwWM8susVJBqVwU=",
+  "Hash": "oTrXCh8Nzn2yHZlVVy+GihZEOKu8stBs1/025zrBHJs=",
   "Source": "ASPA006_1",
   "BasePath": "_content/ASPA006_1",
   "Mode": "Default",
@@ -17,54 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ASPA006_1.styles.css",
-      "SourceId": "ASPA006_1",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/ASPA006_1",
-      "RelativePath": "ASPA006_1#[.{fingerprint}]?.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "jl6qwfmek3",
-      "Integrity": "GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ASPA006_1.styles.css"
-    },
-    {
-      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASPA006_1.bundle.scp.css",
-      "SourceId": "ASPA006_1",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/ASPA006_1",
-      "RelativePath": "ASPA006_1#[.{fingerprint}]!.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "jl6qwfmek3",
-      "Integrity": "GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASPA006_1.bundle.scp.css"
-    },
-    {
-      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\css\\site.css",
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Berners-Lee.jpg",
       "SourceId": "ASPA006_1",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\",
       "BasePath": "_content/ASPA006_1",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "RelativePath": "Celebrities/Berners-Lee#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -73,11 +31,137 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "ghylf66df4",
+      "Integrity": "1Igy/Gla+kRHeVg8yXkuR8b+9gTU/gmyVHgmsuLkkNs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\Celebrities\\Berners-Lee.jpg"
+    },
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Chomsky.jpg",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "Celebrities/Chomsky#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cwr7g8yuir",
+      "Integrity": "BKdBuQPv+kan4tu7YJn2YzBecd+QAHuaVcL9VV+w8UA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Celebrities\\Chomsky.jpg"
+    },
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Codd.jpg",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "Celebrities/Codd#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y3byutqfvn",
+      "Integrity": "vj72eOwHjtcBs8uQitLkr/dKUQdMtTadgPaulOyMlx8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Celebrities\\Codd.jpg"
+    },
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Dijkstra.jpg",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "Celebrities/Dijkstra#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z99tytpe7c",
+      "Integrity": "N9oXtGDsh5hQr/nta/2lScoreWJtYNCJNyKWsBh9PIM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Celebrities\\Dijkstra.jpg"
+    },
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Knuth.jpg",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "Celebrities/Knuth#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "01sq119lgw",
+      "Integrity": "nNpFdtr+iurtYF8Qs4Qrav+f4EpQHPun96KIw/fbjUg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Celebrities\\Knuth.jpg"
+    },
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Linus.jpg",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "Celebrities/Linus#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "256v6bxvfj",
+      "Integrity": "Ki2V0KJZacSYlQQE7sBuJMSI/pbOt0J3tz6Keqp3cmw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Celebrities\\Linus.jpg"
+    },
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Neumann.jpg",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "Celebrities/Neumann#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7op20yuh95",
+      "Integrity": "d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Celebrities\\Neumann.jpg"
     },
     {
       "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\favicon.ico",
@@ -101,12 +185,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\js\\site.js",
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Index.html",
       "SourceId": "ASPA006_1",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\",
       "BasePath": "_content/ASPA006_1",
-      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "RelativePath": "Index#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -115,11 +199,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "t90lkcr8km",
+      "Integrity": "XxdstHZAaQ+bCRZVMrC0p6ccPwj0r6uQThiz8Jt8BeY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    },
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "js/Celebrities#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1cqhumn3fm",
+      "Integrity": "kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Celebrities.js"
     },
     {
       "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -1321,8 +1426,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "ASPA006_1.bundle.scp.css",
-      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASPA006_1.bundle.scp.css",
+      "Route": "Celebrities/Berners-Lee.ghylf66df4.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Berners-Lee.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1331,56 +1436,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "176453"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs=\""
+          "Value": "\"1Igy/Gla+kRHeVg8yXkuR8b+9gTU/gmyVHgmsuLkkNs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:18:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs="
-        }
-      ]
-    },
-    {
-      "Route": "ASPA006_1.jl6qwfmek3.bundle.scp.css",
-      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASPA006_1.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1127"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:18:01 GMT"
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1390,21 +1458,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jl6qwfmek3"
+          "Value": "ghylf66df4"
         },
         {
           "Name": "label",
-          "Value": "ASPA006_1.bundle.scp.css"
+          "Value": "Celebrities/Berners-Lee.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs="
+          "Value": "sha256-1Igy/Gla+kRHeVg8yXkuR8b+9gTU/gmyVHgmsuLkkNs="
         }
       ]
     },
     {
-      "Route": "ASPA006_1.jl6qwfmek3.styles.css",
-      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ASPA006_1.styles.css",
+      "Route": "Celebrities/Berners-Lee.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Berners-Lee.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1413,19 +1481,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "176453"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs=\""
+          "Value": "\"1Igy/Gla+kRHeVg8yXkuR8b+9gTU/gmyVHgmsuLkkNs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:18:01 GMT"
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Igy/Gla+kRHeVg8yXkuR8b+9gTU/gmyVHgmsuLkkNs="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities/Chomsky.cwr7g8yuir.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Chomsky.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BKdBuQPv+kan4tu7YJn2YzBecd+QAHuaVcL9VV+w8UA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1435,21 +1540,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jl6qwfmek3"
+          "Value": "cwr7g8yuir"
         },
         {
           "Name": "label",
-          "Value": "ASPA006_1.styles.css"
+          "Value": "Celebrities/Chomsky.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs="
+          "Value": "sha256-BKdBuQPv+kan4tu7YJn2YzBecd+QAHuaVcL9VV+w8UA="
         }
       ]
     },
     {
-      "Route": "ASPA006_1.styles.css",
-      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ASPA006_1.styles.css",
+      "Route": "Celebrities/Chomsky.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Chomsky.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1458,35 +1563,35 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "8756"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs=\""
+          "Value": "\"BKdBuQPv+kan4tu7YJn2YzBecd+QAHuaVcL9VV+w8UA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:18:01 GMT"
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GcBG2n7zg0riyC9NDFj+L0WNnofGkIjY1V3iMyHsLcs="
+          "Value": "sha256-BKdBuQPv+kan4tu7YJn2YzBecd+QAHuaVcL9VV+w8UA="
         }
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\css\\site.css",
+      "Route": "Celebrities/Codd.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Codd.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1495,19 +1600,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "42656"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"vj72eOwHjtcBs8uQitLkr/dKUQdMtTadgPaulOyMlx8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:05:31 GMT"
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vj72eOwHjtcBs8uQitLkr/dKUQdMtTadgPaulOyMlx8="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities/Codd.y3byutqfvn.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Codd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vj72eOwHjtcBs8uQitLkr/dKUQdMtTadgPaulOyMlx8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,21 +1659,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "y3byutqfvn"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "Celebrities/Codd.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-vj72eOwHjtcBs8uQitLkr/dKUQdMtTadgPaulOyMlx8="
         }
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\css\\site.css",
+      "Route": "Celebrities/Dijkstra.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Dijkstra.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1540,29 +1682,320 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "258281"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"N9oXtGDsh5hQr/nta/2lScoreWJtYNCJNyKWsBh9PIM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:05:31 GMT"
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-N9oXtGDsh5hQr/nta/2lScoreWJtYNCJNyKWsBh9PIM="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities/Dijkstra.z99tytpe7c.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Dijkstra.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "258281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N9oXtGDsh5hQr/nta/2lScoreWJtYNCJNyKWsBh9PIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z99tytpe7c"
+        },
+        {
+          "Name": "label",
+          "Value": "Celebrities/Dijkstra.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N9oXtGDsh5hQr/nta/2lScoreWJtYNCJNyKWsBh9PIM="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities/Knuth.01sq119lgw.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Knuth.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nNpFdtr+iurtYF8Qs4Qrav+f4EpQHPun96KIw/fbjUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "01sq119lgw"
+        },
+        {
+          "Name": "label",
+          "Value": "Celebrities/Knuth.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nNpFdtr+iurtYF8Qs4Qrav+f4EpQHPun96KIw/fbjUg="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities/Knuth.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Knuth.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nNpFdtr+iurtYF8Qs4Qrav+f4EpQHPun96KIw/fbjUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nNpFdtr+iurtYF8Qs4Qrav+f4EpQHPun96KIw/fbjUg="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities/Linus.256v6bxvfj.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Linus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ki2V0KJZacSYlQQE7sBuJMSI/pbOt0J3tz6Keqp3cmw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "256v6bxvfj"
+        },
+        {
+          "Name": "label",
+          "Value": "Celebrities/Linus.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ki2V0KJZacSYlQQE7sBuJMSI/pbOt0J3tz6Keqp3cmw="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities/Linus.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Linus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ki2V0KJZacSYlQQE7sBuJMSI/pbOt0J3tz6Keqp3cmw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ki2V0KJZacSYlQQE7sBuJMSI/pbOt0J3tz6Keqp3cmw="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities/Neumann.7op20yuh95.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Neumann.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "321230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7op20yuh95"
+        },
+        {
+          "Name": "label",
+          "Value": "Celebrities/Neumann.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities/Neumann.jpg",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Celebrities\\Neumann.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "321230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 18:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc="
         }
       ]
     },
@@ -1649,8 +2082,8 @@
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\js\\site.js",
+      "Route": "Index.html",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1659,19 +2092,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "1663"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"XxdstHZAaQ+bCRZVMrC0p6ccPwj0r6uQThiz8Jt8BeY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:05:31 GMT"
+          "Value": "Fri, 16 May 2025 09:40:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1681,13 +2114,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-XxdstHZAaQ+bCRZVMrC0p6ccPwj0r6uQThiz8Jt8BeY="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\js\\site.js",
+      "Route": "Index.t90lkcr8km.html",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\Index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1696,19 +2129,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "1663"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"XxdstHZAaQ+bCRZVMrC0p6ccPwj0r6uQThiz8Jt8BeY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:05:31 GMT"
+          "Value": "Fri, 16 May 2025 09:40:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1718,15 +2151,97 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "t90lkcr8km"
         },
         {
           "Name": "label",
-          "Value": "js/site.js"
+          "Value": "Index.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-XxdstHZAaQ+bCRZVMrC0p6ccPwj0r6uQThiz8Jt8BeY="
+        }
+      ]
+    },
+    {
+      "Route": "js/Celebrities.1cqhumn3fm.js",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 05:53:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1cqhumn3fm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Celebrities.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs="
+        }
+      ]
+    },
+    {
+      "Route": "js/Celebrities.js",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 05:53:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs="
         }
       ]
     },

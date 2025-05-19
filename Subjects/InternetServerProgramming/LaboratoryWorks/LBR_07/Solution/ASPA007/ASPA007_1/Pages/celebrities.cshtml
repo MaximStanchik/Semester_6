@@ -1,0 +1,36 @@
+﻿@page
+@model celebritiesModel
+@{
+    ViewData["Title"] = "Celebrities Gallery";
+}
+
+<div class="container">
+    <h1>Celebrities</h1>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <a asp-page="/NewCelebrity">
+                    <img src="~/brilliant.jpg" class="card-img-top" alt="Add new celebrity">
+                    <div class="card-body">
+                        <h5 class="card-title">Add New Celebrity</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+        @foreach (var celebrity in Model.Celebrities)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a asp-page="/celebrity" asp-route-id="@celebrity.Id">
+                        <img src="@Model.ImagesPath/@celebrity.ReqPhotoPath" class="card-img-top" alt="@celebrity.FullName">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">@celebrity.FullName</h5>
+                    </div>
+                </div>
+            </div>
+        }
+        
+    </div>
+</div>

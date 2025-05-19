@@ -1,0 +1,232 @@
+[
+  {
+    "ContainingType": "ASPA007_1.API.CelebritiesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebritiesEndpoints\u003Eb__0_0",
+    "RelativePath": "api/celebrities/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DAL_Celebrity_MSSQL.Celebrity, DAL_Celebrity_MSSQL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Celebrities API"
+    ],
+    "EndpointName": "GetAllCelebrities"
+  },
+  {
+    "ContainingType": "ASPA007_1.API.CelebritiesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebritiesEndpoints\u003Eb__0_2",
+    "RelativePath": "api/celebrities/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "celebrity",
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Celebrities API"
+    ],
+    "EndpointName": "CreateCelebrity"
+  },
+  {
+    "ContainingType": "ASPA007_1.API.CelebritiesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebritiesEndpoints\u003Eb__0_1",
+    "RelativePath": "api/celebrities/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Celebrities API"
+    ],
+    "EndpointName": "GetCelebrityById"
+  },
+  {
+    "ContainingType": "ASPA007_1.API.CelebritiesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebritiesEndpoints\u003Eb__0_3",
+    "RelativePath": "api/celebrities/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCelebrity",
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Celebrities API"
+    ],
+    "EndpointName": "UpdateCelebrity"
+  },
+  {
+    "ContainingType": "ASPA007_1.API.CelebritiesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebritiesEndpoints\u003Eb__0_4",
+    "RelativePath": "api/celebrities/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Celebrities API"
+    ],
+    "EndpointName": "DeleteCelebrity"
+  },
+  {
+    "ContainingType": "ASPA007_1.API.PhotoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPhotoEndpoints\u003Eb__0_1",
+    "RelativePath": "api/photos/{fileName}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Photos API"
+    ],
+    "EndpointName": "DeletePhoto"
+  },
+  {
+    "ContainingType": "ASPA007_1.API.PhotoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPhotoEndpoints\u003Eb__0_0",
+    "RelativePath": "api/photos/upload",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ASPA007_1.API.PhotoEndpoints\u002BPhotoUploadResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Photos API"
+    ],
+    "EndpointName": "UploadPhoto"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_2",
+    "RelativePath": "test-db",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

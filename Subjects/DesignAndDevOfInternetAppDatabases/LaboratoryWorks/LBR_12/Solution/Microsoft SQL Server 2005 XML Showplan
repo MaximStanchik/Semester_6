@@ -1,0 +1,1 @@
+<ShowPlanXML xmlns="http://schemas.microsoft.com/sqlserver/2004/07/showplan" Version="1.564" Build="16.0.4175.1"><BatchSequence><Batch><Statements><StmtSimple StatementText="SET SHOWPLAN_ALL ON" StatementId="1" StatementCompId="1" StatementType="SET ON/OFF" RetrievedFromCache="false"></StmtSimple></Statements></Batch></BatchSequence></ShowPlanXML>

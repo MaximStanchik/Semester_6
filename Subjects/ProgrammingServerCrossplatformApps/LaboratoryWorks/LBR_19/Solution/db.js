@@ -2,43 +2,63 @@ const User = require("./models/user");
 const Product = require("./models/product");
 
 class DB {
-  constructor() {}
+  constructor() {
+    this.users = [];
+    this.products = [];
+    this.userId = 1;
+    this.productId = 1;
+  }
 
   async getAllUsers() {
-    return "Получение всех пользователей";
+    return this.users;
   }
 
   async createUser(name, email) {
-    const newUser = new User(1, name, email);
-    return "Создание нового пользователя: " + name + " " + email;
+    const newUser = new User(this.userId++, name, email);
+    this.users.push(newUser);
+    return newUser;
   }
 
-  async updateUser(id) {
-    return "Обновление пользователя с ID: " + id;
-  }
+  async updateUser(id, name, email) {
+    const user = this.users.find((u) => u.id === parseInt(id));
+    if (!user) return null;
+    if (name) user.name = name;
+    if (email) user.email = email;
+    return user;
+  }  
 
   async deleteUser(id) {
-    return "Удаление пользователя с ID: " + id;
+    const index = this.users.findIndex((u) => u.id === parseInt(id));
+    if (index === -1) return null;
+    const deleted = this.users.splice(index, 1)[0];
+    return deleted;
   }
 
   async getAllProducts() {
-    return "Получение всех продуктов";
+    return this.products; 
   }
 
   async createProduct(name, price) {
-    const newProduct = new Product(1, name, price);
-    return "Создание нового продукта: " + name + " " + price;
+    const newProduct = new Product(this.productId++, name, price);
+    this.products.push(newProduct);
+    return newProduct;
   }
 
-  async updateProduct(id) {
-    return "Обновление продукта с ID: " + id;
+  async updateProduct(id, name, price) {
+    const product = this.products.find((p) => p.id === parseInt(id));
+    if (!product) return null;
+    if (name) product.name = name;
+    if (price) product.price = price;
+    return product;
   }
 
   async deleteProduct(id) {
-    return "Удаление продукта с ID: " + id;
+    const index = this.products.findIndex((p) => p.id === parseInt(id));
+    if (index === -1) return null;
+    const deleted = this.products.splice(index, 1)[0];
+    return deleted;
   }
 }
 
 const SingletonDB = new DB();
-
 module.exports = { SingletonDB };

@@ -1,7 +1,3 @@
--- 1.	Подготовить данные для импорта из БД SQL Server: 
--- создать табличную функцию для отбора необходимых данных 
--- (аргументы – две даты: первая – начало периода выборки, вторая – окончание периода выборки, данные взять из таблиц по варианту).
-
 CREATE FUNCTION dbo.GetOrdersByDateRange
 (
     @StartDate DATETIME,
@@ -40,15 +36,40 @@ RETURN
 
 SELECT * FROM dbo.GetOrdersByDateRange('2025-04-13', '2025-04-16');
 select * from ORDERS;
+delete from ORDERS;
 
--- 5.	Подготовить данные для импорта из БД Oracle: создать табличную функцию для отбора необходимых данных 
--- (аргументы – две даты: первая – начало периода выборки, вторая – окончание периода выборки, 
--- данные взять из таблиц по варианту, 
--- данные должны содержать числа, строки и даты).
 
--- 6.	Выгрузить результаты действия функции во внешний файл любым способом (например, SPOOL).
 
--- 7.	Подготовить данные для экспорта в БД Oracle: подготовить текстовый файл с данными для загрузки в одну из таблиц по варианту.
 
--- 8.	Загрузить данные из этого файла в базу данных при помощи SQL*Loader, 
--- строки должны быть приведены к виду «Все буквы заглавные», числа округлены до десятых.
+ALTER TABLE ORDERS
+ALTER COLUMN CLIENT_ID INT NULL;
+
+ALTER TABLE ORDERS
+ALTER COLUMN DRIVER_ID INT NULL;
+
+ALTER TABLE ORDERS
+ALTER COLUMN SERVICE_ID INT NULL;
+
+ALTER TABLE ORDERS
+ALTER COLUMN STATUS NVARCHAR(100) NULL;
+
+ALTER TABLE ORDERS
+ALTER COLUMN CREATED_AT DATETIME NULL;
+
+ALTER TABLE ORDERS
+ALTER COLUMN ROUTE INT NULL;
+
+ALTER TABLE ORDERS
+ALTER COLUMN DELIVERY_TYPE NVARCHAR(100) NULL;
+
+ALTER TABLE ORDERS
+ALTER COLUMN TOTAL_WEIGHT INT NULL;
+
+ALTER TABLE ORDERS
+ALTER COLUMN TOTAL_VOLUME INT NULL;
+
+ALTER TABLE ORDERS
+ALTER COLUMN DELIVERED_AT DATETIME NULL;
+
+delete from orders;
+select * from orders;

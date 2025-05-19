@@ -73,5 +73,11 @@ FROM user_errors
 WHERE name = ' GETORDERSBYDATERANGE' AND type = 'FUNCTION';
 
 SELECT * FROM TABLE(GetOrdersByDateRange(DATE '2025-04-13', DATE '2025-04-16'));
-SELECT * FROM ORDERS;
 
+SELECT * FROM orders;
+
+DELETE FROM orders;
+
+SELECT column_name, data_type, data_length
+FROM user_tab_columns
+WHERE table_name = 'ORDERS';

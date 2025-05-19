@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "A0xQcWGzHj4=",
+  "success": false,
+  "projectFilePath": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\InternetServerProgramming\\Auth_3_Problem\\bugFixed\\ANC25_WEBAPI_DLL\\ANC25_WEBAPI_DLL.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект DAL_Celebrity_MSSQL несовместим с net7.0 (.NETCoreApp,Version=v7.0). Проект DAL_Celebrity_MSSQL поддерживает: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "DAL_Celebrity_MSSQL",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

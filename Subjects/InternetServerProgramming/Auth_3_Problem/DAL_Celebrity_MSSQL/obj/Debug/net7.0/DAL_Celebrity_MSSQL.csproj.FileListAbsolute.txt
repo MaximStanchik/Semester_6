@@ -1,0 +1,15 @@
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\bin\Debug\net7.0\DAL_Celebrity_MSSQL.deps.json
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\bin\Debug\net7.0\DAL_Celebrity_MSSQL.dll
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\bin\Debug\net7.0\DAL_Celebrity_MSSQL.pdb
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\bin\Debug\net7.0\DAL_Celebrity.dll
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\bin\Debug\net7.0\DAL_Celebrity.pdb
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\DAL_Celebrity_MSSQL.csproj.AssemblyReference.cache
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\DAL_Celebrity_MSSQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\DAL_Celebrity_MSSQL.AssemblyInfoInputs.cache
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\DAL_Celebrity_MSSQL.AssemblyInfo.cs
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\DAL_Celebrity_MSSQL.csproj.CoreCompileInputs.cache
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\DAL_Celebrity_MSSQL.csproj.CopyComplete
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\DAL_Celebrity_MSSQL.dll
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\refint\DAL_Celebrity_MSSQL.dll
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\DAL_Celebrity_MSSQL.pdb
+D:\VS_Projects\ANC\DAL_Celebrity_MSSQL\obj\Debug\net7.0\ref\DAL_Celebrity_MSSQL.dll

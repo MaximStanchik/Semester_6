@@ -15,8 +15,8 @@ public class RSA {
     private final BigInteger e;
     private final BigInteger d;
     public RSA() {
-        this.p = generatePrimeNumber(100);
-        this.q = generatePrimeNumber(100);
+        this.p = generatePrimeNumber(512);
+        this.q = generatePrimeNumber(512);
 
         this.n = this.p.multiply(this.q);
         this.fi = this.p.subtract(BigInteger.ONE).multiply(this.q.subtract(BigInteger.ONE));

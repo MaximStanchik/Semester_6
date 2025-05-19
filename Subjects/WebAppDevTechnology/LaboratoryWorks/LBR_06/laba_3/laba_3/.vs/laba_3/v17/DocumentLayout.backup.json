@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\controllers\\celebritiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\controllers\\celebritiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\classes\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\classes\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba3_lib2\\classes\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|solutionrelative:laba3_lib2\\classes\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba3_lib2\\classes\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +15,48 @@
       "RelativeMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|solutionrelative:laba3_lib2\\classes\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba3_lib2\\classes\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|solutionrelative:laba3_lib2\\classes\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba3_lib2\\classes\\lifeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|solutionrelative:laba3_lib2\\classes\\lifeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba3_lib2\\classes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|solutionrelative:laba3_lib2\\classes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba3_lib2\\classes\\lifeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|solutionrelative:laba3_lib2\\classes\\lifeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\classes\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\classes\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\controllers\\celebritiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\controllers\\celebritiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\wwwroot\\js\\celebrities.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\wwwroot\\js\\celebrities.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba4_asp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83C861F5-96B3-4C81-B8DD-60A9628E847E}|laba4_asp\\laba4_asp.csproj|solutionrelative:laba4_asp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{448F4BA8-0C80-48CA-B80E-0013B2C988B5}|laba3_lib2\\laba3_lib2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_06\\laba_3\\laba_3\\laba3_lib2\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,37 +94,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "laba4_asp\\appsettings.Development.json",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\appsettings.Development.json",
-              "RelativeToolTip": "laba4_asp\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-02T09:08:06.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CelebritiesController.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\controllers\\CelebritiesController.cs",
               "RelativeDocumentMoniker": "laba4_asp\\controllers\\CelebritiesController.cs",
               "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\controllers\\CelebritiesController.cs",
               "RelativeToolTip": "laba4_asp\\controllers\\CelebritiesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T09:07:15.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\appsettings.json",
+              "RelativeDocumentMoniker": "laba4_asp\\appsettings.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\appsettings.json",
+              "RelativeToolTip": "laba4_asp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T09:22:17.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CelebritiesConfig.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\classes\\CelebritiesConfig.cs",
               "RelativeDocumentMoniker": "laba4_asp\\classes\\CelebritiesConfig.cs",
@@ -117,19 +137,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "laba3_lib2",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\laba3_lib2.csproj",
-              "RelativeDocumentMoniker": "laba3_lib2\\laba3_lib2.csproj",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\laba3_lib2.csproj",
-              "RelativeToolTip": "laba3_lib2\\laba3_lib2.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-02T08:46:23.826Z",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Repository.cs",
+              "RelativeDocumentMoniker": "laba3_lib2\\Classes\\Repository.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Repository.cs",
+              "RelativeToolTip": "laba3_lib2\\Classes\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:20:28.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Lifeevent.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Lifeevent.cs",
+              "RelativeDocumentMoniker": "laba3_lib2\\Classes\\Lifeevent.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Lifeevent.cs",
+              "RelativeToolTip": "laba3_lib2\\Classes\\Lifeevent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:20:03.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Init.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Init.cs",
+              "RelativeDocumentMoniker": "laba3_lib2\\Classes\\Init.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Init.cs",
+              "RelativeToolTip": "laba3_lib2\\Classes\\Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:20:49.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Context.cs",
+              "RelativeDocumentMoniker": "laba3_lib2\\Classes\\Context.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Context.cs",
+              "RelativeToolTip": "laba3_lib2\\Classes\\Context.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:20:44.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Celebrity.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Celebrity.cs",
               "RelativeDocumentMoniker": "laba3_lib2\\Classes\\Celebrity.cs",
@@ -143,19 +203,94 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Lifeevent.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Lifeevent.cs",
-              "RelativeDocumentMoniker": "laba3_lib2\\Classes\\Lifeevent.cs",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Lifeevent.cs",
-              "RelativeToolTip": "laba3_lib2\\Classes\\Lifeevent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\Program.cs",
+              "RelativeDocumentMoniker": "laba4_asp\\Program.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\Program.cs",
+              "RelativeToolTip": "laba4_asp\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:20:03.247Z",
+              "WhenOpened": "2025-05-01T11:13:25.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "laba4_asp\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "laba4_asp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T09:27:59.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Celebrities.js",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\wwwroot\\js\\Celebrities.js",
+              "RelativeDocumentMoniker": "laba4_asp\\wwwroot\\js\\Celebrities.js",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\wwwroot\\js\\Celebrities.js",
+              "RelativeToolTip": "laba4_asp\\wwwroot\\js\\Celebrities.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-16T08:56:48.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.html",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\wwwroot\\Index.html",
+              "RelativeDocumentMoniker": "laba4_asp\\wwwroot\\Index.html",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\wwwroot\\Index.html",
+              "RelativeToolTip": "laba4_asp\\wwwroot\\Index.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-16T08:56:39.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Celebrities.config.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\Celebrities.config.json",
+              "RelativeDocumentMoniker": "laba4_asp\\Celebrities.config.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\Celebrities.config.json",
+              "RelativeToolTip": "laba4_asp\\Celebrities.config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T09:19:00.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "laba4_asp\\appsettings.Development.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\appsettings.Development.json",
+              "RelativeToolTip": "laba4_asp\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T09:08:06.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "laba3_lib2",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\laba3_lib2.csproj",
+              "RelativeDocumentMoniker": "laba3_lib2\\laba3_lib2.csproj",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\laba3_lib2.csproj",
+              "RelativeToolTip": "laba3_lib2\\laba3_lib2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-02T08:46:23.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Test.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\test_MSSQL\\Test.cs",
               "RelativeDocumentMoniker": "test_MSSQL\\Test.cs",
@@ -163,51 +298,11 @@
               "RelativeToolTip": "test_MSSQL\\Test.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:23:10.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:23:10.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Repository.cs",
-              "RelativeDocumentMoniker": "laba3_lib2\\Classes\\Repository.cs",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Repository.cs",
-              "RelativeToolTip": "laba3_lib2\\Classes\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:20:28.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Init.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Init.cs",
-              "RelativeDocumentMoniker": "laba3_lib2\\Classes\\Init.cs",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Init.cs",
-              "RelativeToolTip": "laba3_lib2\\Classes\\Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:20:49.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Context.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Context.cs",
-              "RelativeDocumentMoniker": "laba3_lib2\\Classes\\Context.cs",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Classes\\Context.cs",
-              "RelativeToolTip": "laba3_lib2\\Classes\\Context.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:20:44.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib2\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "laba3_lib2\\Interfaces\\IRepository.cs",
@@ -215,25 +310,11 @@
               "RelativeToolTip": "laba3_lib2\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:18:33.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:18:33.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\Program.cs",
-              "RelativeDocumentMoniker": "laba4_asp\\Program.cs",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba4_asp\\Program.cs",
-              "RelativeToolTip": "laba4_asp\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAuwGIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:13:25.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ICelebrity.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib\\Interfaces\\ICelebrity.cs",
               "RelativeDocumentMoniker": "laba3_lib\\Interfaces\\ICelebrity.cs",
@@ -241,12 +322,11 @@
               "RelativeToolTip": "laba3_lib\\Interfaces\\ICelebrity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:14:14.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:14:14.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "ILifeevent.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib\\Interfaces\\ILifeevent.cs",
               "RelativeDocumentMoniker": "laba3_lib\\Interfaces\\ILifeevent.cs",
@@ -254,12 +334,11 @@
               "RelativeToolTip": "laba3_lib\\Interfaces\\ILifeevent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:14:33.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:14:33.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "IMix.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib\\Interfaces\\IMix.cs",
               "RelativeDocumentMoniker": "laba3_lib\\Interfaces\\IMix.cs",
@@ -267,12 +346,11 @@
               "RelativeToolTip": "laba3_lib\\Interfaces\\IMix.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:13:44.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:13:44.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\laba_3\\laba_3\\laba3_lib\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "laba3_lib\\Interfaces\\IRepository.cs",
@@ -280,8 +358,7 @@
               "RelativeToolTip": "laba3_lib\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:13:33.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:13:33.631Z"
             }
           ]
         }

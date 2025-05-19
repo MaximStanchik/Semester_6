@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "VDP6p5K4OGM=",
+  "success": false,
+  "projectFilePath": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\InternetServerProgramming\\Auth_3_Problem\\bugFixed\\ANC31WebAPI\\ANC31WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\InternetServerProgramming\\Auth_3_Problem\\ANC\\ANC25_WEBAPI_DLL\\ANC25_WEBAPI_DLL.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\InternetServerProgramming\\Auth_3_Problem\\ANC\\ANC25_WEBAPI_DLL\\ANC25_WEBAPI_DLL.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

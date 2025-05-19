@@ -1,0 +1,7 @@
+{
+  "Celebrities": {
+    "PhotosRequestPath": "/Celebrities",
+    "PhotosFolder": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\InternetServerProgramming\\LaboratoryWorks\\LBR_07\\Solution\\ASPA007\\ASPA007_1\\Celebrities",
+    "ConnectionString": "Server=localhost,1433;Database=ASP;User Id=sa;Password=StrongP@ssw0rd;TrustServerCertificate=True;"
+  }
+}

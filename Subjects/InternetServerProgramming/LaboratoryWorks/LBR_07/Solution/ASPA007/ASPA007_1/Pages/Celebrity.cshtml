@@ -1,0 +1,46 @@
+﻿@page "{id:int}"
+@model celebrityModel
+@{
+    ViewData["Title"] = Model.Celebrity.FullName;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="@Model.ImagesPath/@Model.Celebrity.ReqPhotoPath"
+                     class="card-img-top"
+                     alt="@Model.Celebrity.FullName">
+                <div class="card-body">
+                    <h1 class="card-title">@Model.Celebrity.FullName</h1>
+                    <p class="text-muted">@Model.Celebrity.Nationality</p>
+
+                    
+                    <a asp-page="/celebrities" class="btn btn-outline-primary mt-3">
+                        <i class="bi bi-arrow-left"></i> GoHome
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
+
+                    
+    </div>
+</div>
+
+
+@* @section Styles {
+    <style>
+        .card {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .bi {
+            vertical-align: -.125em;
+        }
+    </style>
+} *@
