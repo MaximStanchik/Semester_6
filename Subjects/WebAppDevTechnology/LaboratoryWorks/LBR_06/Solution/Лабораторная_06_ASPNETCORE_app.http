@@ -34,7 +34,7 @@ Content-Type:application/json
 
 ###  обновить знаменитость по ID  
 ###  MapPut("/{id:int:min(1)}", 
-PUT {{hp}}{{capi}}/13
+PUT {{hp}}{{capi}}/1
 Content-Type:application/json
 
  {
@@ -44,9 +44,9 @@ Content-Type:application/json
   }
 
 
-### получить файл фотографии по имени файла (fname)
+### получить файл фотографии по имени файла (fname) //TODO: доделать
 ### MapGet("/photo/{fname}"
-GET {{hp}}{{capi}}/photo/Knuth.jpg
+GET {{hp}}{{capi}}/photo/Codd.jpg
 
 
 ### 
@@ -71,7 +71,7 @@ GET {{hp}}{{lapi}}/cel/3
 
 ###  удаление события по ID
 ###  MapDelete("/{id:int:min(1)}"
-DELETE {{hp}}{{lapi}}/10
+DELETE {{hp}}{{lapi}}/23
 
 
 
@@ -89,7 +89,7 @@ Content-Type:application/json
 
 ###  обновить событие по ID 
 ###  MapPut("/{id:int:min(1)}"
-PUT {{hp}}{{lapi}}/2
+PUT {{hp}}{{lapi}}/3
 Content-Type:application/json
 
 {

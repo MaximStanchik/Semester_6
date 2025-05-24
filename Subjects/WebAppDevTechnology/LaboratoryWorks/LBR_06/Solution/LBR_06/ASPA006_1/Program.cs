@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("Celebrities.config.json", optional: false, reloadOnChange: true);
 builder.Services.Configure<CelebritiesConfig>(builder.Configuration.GetSection("Celebrities"));
 
-builder.Services.AddScoped<IRepository, Repository>((IServiceProvider p) =>
+builder.Services.AddScoped<IRepository, Repository>((IServiceProvider p) => // дл€ чего используетс€ addScoped
 {
     var config = p.GetRequiredService<IOptions<CelebritiesConfig>>().Value;
     return new Repository(config.ConnectionString);
@@ -17,7 +17,7 @@ builder.Services.AddScoped<IRepository, Repository>((IServiceProvider p) =>
 
 var app = builder.Build();
 
-app.UseExceptionHandler("/error");
+app.UseExceptionHandler("/error"); // нужно создать customExceptionHandler
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
@@ -51,12 +51,14 @@ celebrities.MapGet("/photo/{fname}", async (IOptions<CelebritiesConfig> iconfig,
         return Results.File(await File.ReadAllBytesAsync(filePath), "image/jpeg");
     }
 
+    Console.WriteLine("[DEBUG] File NOT found.");
     return Results.NotFound();
 });
 
-//—ќЅџ“»я(Lifeevents)
-var lifeevents = app.MapGroup("/api/le");
 
+//—ќЅџ“»я(Lifeevents)
+var lifeevents = app.MapGroup("/api/le"); // дл€ чего используетс€ mapGroup + delete во второй лабе
+    
 // все событи€
 lifeevents.MapGet("/", (IRepository repo) => Results.Json(repo.GetAllLifeevents(), new JsonSerializerOptions { WriteIndented = true }));
 
@@ -74,19 +76,6 @@ lifeevents.MapPost("/", (IRepository repo, Lifeevent lifeevent) => Results.Conte
 
 //изменить событие по ID
 lifeevents.MapPut("/{id:int:min(1)}", (IRepository repo, int id, Lifeevent lifeevent) => Results.Content((repo.UpdLifeevent(id, lifeevent) ? "<h1>All correct</h1>" : "<h1>Error</h1>"), "text/html"));
-
-app.MapGet("/photo", async (IOptions<CelebritiesConfig> iconfig, HttpContext context) =>
-{
-    var filePath = Path.Combine(iconfig.Value.PhotosFolder);
-
-    if (File.Exists(filePath))
-    {
-        return Results.File(await File.ReadAllBytesAsync(filePath), "image/jpeg");
-    }
-
-    return Results.NotFound();
-});
-
 
 app.MapGet("/api/GetLocalLe/{photoName}", (IRepository repo, string photoName) =>
 {

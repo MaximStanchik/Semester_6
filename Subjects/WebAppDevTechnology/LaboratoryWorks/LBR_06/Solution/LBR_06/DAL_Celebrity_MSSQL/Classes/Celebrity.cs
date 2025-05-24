@@ -9,9 +9,18 @@
          public string? ReqPhotoPath  { get; set; }         
          public virtual bool  Update(Celebrity celebrity)   
          {
-             if (!string.IsNullOrEmpty(celebrity.FullName))      FullName = celebrity.FullName;
-             if (!string.IsNullOrEmpty(celebrity.Nationality))   Nationality = celebrity.Nationality;
-             if (!string.IsNullOrEmpty(celebrity.ReqPhotoPath))  ReqPhotoPath = celebrity.ReqPhotoPath;   
+            if (!string.IsNullOrEmpty(celebrity.FullName))
+            {
+                FullName = celebrity.FullName;
+            }
+            if (!string.IsNullOrEmpty(celebrity.Nationality))
+            {
+                Nationality = celebrity.Nationality;
+            }
+            if (!string.IsNullOrEmpty(celebrity.ReqPhotoPath))
+            {
+                ReqPhotoPath = celebrity.ReqPhotoPath;
+            }
              return  true;    
          } 
     }
