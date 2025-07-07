@@ -1,0 +1,68 @@
+﻿@model laba_4_asp.Models.CelebrityViewModel
+@inject laba_4_asp.Services.ICountryService CountryService
+
+@{
+    var countries = CountryService.GetCountries();
+    var countryList = new SelectList(countries, "Code", "CountryLabel");
+}
+
+@using (Html.BeginForm("New", "Celebrities", FormMethod.Post, new { enctype = "multipart/form-data", onsubmit = "return confirmSubmit()" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-row">
+        <div style="display: flex; gap: 1rem;">
+            @Html.TextBox("fullName", Model?.FullName, new { placeholder = "Celebrity's Name", required = "true" })
+            @Html.DropDownList("nationality", countryList, "-- Select Country --", new { required = "true" })
+        </div>
+    </div>
+
+    <div class="form-row">
+        <input id="photoPath" name="photoPath" type="file" style="display:none;" accept="image/*" onchange="previewImage(this)" required />
+        <button id="uploadButton" type="button" onclick="document.getElementById('photoPath').click()">
+            <span id="uploadText">Upload Photo</span>
+        </button>
+        <img id="newPhotoPreview" src="/api/cel/photo/default.png" class="img-thumbnail" style="width: 300px; margin-top: 30px; "/>
+    </div>
+
+    <div class="form-row" style="display: flex; gap: 1rem; margin-top: 2rem;">
+        <button type="submit" class="btn-submit">SAVE</button>
+        <button type="button" class="btn-cancel" onclick="redirectToHome()">CANCEL</button>
+    </div>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert-danger">@ViewBag.Error</div>
+    }
+
+    <script>
+        function confirmSubmit() {
+            return confirm('Are you sure you want to submit this form?');
+        }
+
+        function redirectToHome() {
+            window.location.href = '/';
+        }
+
+        function previewImage(input) {
+            const previewContainer = document.getElementById('newPhotoPreviewContainer');
+            const preview = document.getElementById('newPhotoPreview');
+
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    previewContainer.style.display = 'block';
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            } else {
+                reader.onload = function() {
+                    preview.src = "../Photos/default.png";
+                    previewContainer.style.display = 'block';
+                }
+            }
+        }
+    </script>
+}

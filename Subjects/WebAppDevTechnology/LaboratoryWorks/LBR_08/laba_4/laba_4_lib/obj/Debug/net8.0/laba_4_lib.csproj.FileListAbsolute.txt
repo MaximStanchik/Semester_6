@@ -1,0 +1,13 @@
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\bin\Debug\net8.0\laba_4_lib.deps.json
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\bin\Debug\net8.0\laba_4_lib.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\bin\Debug\net8.0\laba_4_lib.pdb
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\laba_4_lib.csproj.AssemblyReference.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\laba_4_lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\laba_4_lib.AssemblyInfoInputs.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\laba_4_lib.AssemblyInfo.cs
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\laba_4_lib.csproj.CoreCompileInputs.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\laba_4_lib.sourcelink.json
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\laba_4_lib.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\refint\laba_4_lib.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\laba_4_lib.pdb
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\laba_4\laba_4_lib\obj\Debug\net8.0\ref\laba_4_lib.dll

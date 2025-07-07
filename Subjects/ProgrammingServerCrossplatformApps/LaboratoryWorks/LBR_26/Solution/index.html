@@ -1,0 +1,30 @@
+<!-- emcc functions.c -Os -s WASM=1 -s SIDE_MODULE=1 -o functions.wasm
+ -->
+ <!-- http://localhost:8080/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WASM Server Demo</title>
+</head>
+<body>
+  <h1>WASM через GET</h1>
+  <button onclick="run()">Выполнить</button>
+  <pre id="output"></pre>
+
+  <script>
+    async function run() {
+      const response = await fetch('/functions.wasm'); // файл должен быть на сервере
+      const buffer = await response.arrayBuffer();
+      const { instance } = await WebAssembly.instantiate(buffer);
+
+      const wasm = instance.exports;
+
+      document.getElementById("output").textContent =
+        `sum(10, 2) = ${wasm.sum(10, 2)}\n` +
+        `mul(10, 2) = ${wasm.mul(10, 2)}\n` +
+        `sub(10, 2) = ${wasm.sub(10, 2)}\n`;
+    }
+  </script>
+</body>
+</html>

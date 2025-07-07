@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\Solution\\LBR_08\\LBR_08\\wwwroot\\Celebrities.js",
+      "PackagePath": "staticwebassets\\Celebrities.js"
+    },
+    {
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\Solution\\LBR_08\\LBR_08\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\Solution\\LBR_08\\LBR_08\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LBR_08.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LBR_08.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LBR_08.props",
+      "PackagePath": "build\\LBR_08.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LBR_08.props",
+      "PackagePath": "buildMultiTargeting\\LBR_08.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LBR_08.props",
+      "PackagePath": "buildTransitive\\LBR_08.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

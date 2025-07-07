@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oTrXCh8Nzn2yHZlVVy+GihZEOKu8stBs1/025zrBHJs=",
+  "Hash": "mYaWTqy0hVoaTim/Ia9U6j/H2g3AV7TOeVOuAUeqwng=",
   "Source": "ASPA006_1",
   "BasePath": "_content/ASPA006_1",
   "Mode": "Default",
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1cqhumn3fm",
-      "Integrity": "kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs=",
+      "Fingerprint": "bceqka2wdn",
+      "Integrity": "5RhTQNgkrhaQ0CvsZEGoZBJjlM8kHVeNdY/wLGOIMZM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Celebrities.js"
@@ -2164,7 +2164,7 @@
       ]
     },
     {
-      "Route": "js/Celebrities.1cqhumn3fm.js",
+      "Route": "js/Celebrities.bceqka2wdn.js",
       "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_06\\Solution\\LBR_06\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2174,7 +2174,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "871"
+          "Value": "1001"
         },
         {
           "Name": "Content-Type",
@@ -2182,11 +2182,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs=\""
+          "Value": "\"5RhTQNgkrhaQ0CvsZEGoZBJjlM8kHVeNdY/wLGOIMZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 05:53:39 GMT"
+          "Value": "Wed, 04 Jun 2025 11:43:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2196,7 +2196,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1cqhumn3fm"
+          "Value": "bceqka2wdn"
         },
         {
           "Name": "label",
@@ -2204,7 +2204,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs="
+          "Value": "sha256-5RhTQNgkrhaQ0CvsZEGoZBJjlM8kHVeNdY/wLGOIMZM="
         }
       ]
     },
@@ -2219,7 +2219,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "871"
+          "Value": "1001"
         },
         {
           "Name": "Content-Type",
@@ -2227,11 +2227,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs=\""
+          "Value": "\"5RhTQNgkrhaQ0CvsZEGoZBJjlM8kHVeNdY/wLGOIMZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 05:53:39 GMT"
+          "Value": "Wed, 04 Jun 2025 11:43:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2241,7 +2241,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs="
+          "Value": "sha256-5RhTQNgkrhaQ0CvsZEGoZBJjlM8kHVeNdY/wLGOIMZM="
         }
       ]
     },

@@ -1,0 +1,13 @@
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.deps.json
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.pdb
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.AssemblyInfoInputs.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.AssemblyInfo.cs
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.csproj.CoreCompileInputs.cache
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.sourcelink.json
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\refint\DAL_Celebrity.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.pdb
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\ref\DAL_Celebrity.dll
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_08\Solution\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.csproj.AssemblyReference.cache

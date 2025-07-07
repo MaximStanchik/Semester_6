@@ -14,11 +14,11 @@ GET {{hp}}{{capi}}/7
 
 ### знаменитость по ID события 
 ### MapGet("/le/{id:int:min(1)}"
-GET {{hp}}{{capi}}/le/7
+GET {{hp}}{{capi}}/le/73
 
 ###  удалить знаменитость по ID
 ###.MapDelete("/{id:int:min(1)}",
-DELETE {{hp}}{{capi}}/4
+DELETE {{hp}}{{capi}}/434
 
 
 ###  добавить новую знаменитость
@@ -34,7 +34,7 @@ Content-Type:application/json
 
 ###  обновить знаменитость по ID  
 ###  MapPut("/{id:int:min(1)}", 
-PUT {{hp}}{{capi}}/1
+PUT {{hp}}{{capi}}/132
 Content-Type:application/json
 
  {
@@ -44,9 +44,9 @@ Content-Type:application/json
   }
 
 
-### получить файл фотографии по имени файла (fname) //TODO: доделать
+### получить файл фотографии по имени файла (fname)
 ### MapGet("/photo/{fname}"
-GET {{hp}}{{capi}}/photo/Codd.jpg
+GET {{hp}}{{capi}}/photo/Knuth.jpg
 
 
 ### 
@@ -66,12 +66,12 @@ GET {{hp}}{{lapi}}/10
 
 ###  все события по ID знаменитости
 ###  MapGet("/cel/{id:int:min(1)}
-GET {{hp}}{{lapi}}/cel/3
+GET {{hp}}{{lapi}}/cel/33
 
 
 ###  удаление события по ID
 ###  MapDelete("/{id:int:min(1)}"
-DELETE {{hp}}{{lapi}}/23
+DELETE {{hp}}{{lapi}}/102
 
 
 
@@ -87,13 +87,13 @@ Content-Type:application/json
     "reqPhotoPath": null
  }
 
-###  обновить событие по ID 
+###  обновить событие по ID !
 ###  MapPut("/{id:int:min(1)}"
-PUT {{hp}}{{lapi}}/3
+PUT {{hp}}{{lapi}}/2
 Content-Type:application/json
 
 {
-    "celebrityId": 13,
+    "celebrityId": 3,
     "date": "1931-04-19T00:00:00",
     "description": "Hello World.",
     "reqPhotoPath": null

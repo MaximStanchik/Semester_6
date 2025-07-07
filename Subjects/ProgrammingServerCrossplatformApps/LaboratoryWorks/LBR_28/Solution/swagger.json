@@ -1,0 +1,177 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Телефонный справочник API",
+      "version": "1.0.0",
+      "description": "REST API для управления телефонным справочником"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3000",
+        "description": "Local server"
+      }
+    ],
+    "paths": {
+      "/TD": {
+        "get": {
+          "summary": "Получить все контакты",
+          "responses": {
+            "200": {
+              "description": "Список контактов",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": { "$ref": "#/components/schemas/Contact" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "post": {
+          "summary": "Добавить новый контакт",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Contact" }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Контакт добавлен",
+              "content": {
+                "application/json": {
+                  "schema": { "$ref": "#/components/schemas/Contact" }
+                }
+              }
+            },
+            "400": {
+              "description": "Ошибка данных",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "message": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/TD/{id}": {
+        "get": {
+          "summary": "Получить контакт по ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": { "type": "integer", "minimum": 1 }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Контакт найден",
+              "content": {
+                "application/json": {
+                  "schema": { "$ref": "#/components/schemas/Contact" }
+                }
+              }
+            },
+            "404": {
+              "description": "Контакт не найден",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "message": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "put": {
+          "summary": "Обновить контакт",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": { "type": "integer", "minimum": 1 }
+            }
+          ],
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Contact" }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Контакт обновлён"
+            },
+            "400": {
+              "description": "Ошибка данных"
+            },
+            "404": {
+              "description": "Контакт не найден"
+            }
+          }
+        },
+        "delete": {
+          "summary": "Удалить контакт",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "schema": { "type": "integer", "minimum": 1 }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Контакт успешно удалён"
+            },
+            "404": {
+              "description": "Контакт не найден"
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Contact": {
+          "type": "object",
+          "required": ["id", "name", "number"],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "minimum": 1,
+              "example": 1
+            },
+            "name": {
+              "type": "string",
+              "example": "Иван"
+            },
+            "number": {
+              "type": "string",
+              "example": "+7-999-123-45-67"
+            }
+          }
+        }
+      }
+    }
+  }
+  

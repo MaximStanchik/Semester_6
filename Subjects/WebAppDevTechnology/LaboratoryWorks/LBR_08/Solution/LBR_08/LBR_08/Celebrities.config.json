@@ -1,0 +1,7 @@
+{
+  "Celebrities": {
+    "PhotoRequestPath": "/Photos",
+    "PhotosFolder": "Photos",
+    "ConnectionString": "Server=localhost,1433; Database=ASP; User Id=sa; Password=StrongP@ssw0rd; TrustServerCertificate=True;"
+  }
+}

@@ -10,15 +10,15 @@ GET {{hp}}{{capi}}
 
 ### знаменитость по ID
 ### MapGet("/{id:int:min(1)}"
-GET {{hp}}{{capi}}/7
+GET {{hp}}{{capi}}/1
 
 ### знаменитость по ID события 
 ### MapGet("/le/{id:int:min(1)}"
-GET {{hp}}{{capi}}/le/7
+GET {{hp}}{{capi}}/le/4
 
 ###  удалить знаменитость по ID
 ###.MapDelete("/{id:int:min(1)}",
-DELETE {{hp}}{{capi}}/4
+DELETE {{hp}}{{capi}}/1
 
 
 ###  добавить новую знаменитость
@@ -27,14 +27,14 @@ POST {{hp}}{{capi}}
 Content-Type:application/json
 
   {
-    "fullName":    "Ershov Andrey",
+    "fullName":    "Ershov Anweffewfdrey",
     "nationality": "RU",
     "reqPhotoPath":"Ershov.jpg"
   }
 
 ###  обновить знаменитость по ID  
 ###  MapPut("/{id:int:min(1)}", 
-PUT {{hp}}{{capi}}/13
+PUT {{hp}}{{capi}}/1
 Content-Type:application/json
 
  {
@@ -66,12 +66,12 @@ GET {{hp}}{{lapi}}/10
 
 ###  все события по ID знаменитости
 ###  MapGet("/cel/{id:int:min(1)}
-GET {{hp}}{{lapi}}/cel/3
+GET {{hp}}{{lapi}}/cel/2
 
 
 ###  удаление события по ID
 ###  MapDelete("/{id:int:min(1)}"
-DELETE {{hp}}{{lapi}}/10
+DELETE {{hp}}{{lapi}}/31
 
 
 
@@ -81,7 +81,7 @@ POST {{hp}}{{lapi}}
 Content-Type:application/json
 
 {
-    "celebrityId": 13,
+    "celebrityId": 2,
     "date": "1931-04-19T00:00:00",
     "description": "Дата перерождения",
     "reqPhotoPath": null
@@ -89,13 +89,13 @@ Content-Type:application/json
 
 ###  обновить событие по ID 
 ###  MapPut("/{id:int:min(1)}"
-PUT {{hp}}{{lapi}}/2
+PUT {{hp}}{{lapi}}/31
 Content-Type:application/json
 
 {
-    "celebrityId": 13,
+    "celebrityId": 2,
     "date": "1931-04-19T00:00:00",
-    "description": "Hello World.",
+    "description": "Описание",
     "reqPhotoPath": null
 }
 

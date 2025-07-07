@@ -3,34 +3,6 @@
   "WorkspaceRootPath": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\dal004\\dal004.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|solutionrelative:dal004\\dal004.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\dal004\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|solutionrelative:dal004\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\dal004\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|solutionrelative:dal004\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\dal004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|solutionrelative:dal004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB15934D-F46B-4C36-87C4-04EA7F64B93D}|Test_DAL004\\Test_DAL004.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\test_dal004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB15934D-F46B-4C36-87C4-04EA7F64B93D}|Test_DAL004\\Test_DAL004.csproj|solutionrelative:test_dal004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08F55E3-9DA1-48CF-A473-BA0A52123418}|ASPA004_3\\ASPA004_3.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08F55E3-9DA1-48CF-A473-BA0A52123418}|ASPA004_3\\ASPA004_3.csproj|solutionrelative:aspa004_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64140ED8-05A4-40CF-982A-53F976B2D9D3}|ASPA004_2\\ASPA004_2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64140ED8-05A4-40CF-982A-53F976B2D9D3}|ASPA004_2\\ASPA004_2.csproj|solutionrelative:aspa004_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|solutionrelative:aspa004_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,12 +11,40 @@
       "RelativeMoniker": "D:0:0:{64140ED8-05A4-40CF-982A-53F976B2D9D3}|ASPA004_2\\ASPA004_2.csproj|solutionrelative:aspa004_2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08F55E3-9DA1-48CF-A473-BA0A52123418}|ASPA004_3\\ASPA004_3.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_3\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F08F55E3-9DA1-48CF-A473-BA0A52123418}|ASPA004_3\\ASPA004_3.csproj|solutionrelative:aspa004_3\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{64140ED8-05A4-40CF-982A-53F976B2D9D3}|ASPA004_2\\ASPA004_2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64140ED8-05A4-40CF-982A-53F976B2D9D3}|ASPA004_2\\ASPA004_2.csproj|solutionrelative:aspa004_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08F55E3-9DA1-48CF-A473-BA0A52123418}|ASPA004_3\\ASPA004_3.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08F55E3-9DA1-48CF-A473-BA0A52123418}|ASPA004_3\\ASPA004_3.csproj|solutionrelative:aspa004_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\dal004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|solutionrelative:dal004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|solutionrelative:aspa004_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|solutionrelative:aspa004_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\dal004\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|solutionrelative:dal004\\celebrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\dal004\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF062333-0B31-4C48-B893-9B1E29A021C3}|DAL004\\DAL004.csproj|solutionrelative:dal004\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB15934D-F46B-4C36-87C4-04EA7F64B93D}|Test_DAL004\\Test_DAL004.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\test_dal004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB15934D-F46B-4C36-87C4-04EA7F64B93D}|Test_DAL004\\Test_DAL004.csproj|solutionrelative:test_dal004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08F55E3-9DA1-48CF-A473-BA0A52123418}|ASPA004_3\\ASPA004_3.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_3\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F08F55E3-9DA1-48CF-A473-BA0A52123418}|ASPA004_3\\ASPA004_3.csproj|solutionrelative:aspa004_3\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64140ED8-05A4-40CF-982A-53F976B2D9D3}|ASPA004_2\\ASPA004_2.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_2\\aspa004_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -67,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{64140ED8-05A4-40CF-982A-53F976B2D9D3}|ASPA004_2\\ASPA004_2.csproj|solutionrelative:aspa004_2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|solutionrelative:aspa004_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_04\\solution\\aspa\\aspa004_1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F837311D-A574-4DB6-8660-22552902BB37}|ASPA004_1\\ASPA004_1.csproj|solutionrelative:aspa004_1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -82,97 +78,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DAL004",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\DAL004\\DAL004.csproj",
-              "RelativeDocumentMoniker": "DAL004\\DAL004.csproj",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\DAL004\\DAL004.csproj",
-              "RelativeToolTip": "DAL004\\DAL004.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-02T08:36:56.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Celebrity.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\DAL004\\Celebrity.cs",
-              "RelativeDocumentMoniker": "DAL004\\Celebrity.cs",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\DAL004\\Celebrity.cs",
-              "RelativeToolTip": "DAL004\\Celebrity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T09:11:19.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\Program.cs",
-              "RelativeDocumentMoniker": "ASPA004_1\\Program.cs",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\Program.cs",
-              "RelativeToolTip": "ASPA004_1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T12:50:39.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_3\\Program.cs",
-              "RelativeDocumentMoniker": "ASPA004_3\\Program.cs",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_3\\Program.cs",
-              "RelativeToolTip": "ASPA004_3\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAmwC4AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T20:37:17.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\appsettings.json",
-              "RelativeDocumentMoniker": "ASPA004_1\\appsettings.json",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\appsettings.json",
-              "RelativeToolTip": "ASPA004_1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T13:25:14.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_2\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ASPA004_2\\appsettings.Development.json",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_2\\appsettings.Development.json",
-              "RelativeToolTip": "ASPA004_2\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T20:05:18.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\DAL004\\Program.cs",
               "RelativeDocumentMoniker": "DAL004\\Program.cs",
               "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\DAL004\\Program.cs",
               "RelativeToolTip": "DAL004\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T11:33:45.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T11:33:45.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\DAL004\\IRepository.cs",
               "RelativeDocumentMoniker": "DAL004\\IRepository.cs",
@@ -180,12 +102,11 @@
               "RelativeToolTip": "DAL004\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T09:10:31.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T09:10:31.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\Test_DAL004\\Program.cs",
               "RelativeDocumentMoniker": "Test_DAL004\\Program.cs",
@@ -197,19 +118,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_2\\Program.cs",
               "RelativeDocumentMoniker": "ASPA004_2\\Program.cs",
               "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_2\\Program.cs",
               "RelativeToolTip": "ASPA004_2\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T19:14:43.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ASPA004_1\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ASPA004_1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T13:25:38.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA004_1\\Program.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\Program.cs",
+              "RelativeToolTip": "ASPA004_1\\Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T12:50:39.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_3\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA004_3\\Program.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_3\\Program.cs",
+              "RelativeToolTip": "ASPA004_3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:37:17.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ASPA004_2\\appsettings.Development.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_2\\appsettings.Development.json",
+              "RelativeToolTip": "ASPA004_2\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T20:05:18.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\appsettings.json",
+              "RelativeDocumentMoniker": "ASPA004_1\\appsettings.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\appsettings.json",
+              "RelativeToolTip": "ASPA004_1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T13:25:14.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Celebrity.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\DAL004\\Celebrity.cs",
+              "RelativeDocumentMoniker": "DAL004\\Celebrity.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\DAL004\\Celebrity.cs",
+              "RelativeToolTip": "DAL004\\Celebrity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:11:19.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_3\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ASPA004_3\\appsettings.Development.json",
@@ -233,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ASPA004_1\\appsettings.Development.json",
@@ -290,18 +284,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-09T20:05:24.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ASPA004_1\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_04\\Solution\\ASPA\\ASPA004_1\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ASPA004_1\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T13:25:38.828Z"
             }
           ]
         }

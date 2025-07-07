@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f74f50f-3e9d-4ca1-bf42-5caf33bdbf83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/.credentials-config.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/.credentials-config.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/.project-metadata.json.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/.project-metadata.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/credentials-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/credentials-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/data-sources.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/data-sources.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/project-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/.dbeaver/project-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_02/Solution/MsSQL/Tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_02/Solution/MsSQL/Tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_07/Condition/МойВариант.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_07/Condition/МойВариант.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_07/Solution/Oracle.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_07/Solution/Oracle.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_08/Solution/Oracle.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_08/Solution/Oracle.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_09/Solution/Oracle.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_09/Solution/Oracle.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_10/Condition/МойВариант.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_10/Condition/МойВариант.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_10/Solution/Oracle.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_10/Solution/Oracle.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_11/Condition/МойВариант.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_11/Condition/МойВариант.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_12/Condition/ПРБДИП_12.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/LBR_12/Condition/ПРБДИП_12.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/Scripts/Script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DesignAndDevOfInternetAppDatabases/LaboratoryWorks/Scripts/Script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Application.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Calculations.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/org/Stanchik/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/org/Stanchik/CryptoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/test/java/org/Stanchik/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../график времени (1).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProgrammingServerCrossplatformApps/LaboratoryWorks/LBR_17/Solution/laba1/Лабораторная_работа_17_REDIS (1).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProgrammingServerCrossplatformApps/LaboratoryWorks/LBR_17/Solution/laba1/ответы.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ProgrammingServerCrossplatformApps/LaboratoryWorks/LBR_19/Condition/Лабораторная_работа_19.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProgrammingServerCrossplatformApps/LaboratoryWorks/LBR_19/Condition/Лабораторная_работа_19.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ASPA/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ASPA/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ASPA/FileContentIndex/2b6ffbec-6e9c-42a2-b52d-405c6434c3b1.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ASPA/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ASPA/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ASPA/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ASPA/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ASPA/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ASPA/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ProjectEvaluation/aspa.metadata.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ProjectEvaluation/aspa.metadata.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ProjectEvaluation/aspa.projects.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/.vs/ProjectEvaluation/aspa.projects.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_1/obj/Debug/net8.0/ASPA004_1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_1/obj/Debug/net8.0/ASPA004_1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_1/obj/Debug/net8.0/ASPA004_1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_1/obj/Debug/net8.0/ASPA004_1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_2/obj/Debug/net8.0/ASPA004_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_2/obj/Debug/net8.0/ASPA004_2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_2/obj/Debug/net8.0/ASPA004_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_2/obj/Debug/net8.0/ASPA004_2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_3/obj/Debug/net8.0/ASPA004_3.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_3/obj/Debug/net8.0/ASPA004_3.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_3/obj/Debug/net8.0/ASPA004_3.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/ASPA004_3/obj/Debug/net8.0/ASPA004_3.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/DAL004/obj/Debug/net8.0/DAL004.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/DAL004/obj/Debug/net8.0/DAL004.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/DAL004/obj/Debug/net8.0/DAL004.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/DAL004/obj/Debug/net8.0/DAL004.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/Test_DAL004/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/Test_DAL004/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/Test_DAL004/obj/Debug/net8.0/Test_DAL004.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/Test_DAL004/obj/Debug/net8.0/Test_DAL004.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/Test_DAL004/obj/Debug/net8.0/Test_DAL004.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_04/Solution/ASPA/Test_DAL004/obj/Debug/net8.0/Test_DAL004.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_06/Condition/Лабораторная_06_ASPNETCORE_API.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebAppDevTechnology/LaboratoryWorks/LBR_06/Condition/Лабораторная_06_ASPNETCORE_API.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2wd5cVzdFpohaaq70OSh8Cu895f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f74f50f-3e9d-4ca1-bf42-5caf33bdbf83" name="Changes" comment="" />
+      <created>1746358691709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746358691709</updated>
+      <workItem from="1746358692995" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

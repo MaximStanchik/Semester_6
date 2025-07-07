@@ -91,19 +91,22 @@ const Error404 = (res, message) => res.status(404).send(`${message}`);
     });
     app.post('/copy/:fileNameFrom/:fileNameTo', async (req, res) => {
         const fileNameFrom = req.params.fileNameFrom;
-
-        if (!client.exists(fileNameFrom)) {
-            Error404(res, "There is no file with name " + fileNameFrom);
+        const fileNameTo = req.params.fileNameTo;
+    
+        if (!await client.exists(fileNameFrom)) {
+            return Error404(res, "There is no file with name " + fileNameFrom);
         }
-        else {
-            const fileNameTo = req.params.fileNameTo;
-            try {
-                client.copyFile(fileNameFrom, fileNameTo);
-                res.status(200).send('File copied successfully.');
-            }
-            catch (err) {
-                Error404(res, "Can't copy file. Error: " + err);
-            }
+    
+        if (await client.exists(fileNameTo)) {
+            return res.status(400).send('File already exists: ' + fileNameTo);
+        }
+    
+        try {
+            await client.copyFile(fileNameFrom, fileNameTo);
+            res.status(200).send('File copied successfully to ' + fileNameTo);
+        } catch (err) {
+            console.error("Copy error:", err);
+            return Error404(res, "Can't copy file. Error: " + err);
         }
     });
 

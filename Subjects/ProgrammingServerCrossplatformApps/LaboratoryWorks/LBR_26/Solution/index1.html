@@ -1,0 +1,36 @@
+<!-- http://localhost:8080/index1.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WASM Functions Demo</title>
+</head>
+<body>
+    <h1>WASM Functions Demo</h1>
+    <div id="output">Загрузка...</div>
+
+    <script>
+        async function loadWasm() {
+            try {
+                const response = await fetch('math.wasm');
+                const bytes = await response.arrayBuffer();
+                const module = await WebAssembly.instantiate(bytes);
+                const { sum, mul, sub } = module.instance.exports;
+
+                document.getElementById('output').innerHTML = `
+                    <p>sum(5, 3) = ${sum(5, 3)}</p>
+                    <p>mul(5, 3) = ${mul(5, 3)}</p>
+                    <p>sub(5, 3) = ${sub(5, 3)}</p>
+                `;
+            } 
+            catch (e) {
+                document.getElementById('output').innerHTML = 
+                    `<p style="color:red">Ошибка загрузки WASM: ${e.message}</p>`;
+                console.error(e);
+            }
+        }
+
+        loadWasm();
+    </script>
+</body>
+</html>

@@ -1,0 +1,370 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\services\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\services\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\services\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\services\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\models\\celebrityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\models\\celebrityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\helpers\\celebrityphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\helpers\\celebrityphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\filters\\celebrityasyncactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\filters\\celebrityasyncactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\countrycodes\\codes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\countrycodes\\codes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\controllers\\celebritiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\controllers\\celebritiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\classes\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\classes\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\classes\\exceptions\\exceptionmanagermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\classes\\exceptions\\exceptionmanagermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85411453-0EBF-48C6-81D6-FA6E67F16F5D}|laba_4_lib\\laba_4_lib.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_lib\\classes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85411453-0EBF-48C6-81D6-FA6E67F16F5D}|laba_4_lib\\laba_4_lib.csproj|solutionrelative:laba_4_lib\\classes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\views\\celebrities\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\views\\celebrities\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\views\\celebrities\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\views\\celebrities\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\views\\shared\\_newcelebrityform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\views\\shared\\_newcelebrityform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_asp\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1971904-2DE8-4BAD-AB2D-E8FE7E0A8F49}|laba_4_asp\\laba_4_asp.csproj|solutionrelative:laba_4_asp\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{957F7E37-5C15-46CB-91E7-568C874FB855}|laba_4_test\\laba_4_test.csproj|d:\\user\\documents\\github\\semester_6\\subjects\\webappdevtechnology\\laboratoryworks\\lbr_08\\laba_4\\laba_4_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{957F7E37-5C15-46CB-91E7-568C874FB855}|laba_4_test\\laba_4_test.csproj|solutionrelative:laba_4_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CelebrityPhoto.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Helpers\\CelebrityPhoto.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Helpers\\CelebrityPhoto.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Helpers\\CelebrityPhoto.cs",
+              "RelativeToolTip": "laba_4_asp\\Helpers\\CelebrityPhoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:21:53.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CelebrityViewModel.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Models\\CelebrityViewModel.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Models\\CelebrityViewModel.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Models\\CelebrityViewModel.cs",
+              "RelativeToolTip": "laba_4_asp\\Models\\CelebrityViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:21:47.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Models\\Country.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Models\\Country.cs",
+              "RelativeToolTip": "laba_4_asp\\Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:21:49.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CountryService.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Services\\CountryService.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Services\\CountryService.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Services\\CountryService.cs",
+              "RelativeToolTip": "laba_4_asp\\Services\\CountryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:21:39.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICountryService.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Services\\ICountryService.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Services\\ICountryService.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Services\\ICountryService.cs",
+              "RelativeToolTip": "laba_4_asp\\Services\\ICountryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:21:41.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Celebrities.config.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Celebrities.config.json",
+              "RelativeDocumentMoniker": "laba_4_asp\\Celebrities.config.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Celebrities.config.json",
+              "RelativeToolTip": "laba_4_asp\\Celebrities.config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T06:22:35.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CelebrityAsyncActionFilter.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Filters\\CelebrityAsyncActionFilter.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Filters\\CelebrityAsyncActionFilter.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Filters\\CelebrityAsyncActionFilter.cs",
+              "RelativeToolTip": "laba_4_asp\\Filters\\CelebrityAsyncActionFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:21:58.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Codes.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\CountryCodes\\Codes.json",
+              "RelativeDocumentMoniker": "laba_4_asp\\CountryCodes\\Codes.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\CountryCodes\\Codes.json",
+              "RelativeToolTip": "laba_4_asp\\CountryCodes\\Codes.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T07:54:46.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CelebritiesController.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Controllers\\CelebritiesController.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Controllers\\CelebritiesController.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Controllers\\CelebritiesController.cs",
+              "RelativeToolTip": "laba_4_asp\\Controllers\\CelebritiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:54:35.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "laba_4_asp\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "laba_4_asp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T06:22:19.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_lib\\Classes\\Repository.cs",
+              "RelativeDocumentMoniker": "laba_4_lib\\Classes\\Repository.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_lib\\Classes\\Repository.cs",
+              "RelativeToolTip": "laba_4_lib\\Classes\\Repository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowEAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:53:37.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\appsettings.json",
+              "RelativeDocumentMoniker": "laba_4_asp\\appsettings.json",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\appsettings.json",
+              "RelativeToolTip": "laba_4_asp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T06:22:35.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExceptionManagerMiddleware.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Classes\\exceptions\\ExceptionManagerMiddleware.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Classes\\exceptions\\ExceptionManagerMiddleware.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Classes\\exceptions\\ExceptionManagerMiddleware.cs",
+              "RelativeToolTip": "laba_4_asp\\Classes\\exceptions\\ExceptionManagerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:22:08.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CelebritiesConfig.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Classes\\CelebritiesConfig.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Classes\\CelebritiesConfig.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Classes\\CelebritiesConfig.cs",
+              "RelativeToolTip": "laba_4_asp\\Classes\\CelebritiesConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:22:06.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Program.cs",
+              "RelativeDocumentMoniker": "laba_4_asp\\Program.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Program.cs",
+              "RelativeToolTip": "laba_4_asp\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:23:06.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Celebrities\\New.cshtml",
+              "RelativeDocumentMoniker": "laba_4_asp\\Views\\Celebrities\\New.cshtml",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Celebrities\\New.cshtml",
+              "RelativeToolTip": "laba_4_asp\\Views\\Celebrities\\New.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T06:21:36.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Celebrities\\Details.cshtml",
+              "RelativeDocumentMoniker": "laba_4_asp\\Views\\Celebrities\\Details.cshtml",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Celebrities\\Details.cshtml",
+              "RelativeToolTip": "laba_4_asp\\Views\\Celebrities\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T06:21:24.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_NewCelebrityForm.cshtml",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Shared\\_NewCelebrityForm.cshtml",
+              "RelativeDocumentMoniker": "laba_4_asp\\Views\\Shared\\_NewCelebrityForm.cshtml",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Shared\\_NewCelebrityForm.cshtml",
+              "RelativeToolTip": "laba_4_asp\\Views\\Shared\\_NewCelebrityForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T06:21:14.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "laba_4_asp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "laba_4_asp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T06:21:10.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout2.cshtml",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeDocumentMoniker": "laba_4_asp\\Views\\Shared\\_Layout2.cshtml",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeToolTip": "laba_4_asp\\Views\\Shared\\_Layout2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T06:21:09.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_test\\Program.cs",
+              "RelativeDocumentMoniker": "laba_4_test\\Program.cs",
+              "ToolTip": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_test\\Program.cs",
+              "RelativeToolTip": "laba_4_test\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:20:53.348Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "jsonrpc": "2.0",
+    "method": "div",
+    "params": [10, 2],
+    "id": 3
+  }
+  

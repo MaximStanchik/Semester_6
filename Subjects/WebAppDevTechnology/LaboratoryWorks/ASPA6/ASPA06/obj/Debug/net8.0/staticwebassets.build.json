@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "mfjszjfGo9mJNPsINzptjmZS9I+qXag+xhSl61YWAN0=",
+  "Source": "ASPA06",
+  "BasePath": "_content/ASPA06",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPA06\\wwwroot",
+      "Source": "ASPA06",
+      "ContentRoot": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\",
+      "BasePath": "_content/ASPA06",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\css\\style.css",
+      "SourceId": "ASPA06",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\",
+      "BasePath": "_content/ASPA06",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y3y0v6m9y2",
+      "Integrity": "UlyP6+Qj5eOv+qeETn3eKzD7PVofCa7QH45Nzk6vIVM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\index.html",
+      "SourceId": "ASPA06",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\",
+      "BasePath": "_content/ASPA06",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "59tma4r9pk",
+      "Integrity": "mQfbBCzwatsDs7+KRZ11c3EZobbzoZry3fIb23m4dUI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\js\\script.js",
+      "SourceId": "ASPA06",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\",
+      "BasePath": "_content/ASPA06",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bo1lusda01",
+      "Integrity": "uxkACvsNcHsi3sj3xJKZD4pRkwP4V3TPkpd3mM7bMSY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UlyP6+Qj5eOv+qeETn3eKzD7PVofCa7QH45Nzk6vIVM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:48:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UlyP6+Qj5eOv+qeETn3eKzD7PVofCa7QH45Nzk6vIVM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.y3y0v6m9y2.css",
+      "AssetFile": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UlyP6+Qj5eOv+qeETn3eKzD7PVofCa7QH45Nzk6vIVM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:48:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y3y0v6m9y2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UlyP6+Qj5eOv+qeETn3eKzD7PVofCa7QH45Nzk6vIVM="
+        }
+      ]
+    },
+    {
+      "Route": "index.59tma4r9pk.html",
+      "AssetFile": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mQfbBCzwatsDs7+KRZ11c3EZobbzoZry3fIb23m4dUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:35:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "59tma4r9pk"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mQfbBCzwatsDs7+KRZ11c3EZobbzoZry3fIb23m4dUI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mQfbBCzwatsDs7+KRZ11c3EZobbzoZry3fIb23m4dUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:35:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mQfbBCzwatsDs7+KRZ11c3EZobbzoZry3fIb23m4dUI="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.bo1lusda01.js",
+      "AssetFile": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uxkACvsNcHsi3sj3xJKZD4pRkwP4V3TPkpd3mM7bMSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bo1lusda01"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uxkACvsNcHsi3sj3xJKZD4pRkwP4V3TPkpd3mM7bMSY="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "D:\\лабы\\6sem\\pis\\ASPA6\\ASPA06\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uxkACvsNcHsi3sj3xJKZD4pRkwP4V3TPkpd3mM7bMSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uxkACvsNcHsi3sj3xJKZD4pRkwP4V3TPkpd3mM7bMSY="
+        }
+      ]
+    }
+  ]
+}

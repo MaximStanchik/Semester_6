@@ -1,0 +1,15 @@
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\bin\Debug\net8.0\DAL_Celebrity_Pg.deps.json
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\bin\Debug\net8.0\DAL_Celebrity_Pg.dll
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\bin\Debug\net8.0\DAL_Celebrity_Pg.pdb
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\bin\Debug\net8.0\DAL_Celebrity.dll
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\bin\Debug\net8.0\DAL_Celebrity.pdb
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\DAL_Celebrity_Pg.csproj.AssemblyReference.cache
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\DAL_Celebrity_Pg.GeneratedMSBuildEditorConfig.editorconfig
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\DAL_Celebrity_Pg.AssemblyInfoInputs.cache
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\DAL_Celebrity_Pg.AssemblyInfo.cs
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\DAL_Celebrity_Pg.csproj.CoreCompileInputs.cache
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\DAL_Cele.663D1F32.Up2Date
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\DAL_Celebrity_Pg.dll
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\refint\DAL_Celebrity_Pg.dll
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\DAL_Celebrity_Pg.pdb
+D:\лабы\6sem\pis\ASPA6\DAL_Celebrity_Pg\obj\Debug\net8.0\ref\DAL_Celebrity_Pg.dll

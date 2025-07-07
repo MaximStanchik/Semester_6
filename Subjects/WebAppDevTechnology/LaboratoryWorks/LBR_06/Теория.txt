@@ -1,0 +1,57 @@
+--- ЛБР_3
+для чего нуджден IMix (чтобы совмещать несколько моделей в одном объекте)
+CodeFirst, ModelFirst, DatabaseFirst -- способы инициализации ORM. DbSet, 
+
+
+--- ЛБР_4
+Способы передачи данных из контроллера в представление:
+viewback -- когда есть теги title
+viewData -- когда в скобках указываем message (словарь)
+tempData -- используется в уведомлениях
+viewBag -- общее хранилище (неверно)
+
+view components
+model
+partial veiws
+tag helpers
+
+mvc
+model работает с данными
+
+http-запрос приходит, контроллер находит экшн, который вызывает model, model возвращает view (напрямую не взаимодействует)
+представление можно вызвать в зависимости от того как вызывается экшн, если он не указан, то по имени экшн
+
+фильтры -- это отельные части кода, которые используются в жизненом цикле MVC
+
+виды фильтров:
+onExecuted
+onExecuting
+
+Action Filters (IAsyncActionFilter, IActionFilter), ExceptionFilters (IAsyncExceptionFilter, IExceptionFilter), AuthenticationFilters, AuthrizationFilters (IAsyncAuthorizationFilter, IAuthorizationFilter), ResultFilters, ResourceFilters (IAsyncResourceFilter, IResourceFilter), HttpContextAccessor
+
+фильр действия
+фильтр результата
+сначала фильтр exception потом фильтр результата
+
+razor задача -- сопоставить с папками то что получил
+
+
+layout -- обертка для 
+если он видит @, то @--с#код
+
+порядок выполнения 
+он разбит на блок паттерн и дефолт.
+
+хелперы -- генерируют html для подстановки в коде.
+есть встроенные хелперы, тег-хелперы, пользовательские хелперы, url-хелперы
+
+inject -- сторонние сервисы, как отдельный код с помощью котороо сокращаем код, не задаем view, и т.д.
+
+жизненный цикл:
+
+кто занимается рендернгом представления? Razor Engine
+
+default-паттерн -- вызывается по умолчанию когда не указываем
+url, tag, action, строготипизированные и стандартные хелперы
+
+сначала получаем http запрос, его передаем в middlewsare, потом пере

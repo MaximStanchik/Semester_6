@@ -1,0 +1,6 @@
+﻿{
+  "Celebrities": {
+    "PhotosFolder": "D:\\лабы\\6sem\\pis\\ASPA6\\Celebrities",
+    "ConnectionString": "Host=localhost;Port=5432;Database=LibDb;Username=postgres;Password=Qwerty1234"
+  }
+}

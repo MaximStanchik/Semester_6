@@ -1,4 +1,4 @@
-using DAL004;
+﻿using DAL004;
 using Microsoft.AspNetCore.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,13 +19,19 @@ using (IRepository repository = CelebrityRepository.Create("Celebrities"))
         return celebrity;
     });
 
-    app.MapPost("/Celebrities", async (Celebrity celebrity) => {
-        
+    app.MapPost("/Celebrities", async (Celebrity celebrity) =>
+    {
+        string filePath = Path.Combine("Celebrities", CelebrityRepository.JSONFileName ?? "Celebrities.json");
+        if (!File.Exists(filePath))
+        {
+            throw new FileNotFoundException($"Couldn't find file {filePath}");
+        }
+
         if (string.IsNullOrWhiteSpace(celebrity.FirstName) ||
             string.IsNullOrWhiteSpace(celebrity.Surname) ||
             string.IsNullOrWhiteSpace(celebrity.PhotoPath))
         {
-            throw new Exception("Panic"); 
+            throw new Exception("Panic");
         }
 
         int? id = repository.addCelebrity(celebrity);
@@ -43,26 +49,24 @@ using (IRepository repository = CelebrityRepository.Create("Celebrities"))
         return Results.Created($"/Celebrities/{id}", celebrity with { Id = (int)id });
     });
 
+
     app.MapFallback((HttpContext ctx) => Results.NotFound(new { error = $"path {ctx.Request.Path} not supported" }));
 
-    app.Map("/Celebrities/Error", (HttpContext ctx) => {
+    app.Map("/Celebrities/Error", (HttpContext ctx) =>
+    {
         Exception? ex = ctx.Features.Get<IExceptionHandlerFeature>()?.Error;
-        IResult rc = Results.Problem(detail: "An unexpected error occurred.", instance: app.Environment.EnvironmentName, title: "ASPA004", statusCode: 500);
+        IResult rc = Results.Problem(
+            detail: "An unexpected error occurred.",
+            instance: app.Environment.EnvironmentName,
+            title: "ASPA004",
+            statusCode: 500
+        );
 
         if (ex != null)
         {
             if (ex.Message == "Panic")
             {
                 rc = Results.Problem(detail: "panic", instance: app.Environment.EnvironmentName, title: "ASPA004", statusCode: 500);
-            }
-            else if (ex is FoundByIdException)
-            {
-                rc = Results.NotFound(new
-                {
-                    title = "Not Found",
-                    detail = ex.Message,
-                    instance = app.Environment.EnvironmentName
-                });
             }
             else if (ex is BadHttpRequestException)
             {
@@ -79,7 +83,8 @@ using (IRepository repository = CelebrityRepository.Create("Celebrities"))
                     title: "ASPA004/SaveChanges",
                     detail: "Failed to save changes: " + ex.Message,
                     instance: app.Environment.EnvironmentName,
-                    statusCode: 500);
+                    statusCode: 500
+                );
             }
             else if (ex is AddCelebrityException)
             {
@@ -87,17 +92,29 @@ using (IRepository repository = CelebrityRepository.Create("Celebrities"))
                     title: "ASPA004/AddCelebrity",
                     detail: "Error adding celebrity: " + ex.Message,
                     instance: app.Environment.EnvironmentName,
-                    statusCode: 500);
+                    statusCode: 500
+                );
+            }
+            else if (ex is FoundByIdException)
+            {
+                rc = Results.NotFound(new
+                {
+                    title = "Not Found",
+                    detail = ex.Message,
+                    instance = app.Environment.EnvironmentName
+                });
             }
             else
             {
                 rc = Results.Problem(
                     title: "Internal Server Error",
-                    detail: "An unexpected error occurred: " + ex.Message,
+                    detail: ex.Message, 
                     instance: app.Environment.EnvironmentName,
-                    statusCode: 500);
+                    statusCode: 500
+                );
             }
         }
+
         return rc;
     });
 

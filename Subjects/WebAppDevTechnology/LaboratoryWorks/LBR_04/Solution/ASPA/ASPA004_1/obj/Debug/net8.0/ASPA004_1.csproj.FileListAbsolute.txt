@@ -38,4 +38,4 @@ D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks
 D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_04\Solution\ASPA\ASPA004_1\obj\Debug\net8.0\ASPA004_1.pdb
 D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_04\Solution\ASPA\ASPA004_1\obj\Debug\net8.0\ASPA004_1.genruntimeconfig.cache
 D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_04\Solution\ASPA\ASPA004_1\obj\Debug\net8.0\ref\ASPA004_1.dll
-D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_04\Solution\ASPA\ASPA004_1\bin\Debug\net8.0\Celebrities\Celebrities1.json
+D:\User\Documents\GitHub\Semester_6\Subjects\WebAppDevTechnology\LaboratoryWorks\LBR_04\Solution\ASPA\ASPA004_1\bin\Debug\net8.0\Celebrities\Celebrities.json

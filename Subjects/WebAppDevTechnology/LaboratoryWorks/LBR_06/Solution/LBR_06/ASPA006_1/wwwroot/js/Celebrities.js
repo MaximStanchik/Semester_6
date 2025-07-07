@@ -4,7 +4,7 @@ buttons.forEach(button => {
     button.addEventListener("click", async function() {
         try {
             const img = this.querySelector("img").getAttribute("src").split('/').pop();
-            const response = await fetch(`/api/getLocalLe/${img}`);
+            const response = await fetch(`/api/getLocalLe/${img}`); //заходим по 8, листики беерм свои. Экзамен пройдет быстро. завтра в 9 экз
             
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);

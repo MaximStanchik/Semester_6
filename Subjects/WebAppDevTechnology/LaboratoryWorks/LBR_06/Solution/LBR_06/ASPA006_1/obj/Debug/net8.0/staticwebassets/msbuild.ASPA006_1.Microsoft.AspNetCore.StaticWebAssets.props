@@ -174,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1cqhumn3fm</Fingerprint>
-      <Integrity>kcUT7G9ycnUc2DakNAVhnedEblfmqJhLKz0WoDM14Bs=</Integrity>
+      <Fingerprint>bceqka2wdn</Fingerprint>
+      <Integrity>5RhTQNgkrhaQ0CvsZEGoZBJjlM8kHVeNdY/wLGOIMZM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Celebrities.js'))</OriginalItemSpec>

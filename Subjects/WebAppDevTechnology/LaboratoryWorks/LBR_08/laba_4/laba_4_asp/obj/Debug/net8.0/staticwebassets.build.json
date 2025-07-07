@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "9G5wBXFPosXtFo3jkoPSRLT6/8mZigDb+rj1x0oilH8=",
+  "Source": "laba_4_asp",
+  "BasePath": "_content/laba_4_asp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "laba_4_asp\\wwwroot",
+      "Source": "laba_4_asp",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\",
+      "BasePath": "_content/laba_4_asp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\Celebrities.js",
+      "SourceId": "laba_4_asp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\",
+      "BasePath": "_content/laba_4_asp",
+      "RelativePath": "Celebrities#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "us6dvry6gq",
+      "Integrity": "rs5AxwdKRoVsjzdvF7Vj3K8u3uTcFs9SZzs0JQBuKD4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Celebrities.js"
+    },
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\css\\index.css",
+      "SourceId": "laba_4_asp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\",
+      "BasePath": "_content/laba_4_asp",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "koy716jswb",
+      "Integrity": "rKsXUQ74HRa1q3dofzTP/xvwj1mCQi7TxPymj2lFGmQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\Index.html",
+      "SourceId": "laba_4_asp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\",
+      "BasePath": "_content/laba_4_asp",
+      "RelativePath": "Index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ucjnt9g1y8",
+      "Integrity": "vgKJyromzTcy1neyI9Pl0KFD5xov++jicpNrI9fWWh0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Celebrities.js",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\Celebrities.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rs5AxwdKRoVsjzdvF7Vj3K8u3uTcFs9SZzs0JQBuKD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 12:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rs5AxwdKRoVsjzdvF7Vj3K8u3uTcFs9SZzs0JQBuKD4="
+        }
+      ]
+    },
+    {
+      "Route": "Celebrities.us6dvry6gq.js",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\Celebrities.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rs5AxwdKRoVsjzdvF7Vj3K8u3uTcFs9SZzs0JQBuKD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 12:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "us6dvry6gq"
+        },
+        {
+          "Name": "label",
+          "Value": "Celebrities.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rs5AxwdKRoVsjzdvF7Vj3K8u3uTcFs9SZzs0JQBuKD4="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rKsXUQ74HRa1q3dofzTP/xvwj1mCQi7TxPymj2lFGmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 16:07:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rKsXUQ74HRa1q3dofzTP/xvwj1mCQi7TxPymj2lFGmQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.koy716jswb.css",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rKsXUQ74HRa1q3dofzTP/xvwj1mCQi7TxPymj2lFGmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 16:07:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "koy716jswb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rKsXUQ74HRa1q3dofzTP/xvwj1mCQi7TxPymj2lFGmQ="
+        }
+      ]
+    },
+    {
+      "Route": "Index.html",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vgKJyromzTcy1neyI9Pl0KFD5xov++jicpNrI9fWWh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 16:19:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vgKJyromzTcy1neyI9Pl0KFD5xov++jicpNrI9fWWh0="
+        }
+      ]
+    },
+    {
+      "Route": "Index.ucjnt9g1y8.html",
+      "AssetFile": "D:\\User\\Documents\\GitHub\\Semester_6\\Subjects\\WebAppDevTechnology\\LaboratoryWorks\\LBR_08\\laba_4\\laba_4_asp\\wwwroot\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vgKJyromzTcy1neyI9Pl0KFD5xov++jicpNrI9fWWh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 16:19:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ucjnt9g1y8"
+        },
+        {
+          "Name": "label",
+          "Value": "Index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vgKJyromzTcy1neyI9Pl0KFD5xov++jicpNrI9fWWh0="
+        }
+      ]
+    }
+  ]
+}

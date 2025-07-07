@@ -1,15 +1,15 @@
-using DAL_Celebrity;
-using DAL_Celebrity_MSSQL;
-using ASPA006_1.classes;
+﻿using DAL_Celebrity_MSSQL;
 using Microsoft.Extensions.Options;
 using System.Text.Json;
+using ASPA006_1.classes;
+using ASPA006_1.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddJsonFile("Celebrities.config.json", optional: false, reloadOnChange: true);
 builder.Services.Configure<CelebritiesConfig>(builder.Configuration.GetSection("Celebrities"));
 
-builder.Services.AddScoped<IRepository, Repository>((IServiceProvider p) => // ��� ���� ������������ addScoped
+builder.Services.AddScoped<IRepository, Repository>(p =>
 {
     var config = p.GetRequiredService<IOptions<CelebritiesConfig>>().Value;
     return new Repository(config.ConnectionString);
@@ -17,72 +17,192 @@ builder.Services.AddScoped<IRepository, Repository>((IServiceProvider p) => // �
 
 var app = builder.Build();
 
-app.UseExceptionHandler("/error"); // ����� ������� customExceptionHandler
+app.UseMiddleware<ErrorHandlingMiddleware>();
+
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
 var celebrities = app.MapGroup("/api/cel");
 
-// ��� ������������
-celebrities.MapGet("/", (IRepository repo) => Results.Json(repo.GetAllCelebrities(), new JsonSerializerOptions { WriteIndented = true }));
+celebrities.MapGet("/", (IRepository repo) =>
+    Results.Json(repo.GetAllCelebrities(), new JsonSerializerOptions { WriteIndented = true }));
 
-// ������������ �� ID
-celebrities.MapGet("/{id:int:min(1)}", (IRepository repo, int id) => Results.Json(repo.GetCelebrityById(id), new JsonSerializerOptions { WriteIndented = true }));
-
-// ������������ �� ID �������
-celebrities.MapGet("/le/{id:int:min(1)}", (IRepository repo, int id) => Results.Json(repo.GetCelebrityByLifeeventId(id), new JsonSerializerOptions { WriteIndented = true }));
-
-// ������� ������������ �� ID
-celebrities.MapDelete("/{id:int:min(1)}", (IRepository repo, int id) => Results.Content((repo.DelCelebrity(id) ? "<h1>All correct</h1>" : "<h1>Error</h1>"), "text/html"));
-
-// �������� ����� ������������
-celebrities.MapPost("/", (IRepository repo, Celebrity celebrity) => Results.Content((repo.AddCelebrity(celebrity) ? "<h1>All correct</h1>" : "<h1>Error</h1>"), "text/html"));
-
-// �������� ������������ �� ID
-celebrities.MapPut("/{id:int:min(1)}", (IRepository repo, int id, Celebrity celebrity) => Results.Content((repo.UpdCelebrity(id, celebrity) ? "<h1>All correct</h1>" : "<h1>Error</h1>"), "text/html"));
-
-// �������� ���� ���������� �� ����� ����� (fname) 
-celebrities.MapGet("/photo/{fname}", async (IOptions<CelebritiesConfig> iconfig, string fname) =>
+celebrities.MapGet("/{id}", (IRepository repo, string id) =>
 {
-    var filePath = Path.Combine(iconfig.Value.PhotosFolder, fname);
+    if (!int.TryParse(id, out int intId) || intId <= 0)
+        return Results.BadRequest("ID должен быть положительным целым числом");
 
-    if (File.Exists(filePath))
-    {
-        return Results.File(await File.ReadAllBytesAsync(filePath), "image/jpeg");
-    }
-
-    Console.WriteLine("[DEBUG] File NOT found.");
-    return Results.NotFound();
+    var celebrity = repo.GetCelebrityById(intId);
+    return celebrity != null
+        ? Results.Json(celebrity, new JsonSerializerOptions { WriteIndented = true })
+        : Results.NotFound($"Знаменитость с ID={intId} не найдена");
 });
 
+celebrities.MapGet("/le/{id}", (IRepository repo, string id) =>
+{
+    if (!int.TryParse(id, out int intId) || intId <= 0)
+        return Results.BadRequest("ID события должен быть положительным целым числом");
 
-//�������(Lifeevents)
-var lifeevents = app.MapGroup("/api/le"); // ��� ���� ������������ mapGroup + delete �� ������ ����
-    
-// ��� �������
-lifeevents.MapGet("/", (IRepository repo) => Results.Json(repo.GetAllLifeevents(), new JsonSerializerOptions { WriteIndented = true }));
+    var celebrity = repo.GetCelebrityByLifeeventId(intId);
+    return celebrity != null
+        ? Results.Json(celebrity, new JsonSerializerOptions { WriteIndented = true })
+        : Results.NotFound($"Знаменитость для события с ID={intId} не найдена");
+});
 
-// ������� �� ID
-lifeevents.MapGet("/{id:int:min(1)}", (IRepository repo, int id) => Results.Json(repo.GetLifeevetById(id), new JsonSerializerOptions { WriteIndented = true }));
+celebrities.MapDelete("/{id}", (IRepository repo, string id) =>
+{
+    if (!int.TryParse(id, out int intId) || intId <= 0)
+        return Results.BadRequest("ID должен быть положительным целым числом");
 
-// ��� ������� �� ID ������������
-lifeevents.MapGet("/cel/{id:int:min(1)}", (IRepository repo, int id) => repo.GetLifeeventsByCelebrityId(id));
+    var existing = repo.GetCelebrityById(intId);
+    if (existing == null)
+        return Results.NotFound($"Знаменитость с ID={intId} не найдена");
 
-//������� ������� �� ID
-lifeevents.MapDelete("/{id:int:min(1)}", (IRepository repo, int id) => Results.Content((repo.DelLifeevent(id) ? "<h1>All correct</h1>" : "<h1>Error</h1>"), "text/html"));
+    bool deleted = repo.DelCelebrity(intId);
+    return deleted
+        ? Results.Content("<h1>Успешно удалено</h1>", "text/html")
+        : Results.Content("<h1>Ошибка при удалении</h1>", "text/html");
+});
 
-// �������� ����� �������
-lifeevents.MapPost("/", (IRepository repo, Lifeevent lifeevent) => Results.Content((repo.AddLifeevent(lifeevent) ? "<h1>All correct</h1>" : "<h1>Error</h1>"), "text/html"));
+celebrities.MapPost("/", (IRepository repo, Celebrity celebrity) =>
+{
+    if (celebrity == null)
+        return Results.BadRequest("Данные знаменитости не могут быть пустыми");
 
-//�������� ������� �� ID
-lifeevents.MapPut("/{id:int:min(1)}", (IRepository repo, int id, Lifeevent lifeevent) => Results.Content((repo.UpdLifeevent(id, lifeevent) ? "<h1>All correct</h1>" : "<h1>Error</h1>"), "text/html"));
+    bool added = repo.AddCelebrity(celebrity);
+    return added
+        ? Results.Content("<h1>Успешно добавлено</h1>", "text/html")
+        : Results.Content("<h1>Ошибка при добавлении</h1>", "text/html");
+});
+
+celebrities.MapPut("/{id}", (IRepository repo, string id, Celebrity celebrity) =>
+{
+    if (!int.TryParse(id, out int intId) || intId <= 0)
+        return Results.BadRequest("ID должен быть положительным целым числом");
+
+    if (celebrity == null)
+        return Results.BadRequest("Данные знаменитости не могут быть пустыми");
+
+    var existing = repo.GetCelebrityById(intId);
+    if (existing == null)
+        return Results.NotFound($"Знаменитость с ID={intId} не найдена");
+
+    bool updated = repo.UpdCelebrity(intId, celebrity);
+    return updated
+        ? Results.Content("<h1>Успешно обновлено</h1>", "text/html")
+        : Results.Content("<h1>Ошибка при обновлении</h1>", "text/html");
+});
+
+celebrities.MapGet("/photo/{fname}", async (IOptions<CelebritiesConfig> iconfig, string fname) =>
+{
+    if (string.IsNullOrWhiteSpace(fname))
+        return Results.BadRequest("Имя файла не может быть пустым");
+
+    var filePath = Path.Combine(iconfig.Value.PhotosFolder, fname);
+    if (!File.Exists(filePath))
+        return Results.NotFound("Файл не найден");
+
+    var bytes = await File.ReadAllBytesAsync(filePath);
+    return Results.File(bytes, "image/jpeg");
+});
+
+var lifeevents = app.MapGroup("/api/le");
+
+lifeevents.MapGet("/", (IRepository repo) =>
+    Results.Json(repo.GetAllLifeevents(), new JsonSerializerOptions { WriteIndented = true }));
+
+lifeevents.MapGet("/{id}", (IRepository repo, string id) =>
+{
+    if (!int.TryParse(id, out int intId) || intId <= 0)
+        return Results.BadRequest("ID должен быть положительным целым числом");
+
+    var lifeevent = repo.GetLifeevetById(intId);
+    return lifeevent != null
+        ? Results.Json(lifeevent, new JsonSerializerOptions { WriteIndented = true })
+        : Results.NotFound($"Событие с ID={intId} не найдено");
+});
+
+lifeevents.MapGet("/cel/{id}", (IRepository repo, string id) =>
+{
+    if (!int.TryParse(id, out int intId) || intId <= 0)
+        return Results.BadRequest("ID знаменитости должен быть положительным целым числом");
+
+    var events = repo.GetLifeeventsByCelebrityId(intId);
+    return (events != null && events.Any())
+        ? Results.Json(events, new JsonSerializerOptions { WriteIndented = true })
+        : Results.NotFound($"События для знаменитости с ID={intId} не найдены");
+});
+
+lifeevents.MapDelete("/{id}", (IRepository repo, string id) =>
+{
+    if (!int.TryParse(id, out int intId) || intId <= 0)
+        return Results.BadRequest("ID должен быть положительным целым числом");
+
+    var existing = repo.GetLifeevetById(intId);
+    if (existing == null)
+        return Results.NotFound($"Событие с ID={intId} не найдено");
+
+    bool deleted = repo.DelLifeevent(intId);
+    return deleted
+        ? Results.Content("<h1>Успешно удалено</h1>", "text/html")
+        : Results.Content("<h1>Ошибка при удалении</h1>", "text/html");
+});
+
+lifeevents.MapPost("/", (IRepository repo, Lifeevent lifeevent) =>
+{
+    if (lifeevent == null)
+        return Results.BadRequest("Данные события не могут быть пустыми");
+
+    if (lifeevent.CelebrityId <= 0)
+        return Results.BadRequest("ID знаменитости должен быть положительным числом");
+
+    if (string.IsNullOrWhiteSpace(lifeevent.Description))
+        return Results.BadRequest("Описание события не может быть пустым");
+
+    var celebrityExists = repo.GetCelebrityById(lifeevent.CelebrityId) != null;
+    if (!celebrityExists)
+        return Results.NotFound($"Знаменитость с ID={lifeevent.CelebrityId} не найдена");
+
+    bool added = repo.AddLifeevent(lifeevent);
+    return added
+        ? Results.Content("<h1>Успешно добавлено</h1>", "text/html")
+        : Results.Content("<h1>Ошибка при добавлении</h1>", "text/html");
+});
+
+lifeevents.MapPut("/{id:int}", (IRepository repo, int id, Lifeevent lifeevent) =>
+{
+    if (lifeevent == null)
+        return Results.BadRequest("Данные события не могут быть пустыми");
+
+    if (lifeevent.CelebrityId <= 0)
+        return Results.BadRequest("ID знаменитости должен быть положительным числом");
+
+    if (string.IsNullOrWhiteSpace(lifeevent.Description))
+        return Results.BadRequest("Описание события не может быть пустым");
+
+    var existingEvent = repo.GetLifeevetById(id);
+    if (existingEvent == null)
+        return Results.NotFound($"Событие с ID={id} не найдено");
+
+    var celebrityExists = repo.GetCelebrityById(lifeevent.CelebrityId) != null;
+    if (!celebrityExists)
+        return Results.NotFound($"Знаменитость с ID={lifeevent.CelebrityId} не найдена");
+
+    bool updated = repo.UpdLifeevent(id, lifeevent);
+    return updated
+        ? Results.Content("<h1>Успешно обновлено</h1>", "text/html")
+        : Results.Content("<h1>Ошибка при обновлении</h1>", "text/html");
+});
 
 app.MapGet("/api/GetLocalLe/{photoName}", (IRepository repo, string photoName) =>
 {
+    if (string.IsNullOrWhiteSpace(photoName))
+        return Results.BadRequest("Имя файла не может быть пустым");
+
     string result = repo.GetLifeeventByPhoto(photoName);
-
-    return result;
+    return string.IsNullOrEmpty(result)
+        ? Results.NotFound("Информация по фото не найдена")
+        : Results.Ok(result);
 });
-
 
 app.Run();

@@ -236,3 +236,118 @@ ORDER BY
     
    SELECT * FROM orders WHERE service_id = 20;
     SELECT * FROM orders WHERE service_id = 23;
+    
+   
+   --- рост, падение, рост, падение
+
+WITH monthly_data AS (
+    SELECT 
+        s.ID AS service_id,
+        EXTRACT(YEAR FROM o.DELIVERED_AT) AS year,
+        EXTRACT(MONTH FROM o.DELIVERED_AT) AS month,
+        COALESCE(SUM(s.BASE_RATE * r.DISTANCE), 0) AS total_cost
+    FROM 
+        SERVICES s
+    LEFT JOIN ORDERS o ON o.SERVICE_ID = s.ID 
+        AND o.STATUS IN ('Delivered', 'Completed') 
+        AND o.DELIVERED_AT IS NOT NULL
+    LEFT JOIN ROUTES r ON o.ROUTE = r.ID
+    GROUP BY 
+        s.ID,
+        EXTRACT(YEAR FROM o.DELIVERED_AT),
+        EXTRACT(MONTH FROM o.DELIVERED_AT)
+),
+lagged_data AS (
+    SELECT 
+        service_id,
+        year,
+        month,
+        total_cost,
+        LAG(total_cost) OVER (PARTITION BY service_id ORDER BY year, month) AS prev_month_cost
+    FROM 
+        monthly_data
+),
+pattern_services AS (
+    SELECT DISTINCT service_id
+    FROM lagged_data
+    MATCH_RECOGNIZE (
+        PARTITION BY service_id
+        ORDER BY year, month
+        PATTERN (A B C D)
+        DEFINE 
+            A AS A.total_cost < NEXT(A.total_cost),   -- падение
+            B AS B.total_cost > PREV(B.total_cost),   -- рост
+            C AS C.total_cost < PREV(C.total_cost),   -- падение
+            D AS D.total_cost > PREV(D.total_cost)    -- рост
+    )
+)
+SELECT 
+    ld.service_id,
+    LISTAGG(
+        ld.year || '-' || LPAD(ld.month, 2, '0') || ': ' || 
+        ld.total_cost || ' (' || 
+        CASE 
+            WHEN ld.prev_month_cost IS NULL THEN 'No prev data'
+            WHEN ld.total_cost > ld.prev_month_cost THEN '↑'
+            WHEN ld.total_cost < ld.prev_month_cost THEN '↓'
+            ELSE '→'
+        END || ' ' || 
+        CASE 
+            WHEN COALESCE(ld.prev_month_cost, 0) = 0 THEN '0%'
+            ELSE ROUND((ld.total_cost - ld.prev_month_cost) / ld.prev_month_cost * 100, 2) || '%'
+        END || ')', 
+        ', '
+    ) WITHIN GROUP (ORDER BY ld.year, ld.month) AS monthly_costs_summary,
+    SUM(ld.total_cost) AS total_year_cost,
+    ROUND(AVG(
+        CASE 
+            WHEN ld.prev_month_cost > 0 THEN (ld.total_cost - ld.prev_month_cost) / ld.prev_month_cost * 100
+        END
+    ), 2) AS avg_monthly_change_percent
+FROM 
+    lagged_data ld
+JOIN 
+    pattern_services ps ON ld.service_id = ps.service_id
+GROUP BY 
+    ld.service_id
+ORDER BY 
+    ld.service_id;
+SELECT * FROM orders;
+
+
+  INSERT INTO ORDERS (
+    ID, CLIENT_ID, DRIVER_ID, SERVICE_ID, STATUS, CREATED_AT, ROUTE, DELIVERY_TYPE, 
+    TOTAL_WEIGHT, TOTAL_VOLUME, DELIVERED_AT, FUEL_CONSUMPTION, FUEL_COST
+) VALUES 
+(1064, 1, 1, 20, 'Delivered', TO_TIMESTAMP('2025-03-10 09:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 5, 'Standard', 50, 2, TO_TIMESTAMP('2025-03-10 12:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 15, 25.5);
+  INSERT INTO ORDERS (
+    ID, CLIENT_ID, DRIVER_ID, SERVICE_ID, STATUS, CREATED_AT, ROUTE, DELIVERY_TYPE, 
+    TOTAL_WEIGHT, TOTAL_VOLUME, DELIVERED_AT, FUEL_CONSUMPTION, FUEL_COST
+) VALUES
+(1065, 2, 2, 20, 'Delivered', TO_TIMESTAMP('2025-03-15 10:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 3, 'Express', 30, 1.5, TO_TIMESTAMP('2025-03-15 13:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 9, 15.3);
+  INSERT INTO ORDERS (
+    ID, CLIENT_ID, DRIVER_ID, SERVICE_ID, STATUS, CREATED_AT, ROUTE, DELIVERY_TYPE, 
+    TOTAL_WEIGHT, TOTAL_VOLUME, DELIVERED_AT, FUEL_CONSUMPTION, FUEL_COST
+) VALUES
+(1066, 3, 3, 20, 'Delivered', TO_TIMESTAMP('2025-04-05 11:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 7, 'Standard', 40, 1.8, TO_TIMESTAMP('2025-04-05 15:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 21, 35.7);
+  INSERT INTO ORDERS (
+    ID, CLIENT_ID, DRIVER_ID, SERVICE_ID, STATUS, CREATED_AT, ROUTE, DELIVERY_TYPE, 
+    TOTAL_WEIGHT, TOTAL_VOLUME, DELIVERED_AT, FUEL_CONSUMPTION, FUEL_COST
+) VALUES
+(1067, 4, 4, 20, 'Delivered', TO_TIMESTAMP('2025-05-12 08:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 2, 'Express', 25, 1.2, TO_TIMESTAMP('2025-05-12 10:30:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 6, 10.2);
+  INSERT INTO ORDERS (
+    ID, CLIENT_ID, DRIVER_ID, SERVICE_ID, STATUS, CREATED_AT, ROUTE, DELIVERY_TYPE, 
+    TOTAL_WEIGHT, TOTAL_VOLUME, DELIVERED_AT, FUEL_CONSUMPTION, FUEL_COST
+) VALUES
+(1068, 5, 5, 20, 'Delivered', TO_TIMESTAMP('2025-06-18 14:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 4, 'Standard', 60, 2.5, TO_TIMESTAMP('2025-06-18 18:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 12, 20.4);
+  INSERT INTO ORDERS (
+    ID, CLIENT_ID, DRIVER_ID, SERVICE_ID, STATUS, CREATED_AT, ROUTE, DELIVERY_TYPE, 
+    TOTAL_WEIGHT, TOTAL_VOLUME, DELIVERED_AT, FUEL_CONSUMPTION, FUEL_COST
+) VALUES
+(1069, 6, 6, 20, 'Delivered', TO_TIMESTAMP('2025-07-22 10:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 6, 'Express', 35, 1.7, TO_TIMESTAMP('2025-07-22 13:30:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 18, 30.6);
+  INSERT INTO ORDERS (
+    ID, CLIENT_ID, DRIVER_ID, SERVICE_ID, STATUS, CREATED_AT, ROUTE, DELIVERY_TYPE, 
+    TOTAL_WEIGHT, TOTAL_VOLUME, DELIVERED_AT, FUEL_CONSUMPTION, FUEL_COST
+) VALUES
+(1070, 7, 7, 20, 'Delivered', TO_TIMESTAMP('2025-08-03 09:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 1, 'Standard', 20, 1, TO_TIMESTAMP('2025-08-03 11:00:00.000', 'YYYY-MM-DD HH24:MI:SS.FF'), 3, 5.1);
+   
